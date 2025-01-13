@@ -2,17 +2,20 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white ">
       <div className="container-fluid px-5 navbar-container">
         {/* Brand Name */}
-        <a className="navbar-brand fw-bold text-primary" href="#">
+        <a
+          className="navbar-brand fw-bold text-primary navbar-slide-down-logo"
+          href="#"
+        >
           <span className="fs-2 custom-logo">Z</span>
           <span className="h-100 mx-2 text-dark">Zhizhi Nieves</span>
         </a>
 
         {/* Hamburger Menu Button */}
         <button
-          className="navbar-toggler"
+          className="navbar-toggler navbar-slide-down-menu1"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -26,7 +29,7 @@ const Navbar = () => {
         {/* Centered Navbar Links and Right-Aligned Button */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item mx-3">
+            <li className="nav-item mx-3 navbar-slide-down-menu1">
               <a
                 className="nav-link text-dark"
                 style={{ fontWeight: 500 }}
@@ -35,7 +38,7 @@ const Navbar = () => {
                 Work
               </a>
             </li>
-            <li className="nav-item mx-3">
+            <li className="nav-item mx-3 navbar-slide-down-menu2">
               <a
                 className="nav-link text-dark"
                 style={{ fontWeight: 500 }}
@@ -44,7 +47,7 @@ const Navbar = () => {
                 About
               </a>
             </li>
-            <li className="nav-item mx-3">
+            <li className="nav-item mx-3 navbar-slide-down-menu3">
               <a
                 className="nav-link text-dark"
                 style={{ fontWeight: 500 }}
@@ -55,7 +58,7 @@ const Navbar = () => {
             </li>
           </ul>
           <a
-            className="contactBtn btn btn-primary text-white px-3"
+            className="contactBtn btn btn-primary text-white px-3 navbar-slide-down-menu4"
             href="#contact"
           >
             Contact Me
