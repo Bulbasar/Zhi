@@ -40,6 +40,11 @@
 
 @media screen and (max-width: 991px) {
   /* Add border when the navbarNav is expanded */
+  .navbar-container {
+    padding: 0px !important;
+    padding: 5px 16px !important;
+  }
+
   .collapse.show {
     background: #fff;
     margin-top: 10px;
@@ -68,9 +73,13 @@
     width: 100%;
   }
 
-  .project-section {
+  /* .project-section {
     padding: 0 !important;
     padding: 16px !important;
+  } */
+
+  .project-desc {
+    padding: 0 !important;
   }
 
   .project-img {

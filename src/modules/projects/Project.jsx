@@ -33,7 +33,7 @@ const Project = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 ps-lg-5">
+              <div className="col-12 col-lg-6 ps-lg-5 project-desc">
                 <h2 className="h1 fw-bold mb-4">HRIS Redesign</h2>
                 <p className="lead mb-4">
                   I redesigned the company's HRIS interface to improve usability
@@ -51,7 +51,7 @@ const Project = () => {
           <br />
           <div className="project-container">
             <div className="row align-items-center gy-5 mx-0">
-              <div className="col-12 col-lg-6 ps-lg-5 order-2 order-lg-1">
+              <div className="col-12 col-lg-6 ps-lg-5 order-2 order-lg-1 project-desc">
                 <h2 className="h1 fw-bold mb-4">CMS for Market Launch</h2>
                 <p className="lead mb-4">
                   I designed a Content Management System to simplify and
@@ -95,7 +95,7 @@ const Project = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 ps-lg-5">
+              <div className="col-12 col-lg-6 ps-lg-5 project-desc">
                 <h2 className="h1 fw-bold mb-4">
                   Custom HRIS with New Features
                 </h2>

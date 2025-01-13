@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
-      <div className="container-fluid px-5">
+      <div className="container-fluid px-5 navbar-container">
         {/* Brand Name */}
         <a className="navbar-brand fw-bold text-primary" href="#">
           <span className="fs-2 custom-logo">Z</span>
