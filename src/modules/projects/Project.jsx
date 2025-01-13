@@ -3,10 +3,10 @@ import showcase2Img from "../../assets/showcase2.png";
 
 const Project = () => {
   return (
-    <section className="min-vh-100 d-flex align-items-center bg-white">
-      <div className="d-flex flex-column w-100">
+    <section className="container-fluid px-5 min-vh-100 d-flex align-items-center py-5 container-90 showcase-section bg-white mt-5">
+      <div className="row align-items-center showcase-container">
         <div className="container mt-5">
-          <div className=" text-center mb-5">
+          <div className=" text-center">
             <h1 className="display-4 fw-bold mb-4">Selected Works</h1>
             <p className="lead text-muted mb-5">
               These are the projects I worked on during my internship and
@@ -17,12 +17,12 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="container-fluid px-5">
+        <div className="container-fluid project-section">
           <div className="project-container mb-5">
             <div className="row align-items-center gy-5 mx-0">
               <div className="col-12 col-lg-6 px-0">
                 <div
-                  className="position-relative project-img px-5"
+                  className="position-relative project-img"
                   style={{ height: "35rem" }}
                 >
                   <img
@@ -65,7 +65,7 @@ const Project = () => {
               </div>
               <div className="col-12 col-lg-6 px-0 order-1 order-lg-2">
                 <div
-                  className="position-relative project-img px-5"
+                  className="position-relative project-img"
                   style={{ height: "35rem" }}
                 >
                   <img
@@ -84,7 +84,7 @@ const Project = () => {
             <div className="row align-items-center gy-5 mx-0">
               <div className="col-12 col-lg-6 px-0">
                 <div
-                  className="position-relative project-img px-5"
+                  className="position-relative project-img"
                   style={{ height: "35rem" }}
                 >
                   <img

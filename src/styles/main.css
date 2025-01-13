@@ -29,7 +29,7 @@
   color: #0d6efd !important;
 }
 
-.showcase-container {
+.showcase-container-first {
   margin-top: -10rem;
 }
 
@@ -54,16 +54,32 @@
     margin-bottom: 10px !important;
   }
 
+  .showcase-section {
+    padding: 0 !important;
+    padding: 16px !important;
+    margin-top: 30px !important;
+  }
+
   .showcase-container {
     margin-top: 0;
+    padding: 0 !important;
   }
   .showcase-img {
     width: 100%;
   }
 
+  .project-section {
+    padding: 0 !important;
+    padding: 16px !important;
+  }
+
   .project-img {
     padding: 0 !important;
     height: 450px !important;
+  }
+
+  .project-container a {
+    width: 100% !important;
   }
 }
 

@@ -3,8 +3,8 @@ import showcase2Img from "../../assets/showcase2.png";
 
 const Showcase = () => {
   return (
-    <section className="container-fluid px-5 min-vh-100 d-flex align-items-center py-5 container-90">
-      <div className="row align-items-center w-100 showcase-container">
+    <section className="container-fluid px-5 min-vh-100 d-flex align-items-center py-5 container-90 showcase-section">
+      <div className="row align-items-center showcase-container showcase-container-first">
         <div className="col-lg-6 mb-5 mb-lg-0">
           <h1 className="display-3 fw-bold mb-4 lh-sm">
             Crafting designs
@@ -26,7 +26,7 @@ const Showcase = () => {
             </button>
           </div>
         </div>
-        <div className="col-lg-6 d-flex flex-row justify-content-end">
+        <div className="col-lg-6 d-flex flex-row justify-content-center">
           <img
             src={showcase2Img}
             alt="Browser window with video player"
