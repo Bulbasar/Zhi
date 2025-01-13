@@ -1,8 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "./styles/main.css";
+
+// modules
 import Navbar from "./modules/navbar/Navbar";
 import Showcase from "./modules/showcase/Showcase";
-import "./styles/main.css";
+import Project from "./modules/projects/Project";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -16,6 +19,7 @@ createRoot(document.getElementById("root")).render(
     >
       <Navbar />
       <Showcase />
+      <Project />
     </div>
   </StrictMode>
 );

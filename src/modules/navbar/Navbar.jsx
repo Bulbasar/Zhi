@@ -3,10 +3,11 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
-      <div className="container">
+      <div className="container-fluid px-5">
         {/* Brand Name */}
-        <a className="navbar-brand fw-bold text-primary fs-2" href="#">
-          ZN
+        <a className="navbar-brand fw-bold text-primary" href="#">
+          <span className="fs-2 custom-logo">Z</span>
+          <span className="h-100 mx-2 text-dark">Zhizhi Nieves</span>
         </a>
 
         {/* Hamburger Menu Button */}

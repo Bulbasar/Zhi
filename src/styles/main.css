@@ -1,3 +1,43 @@
+* {
+  font-family: "Bricolage Grotesque";
+}
+
+/* Apply to all elements */
+* {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 transparent; /* For Firefox */
+}
+
+/* For WebKit browsers like Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
+  height: 3px; /* For horizontal scrollbar */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px; /* Optional: Makes the scrollbar thumb rounded */
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent; /* Optional: Background of the scrollbar track */
+}
+
+/* navbar */
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.showcase-container {
+  margin-top: -10rem;
+}
+
+.container-90 {
+  width: 100%;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   /* Add border when the navbarNav is expanded */
   .collapse.show {
@@ -12,5 +52,35 @@
 
   .collapse.show .contactBtn {
     margin-bottom: 10px !important;
+  }
+
+  .showcase-container {
+    margin-top: 0;
+  }
+  .showcase-img {
+    width: 100%;
+  }
+
+  .project-img {
+    padding: 0 !important;
+    height: 450px !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* Add border when the navbarNav is expanded */
+  .showcase-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .showcase-btn button {
+    width: 100%;
+  }
+
+  .project-img {
+    padding: 0 !important;
+    height: 300px !important;
   }
 }

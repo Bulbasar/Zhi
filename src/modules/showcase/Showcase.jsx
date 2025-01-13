@@ -1,35 +1,36 @@
 import React from "react";
-import showcaseImg from "../../assets/showcase.png";
+import showcase2Img from "../../assets/showcase2.png";
 
 const Showcase = () => {
   return (
-    <section className="container p-4 d-flex align-items-center">
-      <div className="row align-items-center">
+    <section className="container-fluid px-5 min-vh-100 d-flex align-items-center py-5 container-90">
+      <div className="row align-items-center w-100 showcase-container">
         <div className="col-lg-6 mb-5 mb-lg-0">
-          <h1 className="display-4 mb-3" style={{ fontWeight: 500 }}>
-            Hello, I'm
+          <h1 className="display-3 fw-bold mb-4 lh-sm">
+            Crafting designs
             <br />
-            Zhizhi Nieves
+            that prioritize users.
           </h1>
-          <p className="lead text-muted mb-4 fs-5">
-            An IT graduate with a well-rounded foundation in UX/UI design,
-            dedicated to crafting user-centered solutions that address various
-            real-world challenges.
+          <p className="lead mb-5 fs-4 text-secondary">
+            Dignissim a, velit odio sed convallis facilisi vulputate.
+            Consectetur ultricies metus porttitor id urna, sapien mauris sed.
+            Quis placerat ac urna, massa lectus. Consequat eu eu quam id sit
+            consequat condimentum.
           </p>
-          <div className="d-flex gap-3">
-            <button className="btn btn-primary px-5 pt-3 pb-3">
+          <div className="d-flex gap-3 showcase-btn">
+            <button className="btn btn-primary px-4 py-3 fw-semibold">
               Contact Me
             </button>
-            <button className="btn btn-outline-primary px-4 pt-3 pb-3">
+            <button className="btn btn-outline-primary px-4 py-3 fw-semibold">
               View Resume
             </button>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 d-flex flex-row justify-content-end">
           <img
-            src={showcaseImg}
-            alt="Developer illustration"
-            className="img-fluid"
+            src={showcase2Img}
+            alt="Browser window with video player"
+            className="img-fluid showcase-img"
           />
         </div>
       </div>
