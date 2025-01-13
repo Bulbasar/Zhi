@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <section className="min-vh-100 d-flex align-items-center bg-white">
       <div className="d-flex flex-column w-100">
-        <div className="container">
+        <div className="container mt-5">
           <div className=" text-center mb-5">
             <h1 className="display-4 fw-bold mb-4">Selected Works</h1>
             <p className="lead text-muted mb-5">
