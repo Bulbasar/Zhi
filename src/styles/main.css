@@ -42,7 +42,7 @@ body {
 
 /* footer */
 .footer-rights {
-  margin-left: 45px !important;
+  margin-left: 0px !important;
 }
 
 @media screen and (max-width: 1314px) {
