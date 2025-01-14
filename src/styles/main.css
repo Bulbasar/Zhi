@@ -46,9 +46,9 @@ body {
 }
 
 @media screen and (max-width: 1314px) {
-  .mobile-section-view {
+  /* .mobile-section-view {
     margin-top: 5rem !important;
-  }
+  } */
 }
 
 @media screen and (max-width: 991px) {
@@ -86,9 +86,9 @@ body {
     width: 100%;
   }
 
-  .mobile-section-view {
+  /* .mobile-section-view {
     margin-top: 5rem !important;
-  }
+  } */
 
   /* .project-section {
     padding: 0 !important;
