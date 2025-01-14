@@ -22,7 +22,9 @@
 *::-webkit-scrollbar-track {
   background: transparent; /* Optional: Background of the scrollbar track */
 }
-
+body {
+  background: #f2f5fa;
+}
 /* navbar */
 
 .nav-link:hover {
@@ -36,6 +38,17 @@
 .container-90 {
   width: 100%;
   margin: 0 auto;
+}
+
+/* footer */
+.footer-rights {
+  margin-left: 45px !important;
+}
+
+@media screen and (max-width: 1314px) {
+  .mobile-section-view {
+    margin-top: 5rem !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -73,6 +86,10 @@
     width: 100%;
   }
 
+  .mobile-section-view {
+    margin-top: 7rem !important;
+  }
+
   /* .project-section {
     padding: 0 !important;
     padding: 16px !important;
@@ -92,6 +109,33 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .footer-section {
+    height: 279px !important;
+  }
+  .footer-logo {
+    margin-right: 0 !important;
+  }
+  .footer-logo-name {
+    margin: 0 !important;
+    margin-left: 10px !important;
+  }
+
+  .footer-menu {
+    flex-direction: column !important;
+    justify-content: none !important;
+    text-align: center !important;
+  }
+  .footer-menu-text {
+    margin: 1rem 0 !important;
+  }
+
+  .footer-rights {
+    margin-left: 0 !important;
+    margin-top: 3rem !important;
+  }
+}
+
 @media screen and (max-width: 700px) {
   /* Add border when the navbarNav is expanded */
   .showcase-btn {
@@ -107,5 +151,35 @@
   .project-img {
     padding: 0 !important;
     height: 300px !important;
+  }
+
+  /* footer */
+  .footer-lookingFor {
+    font-size: 60px !important;
+  }
+
+  .footer-section {
+    height: 279px !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer-text {
+    width: 580px !important;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .footer-text {
+    width: 550px !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .footer-lookingFor {
+    font-size: 50px !important;
+  }
+  .footer-text {
+    width: 480px !important;
   }
 }

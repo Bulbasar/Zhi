@@ -1,0 +1,44 @@
+import React from "react";
+import showcase2Img from "../../assets/showcase2.png";
+
+const Footer = () => {
+  return (
+    <section className="container-fluid px-5 min-vh-100 d-flex align-items-center py-5 container-90 showcase-section">
+      <div className=" showcase-container showcase-container-first d-flex flex-column justify-content-center align-items-center text-center w-100">
+        <span style={{ fontSize: "77px", fontWeight: 700 }}>
+          Looking for a UX/UI Designer?
+        </span>
+        <div className="mt-5" style={{ width: "678px" }}>
+          <span
+            style={{ fontSize: "20px", fontWeight: 500, lineHeight: "32px" }}
+          >
+            I'm open to full-time UI/UX design opportunities. Let’s connect and
+            discuss how I can contribute to your team.
+          </span>
+        </div>
+        <div className="mt-5 d-flex flex-row w-25">
+          <div
+            className="form-control p-3 shadow-sm d-flex align-items-center"
+            style={{
+              fontSize: "22px",
+              fontWeight: 500,
+              pointerEvents: "none",
+              background: "#f8f9fa",
+              borderRadius: "5px",
+            }}
+          >
+            <i
+              className="bx bx-envelope"
+              style={{ marginRight: "10px", fontSize: "22px" }}
+            ></i>
+            zhizhinieves@gmail.com
+          </div>
+
+          <button className="btn btn-primary mx-3 px-4">Copy</button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Footer;

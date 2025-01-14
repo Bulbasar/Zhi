@@ -2,7 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white ">
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-white w-100 shadow"
+      style={{ position: "fixed", zIndex: 100, top: 0 }}
+    >
       <div className="container-fluid px-5 navbar-container">
         {/* Brand Name */}
         <a

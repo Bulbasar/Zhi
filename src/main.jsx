@@ -4,9 +4,14 @@ import "./styles/main.css";
 import "./styles/animation.css";
 
 // modules
+// nav
 import Navbar from "./modules/navbar/Navbar";
+
 import Showcase from "./modules/showcase/Showcase";
 import Project from "./modules/projects/Project";
+
+// footer
+import Footer from "./modules/footer/Footer";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -21,6 +26,7 @@ createRoot(document.getElementById("root")).render(
       <Navbar />
       <Showcase />
       <Project />
+      <Footer />
     </div>
   </StrictMode>
 );
