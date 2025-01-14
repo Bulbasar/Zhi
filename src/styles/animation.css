@@ -32,38 +32,3 @@
 
 /* showcase */
 /* Add animation for the section */
-.animate-section {
-  opacity: 0; /* Start hidden */
-  transform: translateY(100px); /* Start from below */
-  animation: slide-up 0.5s ease-out forwards; /* Trigger animation */
-}
-
-.animate-section2 {
-  opacity: 0; /* Start hidden */
-  transform: translateY(100px); /* Start from below */
-  animation: slide-up 0.9s ease-out forwards; /* Trigger animation */
-}
-
-.animate-section3 {
-  opacity: 0; /* Start hidden */
-  transform: translateY(100px); /* Start from below */
-  animation: slide-up 1.3s ease-out forwards; /* Trigger animation */
-}
-
-.animate-section4 {
-  opacity: 0; /* Start hidden */
-  transform: translateY(100px); /* Start from below */
-  animation: slide-up 1.5s ease-out forwards; /* Trigger animation */
-}
-
-/* Keyframes for the animation */
-@keyframes slide-up {
-  0% {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
