@@ -175,7 +175,7 @@ body {
   }
 
   .footer-email-input {
-    max-width: 150px !important;
+    min-width: 200px !important;
   }
   .footer-email-input span {
     font-size: 18px !important;
