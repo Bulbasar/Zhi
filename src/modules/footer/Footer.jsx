@@ -26,9 +26,9 @@ const Footer = () => {
           I'm open to full-time UI/UX design opportunities. Let's connect and
           discuss how I can contribute to your team.
         </p>
-        <div className="d-flex align-items-center gap-3">
+        <div className="d-flex align-items-center gap-3 footer-email">
           <div
-            className="d-flex align-items-center p-3 shadow-sm rounded border"
+            className="d-flex align-items-center p-3 shadow-sm rounded border footer-email-input"
             style={{
               backgroundColor: "white",
               minWidth: "300px",

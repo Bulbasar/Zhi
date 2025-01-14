@@ -155,7 +155,7 @@ body {
 
   /* footer */
   .footer-lookingFor {
-    font-size: 60px !important;
+    font-size: 55px !important;
   }
 
   .footer-section {
@@ -164,22 +164,35 @@ body {
 }
 
 @media screen and (max-width: 650px) {
+  .footer-lookingFor {
+    font-size: 43px !important;
+  }
   .footer-text {
-    width: 580px !important;
+    width: 520px !important;
+  }
+
+  .footer-email {
+  }
+
+  .footer-email-input {
+    max-width: 250px !important;
+  }
+  .footer-email-input span {
+    font-size: 18px !important;
   }
 }
 
 @media screen and (max-width: 615px) {
   .footer-text {
-    width: 550px !important;
+    width: 480px !important;
   }
 }
 
 @media screen and (max-width: 570px) {
   .footer-lookingFor {
-    font-size: 50px !important;
+    font-size: 43px !important;
   }
   .footer-text {
-    width: 480px !important;
+    width: 350px !important;
   }
 }
