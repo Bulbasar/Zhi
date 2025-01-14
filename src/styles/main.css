@@ -46,9 +46,9 @@ body {
 }
 
 @media screen and (max-width: 1314px) {
-  /* .mobile-section-view {
-    margin-top: 5rem !important;
-  } */
+  .mobile-section-view {
+    margin-top: 3rem !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
