@@ -18,9 +18,12 @@ const Showcase = () => {
             consequat condimentum.
           </p>
           <div className="d-flex gap-3 showcase-btn animate-section3">
-            <button className="btn btn-primary px-4 py-3 fw-semibold">
+            <a
+              href="#contact"
+              className="btn btn-primary px-4 py-3 fw-semibold"
+            >
               Contact Me
-            </button>
+            </a>
             <button className="btn btn-outline-primary px-4 py-3 fw-semibold">
               View Resume
             </button>

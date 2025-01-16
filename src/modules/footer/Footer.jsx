@@ -1,16 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Footer = () => {
+  const [isCopied, setIsCopied] = useState(false); // State to track if the button is disabled
+
+  const handleCopy = () => {
+    const email = "zhizhivnieves@gmail.com";
+
+    // Copy the email to the clipboard
+    navigator.clipboard.writeText(email).then(() => {
+      setIsCopied(true); // Disable the button
+
+      // Re-enable the button after 3 seconds
+      setTimeout(() => {
+        setIsCopied(false);
+      }, 3000);
+    });
+  };
   return (
     <div
       className="d-flex flex-column justify-content-between text-center"
-      style={{ height: "100vh", backgroundColor: "#f8f9fa" }}
+      style={{ height: "100vh", backgroundColor: "#F2F4F8" }}
+      id="contact"
     >
       {/* Main Section */}
       <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
         <h1
           className="footer-lookingFor fw-bold mb-3"
-          style={{ fontSize: "77px", fontWeight: 700 }}
+          style={{ fontSize: "54px", fontWeight: 700 }}
         >
           Looking for a UX/UI Designer?
         </h1>
@@ -43,7 +59,13 @@ const Footer = () => {
               zhizhivnieves@gmail.com
             </span>
           </div>
-          <button className="btn btn-primary px-4 h-100">Copy</button>
+          <button
+            className="btn btn-primary px-4 h-100"
+            onClick={handleCopy}
+            disabled={isCopied} // Disable the button when copied
+          >
+            {isCopied ? "Copied!" : "Copy"}
+          </button>
         </div>
       </div>
 
@@ -65,7 +87,7 @@ const Footer = () => {
             </a>
             <div className=" d-flex flex-row mt-2 footer-menu-text">
               <a
-                href=""
+                href="#works"
                 className="mx-4 text-white"
                 style={{ textDecoration: "none" }}
               >

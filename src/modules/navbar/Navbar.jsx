@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Brand Name */}
         <a
           className="navbar-brand fw-bold text-primary navbar-slide-down-logo"
-          href="#"
+          href="/"
         >
           <span className="fs-2 custom-logo">Z</span>
           <span className="h-100 mx-2 text-dark">Zhizhi Nieves</span>
@@ -36,23 +36,23 @@ const Navbar = () => {
               <a
                 className="nav-link text-dark"
                 style={{ fontWeight: 500 }}
-                href="#work"
+                href="/#works"
               >
                 Work
               </a>
             </li>
             <li className="nav-item mx-3 navbar-slide-down-menu2">
               <a
-                className="nav-link text-dark"
+                className="nav-link text-secondary"
                 style={{ fontWeight: 500 }}
-                href="#about"
+                href="/about"
               >
                 About
               </a>
             </li>
             <li className="nav-item mx-3 navbar-slide-down-menu3">
               <a
-                className="nav-link text-dark"
+                className="nav-link text-secondary"
                 style={{ fontWeight: 500 }}
                 href="#resume"
               >
