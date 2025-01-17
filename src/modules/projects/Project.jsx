@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import showcase2Img from "../../assets/showcase2.png";
 import hris from "../../assets/hris.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project = () => {
   useEffect(() => {
     AOS.init({
       duration: 1500,
-      once: false, // animations will occur every time element comes into view
-      offset: 0
+      once: true, // animations will occur every time element comes into view
+      offset: 0,
     });
   }, []);
 
@@ -42,9 +42,10 @@ const Project = () => {
         <div className="container-fluid project-section">
           <div className="project-container mb-5">
             <div className="row align-items-center gy-5 mx-0">
-              <div 
-                className="col-12 col-lg-6 px-0" 
+              <div
+                className="col-12 col-lg-6 px-0"
                 data-aos="fade-right"
+                data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
                 <div
@@ -59,9 +60,10 @@ const Project = () => {
                 </div>
               </div>
 
-              <div 
-                className="col-12 col-lg-6 ps-lg-5 project-desc" 
+              <div
+                className="col-12 col-lg-6 ps-lg-5 project-desc"
                 data-aos="fade-left"
+                data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
                 <h2 className="h1 fw-bold mb-4">HRIS Redesign</h2>
@@ -81,9 +83,10 @@ const Project = () => {
           <br />
           <div className="project-container">
             <div className="row align-items-center gy-5 mx-0">
-              <div 
-                className="col-12 col-lg-6 ps-lg-5 order-2 order-lg-1 project-desc" 
+              <div
+                className="col-12 col-lg-6 ps-lg-5 order-2 order-lg-1 project-desc"
                 data-aos="fade-right"
+                data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
                 <h2 className="h1 fw-bold mb-4">CMS for Market Launch</h2>
@@ -97,9 +100,10 @@ const Project = () => {
                   View Work
                 </a>
               </div>
-              <div 
-                className="col-12 col-lg-6 px-0 order-1 order-lg-2" 
+              <div
+                className="col-12 col-lg-6 px-0 order-1 order-lg-2"
                 data-aos="fade-left"
+                data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
                 <div
@@ -120,9 +124,10 @@ const Project = () => {
           <br />
           <div className="project-container mb-5">
             <div className="row align-items-center gy-5 mx-0">
-              <div 
-                className="col-12 col-lg-6 px-0" 
+              <div
+                className="col-12 col-lg-6 px-0"
                 data-aos="fade-right"
+                data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
                 <div
@@ -137,9 +142,10 @@ const Project = () => {
                 </div>
               </div>
 
-              <div 
-                className="col-12 col-lg-6 ps-lg-5 project-desc" 
+              <div
+                className="col-12 col-lg-6 ps-lg-5 project-desc"
                 data-aos="fade-left"
+                data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
                 <h2 className="h1 fw-bold mb-4">
