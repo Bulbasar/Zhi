@@ -42,7 +42,11 @@ const Project = () => {
         <div className="container-fluid project-section">
           <div className="project-container mb-5">
             <div className="row align-items-center gy-5 mx-0">
-              <div className="col-12 col-lg-6 px-0" data-aos="fade-right">
+              <div 
+                className="col-12 col-lg-6 px-0" 
+                data-aos="fade-right"
+                data-aos-sm="fade-up"
+              >
                 <div
                   className="position-relative project-img"
                   style={{ height: "28rem", paddingRight: "7rem" }}
@@ -55,7 +59,11 @@ const Project = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 ps-lg-5 project-desc" data-aos="fade-left">
+              <div 
+                className="col-12 col-lg-6 ps-lg-5 project-desc" 
+                data-aos="fade-left"
+                data-aos-sm="fade-up"
+              >
                 <h2 className="h1 fw-bold mb-4">HRIS Redesign</h2>
                 <p className="lead mb-4">
                   I redesigned the company's HRIS interface to improve usability
@@ -73,7 +81,11 @@ const Project = () => {
           <br />
           <div className="project-container">
             <div className="row align-items-center gy-5 mx-0">
-              <div className="col-12 col-lg-6 ps-lg-5 order-2 order-lg-1 project-desc" data-aos="fade-right">
+              <div 
+                className="col-12 col-lg-6 ps-lg-5 order-2 order-lg-1 project-desc" 
+                data-aos="fade-right"
+                data-aos-sm="fade-up"
+              >
                 <h2 className="h1 fw-bold mb-4">CMS for Market Launch</h2>
                 <p className="lead mb-4">
                   I designed a Content Management System to simplify and
@@ -85,7 +97,11 @@ const Project = () => {
                   View Work
                 </a>
               </div>
-              <div className="col-12 col-lg-6 px-0 order-1 order-lg-2" data-aos="fade-left">
+              <div 
+                className="col-12 col-lg-6 px-0 order-1 order-lg-2" 
+                data-aos="fade-left"
+                data-aos-sm="fade-up"
+              >
                 <div
                   className="position-relative project-img"
                   style={{ height: "28rem", paddingLeft: "7rem" }}
@@ -104,7 +120,11 @@ const Project = () => {
           <br />
           <div className="project-container mb-5">
             <div className="row align-items-center gy-5 mx-0">
-              <div className="col-12 col-lg-6 px-0" data-aos="fade-right">
+              <div 
+                className="col-12 col-lg-6 px-0" 
+                data-aos="fade-right"
+                data-aos-sm="fade-up"
+              >
                 <div
                   className="position-relative project-img"
                   style={{ height: "28rem", paddingRight: "7rem" }}
@@ -117,7 +137,11 @@ const Project = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 ps-lg-5 project-desc" data-aos="fade-left">
+              <div 
+                className="col-12 col-lg-6 ps-lg-5 project-desc" 
+                data-aos="fade-left"
+                data-aos-sm="fade-up"
+              >
                 <h2 className="h1 fw-bold mb-4">
                   Custom HRIS with New Features
                 </h2>

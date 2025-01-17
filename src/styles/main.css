@@ -140,6 +140,20 @@ body {
     margin-left: 0 !important;
     margin-top: 3rem !important;
   }
+
+  [data-aos-sm] {
+    opacity: 0 !important;
+    transition-property: opacity, transform !important;
+  }
+
+  [data-aos-sm="fade-up"] {
+    transform: translate3d(0, 100px, 0) !important;
+  }
+
+  [data-aos-sm].aos-animate {
+    opacity: 1 !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
 }
 
 @media screen and (max-width: 700px) {
