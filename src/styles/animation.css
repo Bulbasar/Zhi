@@ -30,6 +30,23 @@
   animation: slideDown 1.8s ease-out forwards;
 }
 
+
+/* sidebar */
+.slide-in {
+  animation: slideIn 5s ease forwards !important;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%) !important;
+    opacity: 0 !important;
+  }
+  to {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+}
+
 /* showcase */
 /* Add animation for the section */
 .animate-section {
