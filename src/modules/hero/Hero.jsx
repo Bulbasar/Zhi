@@ -108,7 +108,7 @@ const Hero = () => {
   return (
     <section
       className="container-fluid min-vh-100 py-2 hero-section"
-      style={{ marginTop: "11vh" }}
+      style={{ marginTop: "11vh", padding: "0 24px" }}
     >
       <div className="hero-container d-flex flex-column align-items-center justify-content-center text-center ">
         {/* Hero Icons */}

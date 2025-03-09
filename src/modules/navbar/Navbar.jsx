@@ -60,12 +60,12 @@ const Navbar = () => {
           className="navbar-brand fw-bold text-primary navbar-slide-down-logo"
           href="/"
         >
-          <span className="fs-2 custom-logo">
-            <img src={logo} alt="Logo" />
+          <span className="fs-1 custom-logo">
+            <img src={logo} alt="Logo" style={{ width: "40px" }} />
           </span>
           <span
             className="h-100 mx-3 text-dark custom-logo-p"
-            style={{ fontSize: "28px" }}
+            style={{ fontSize: "24px" }}
           >
             Zhimaro
           </span>
@@ -89,7 +89,7 @@ const Navbar = () => {
               <a
                 className="nav-link text-dark"
                 href="/#works"
-                style={{ fontSize: "20px" }}
+                style={{ fontSize: "16px" }}
               >
                 Work
               </a>
@@ -98,7 +98,7 @@ const Navbar = () => {
               <a
                 className="nav-link text-secondary"
                 href="/about"
-                style={{ fontSize: "20px" }}
+                style={{ fontSize: "16px" }}
               >
                 About
               </a>
@@ -107,7 +107,7 @@ const Navbar = () => {
               <a
                 className="nav-link text-secondary"
                 href="#resume"
-                style={{ fontSize: "20px" }}
+                style={{ fontSize: "16px" }}
               >
                 Resume
               </a>
@@ -142,7 +142,7 @@ const Navbar = () => {
                   className="nav-link text-dark"
                   href="/#works"
                   onClick={toggleSidebar}
-                  style={{ fontSize: "20px" }}
+                  style={{ fontSize: "16px" }}
                 >
                   Work
                 </a>
@@ -151,7 +151,7 @@ const Navbar = () => {
                 <a
                   className="nav-link text-secondary"
                   href="/about"
-                  style={{ fontSize: "20px" }}
+                  style={{ fontSize: "16px" }}
                 >
                   About
                 </a>
@@ -160,7 +160,7 @@ const Navbar = () => {
                 <a
                   className="nav-link text-secondary"
                   href="#resume"
-                  style={{ fontSize: "20px" }}
+                  style={{ fontSize: "16px" }}
                 >
                   Resume
                 </a>

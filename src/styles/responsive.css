@@ -1,10 +1,10 @@
 @media screen and (max-width: 1546px) {
   .navbar-container a {
-    font-size: 17px !important;
+    font-size: 16px !important;
   }
 
   .hero-custom-padding {
-    width: 70% !important;
+    width: 65% !important;
   }
 
   .hero-custom-padding h6 {
@@ -12,7 +12,7 @@
   }
 
   .hero-custom-padding a {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   /* .custom-padding-p {
@@ -20,7 +20,7 @@
   } */
 
   .custom-padding-p p {
-    font-size: 18px !important;
+    font-size: 17px !important;
   }
 
   .hero-icon-1 {
@@ -393,7 +393,7 @@
 @media screen and (max-width: 815px) {
   /* hero */
   .hero-custom-padding {
-    width: 90% !important;
+    width: 95% !important;
   }
 
   .hero-custom-padding h6 {
