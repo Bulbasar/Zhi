@@ -230,6 +230,11 @@
 }
 
 @media screen and (max-width: 991px) {
+  /* nav */
+  .custom-logo-p {
+    display: none !important;
+  }
+
   .sidebar {
     display: block !important;
     /* background: #fff !important; */
@@ -241,7 +246,7 @@
   /* Add border when the navbarNav is expanded */
   .navbar-container {
     padding: 0px !important;
-    padding: 5px 16px !important;
+    padding: 5px 25px !important;
   }
 
   /* .collapse.show {
@@ -484,6 +489,10 @@
   }
 
   /* hero section */
+  .hero-container {
+    border-radius: 36px;
+  }
+
   .hero-icon {
     display: none !important;
   }

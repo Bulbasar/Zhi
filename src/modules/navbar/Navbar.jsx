@@ -63,7 +63,10 @@ const Navbar = () => {
           <span className="fs-2 custom-logo">
             <img src={logo} alt="Logo" />
           </span>
-          <span className="h-100 mx-3 text-dark" style={{ fontSize: "28px" }}>
+          <span
+            className="h-100 mx-3 text-dark custom-logo-p"
+            style={{ fontSize: "28px" }}
+          >
             Zhimaro
           </span>
         </a>
