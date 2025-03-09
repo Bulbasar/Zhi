@@ -8,7 +8,7 @@
   }
 
   .hero-custom-padding h6 {
-    font-size: 58px !important;
+    font-size: 53px !important;
   }
 
   .hero-custom-padding a {
@@ -46,6 +46,15 @@
     right: 13%;
     top: 55%;
   }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 53px !important;
+  }
+
+  .responsive-p {
+    font-size: 16px !important;
+  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -71,6 +80,15 @@
   .hero-icon-4 {
     right: 10%;
     top: 52%;
+  }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 50px !important;
+  }
+
+  .responsive-p {
+    font-size: 16px !important;
   }
 }
 
@@ -109,6 +127,15 @@
   .hero-icon-4 {
     right: 8.5%;
     top: 48%;
+  }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 47px !important;
+  }
+
+  .responsive-p {
+    font-size: 16px !important;
   }
 }
 
@@ -149,6 +176,15 @@
     right: 8.5%;
     top: 48%;
   }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 43px !important;
+  }
+
+  .responsive-p {
+    font-size: 16px !important;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -187,6 +223,15 @@
   .hero-icon-4 {
     right: 8.5%;
     top: 48%;
+  }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 39px !important;
+  }
+
+  .responsive-p {
+    font-size: 16px !important;
   }
 }
 
@@ -345,6 +390,15 @@
     right: 6.5%;
     top: 48%;
   }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 36px !important;
+  }
+
+  .responsive-p {
+    font-size: 16px !important;
+  }
 }
 
 @media screen and (max-width: 888px) {
@@ -391,6 +445,15 @@
   .hero-icon-4 {
     right: 6%;
     top: 48%;
+  }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 30px !important;
+  }
+
+  .responsive-p {
+    font-size: 15px !important;
   }
 }
 
@@ -516,6 +579,19 @@
   .custom-padding-p {
     padding: 0 3rem;
   }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 30px !important;
+  }
+
+  .responsive-p {
+    font-size: 15px !important;
+  }
+
+  .hero-btn {
+    padding: 13px 25px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -568,11 +644,21 @@
   }
 
   .custom-padding-p {
-    padding: 0 1.1rem;
+    padding: 0 1rem !important;
   }
 
   .custom-padding-p p {
     font-size: 14px !important;
+  }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 28px !important;
+  }
+
+  .responsive-p {
+    font-size: 14px !important;
+    line-height: 20px !important;
   }
 }
 
@@ -626,6 +712,19 @@
   .hero-custom-padding.contactBtn {
     width: 100% !important;
   }
+
+  /* defaults */
+  .responsive-h {
+    font-size: 25px !important;
+  }
+
+  .responsive-p {
+    font-size: 11px !important;
+  }
+
+  .hero-btn {
+    padding: 13px 18px;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -634,5 +733,9 @@
   }
   .footer-text {
     width: 350px !important;
+  }
+
+  .custom-padding-p {
+    padding: 0 0rem;
   }
 }

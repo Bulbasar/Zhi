@@ -21,14 +21,14 @@ const Project = () => {
       <div className="row align-items-center showcase-container">
         <div className="container mt-5">
           <div className=" text-center">
-            <h1
-              className="display-4 mb-4"
-              style={{ fontSize: "48px", fontWeight: 700 }}
+            <h6
+              className="display-4 mb-4 responsive-h"
+              style={{ fontSize: "72px", fontWeight: 700 }}
             >
               Selected Works
-            </h1>
+            </h6>
             <p
-              className="lead text-muted mb-5"
+              className="lead text-muted mb-5 responsive-p"
               style={{ fontSize: "20px", lineHeight: "32px" }}
             >
               These are the projects I worked on during my internship and
