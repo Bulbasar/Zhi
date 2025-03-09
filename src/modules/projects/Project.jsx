@@ -89,7 +89,7 @@ const Project = () => {
                   efficient for both employees and administrators.
                 </p>
                 <a href="#" className="btn btn-outline-secondary px-5 py-3">
-                  View Work <i class="bx bx-arrow-back bx-rotate-180"></i>
+                  View Work <i className="bx bx-arrow-back bx-rotate-180"></i>
                 </a>
               </div>
             </div>
@@ -129,7 +129,7 @@ const Project = () => {
                   launch.
                 </p>
                 <a href="#" className="btn btn-outline-secondary px-5 py-3">
-                  View Work <i class="bx bx-arrow-back bx-rotate-180"></i>
+                  View Work <i className="bx bx-arrow-back bx-rotate-180"></i>
                 </a>
               </div>
               <div
@@ -204,7 +204,7 @@ const Project = () => {
                   needs for better employee management and improved processes.
                 </p>
                 <a href="#" className="btn btn-outline-secondary px-5 py-3">
-                  View Work <i class="bx bx-arrow-back bx-rotate-180"></i>
+                  View Work <i className="bx bx-arrow-back bx-rotate-180"></i>
                 </a>
               </div>
             </div>

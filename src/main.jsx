@@ -15,6 +15,7 @@ import Footer from "./modules/footer/Footer";
 
 // update 3-9-25
 import Hero from "./modules/hero/Hero";
+import Footer2 from "./modules/footer/Footer2";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -41,7 +42,8 @@ createRoot(document.getElementById("root")).render(
           />
           <Route path="/about" element={<About />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
+        <Footer2 />
       </div>
     </BrowserRouter>
   </StrictMode>

@@ -4,6 +4,7 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to manage sidebar visibility
   const [animate, setAnimate] = useState(false); // State to trigger animation
+  const [activeSection, setActiveSection] = useState(""); // Add this new state
   const sidebarRef = useRef(null); // Create a ref for the sidebar
 
   const toggleSidebar = () => {
@@ -31,6 +32,38 @@ const Navbar = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [sidebarRef]);
+
+  // Update useEffect to handle both scroll and pathname
+  useEffect(() => {
+    const handleScroll = () => {
+      // Only check scroll position if we're on the home page
+      if (window.location.pathname === "/") {
+        const sections = ["works", "contact"];
+        const currentSection = sections.find((section) => {
+          const element = document.getElementById(section);
+          if (element) {
+            const rect = element.getBoundingClientRect();
+            return rect.top <= 100 && rect.bottom >= 100;
+          }
+          return false;
+        });
+        setActiveSection(currentSection || "");
+      }
+    };
+
+    // Check pathname for about and resume pages
+    const pathname = window.location.pathname;
+    if (pathname === "/about") {
+      setActiveSection("about");
+    } else if (pathname.includes("resume")) {
+      setActiveSection("resume");
+    } else if (pathname === "/" && window.location.hash === "#works") {
+      setActiveSection("works");
+    }
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Inline styles for animation
   const slideInStyle = {
@@ -87,7 +120,9 @@ const Navbar = () => {
           <ul className="navbar-nav mx-auto" style={{ marginTop: "0.5rem" }}>
             <li className="nav-item mx-3 navbar-slide-down-menu1">
               <a
-                className="nav-link "
+                className={`nav-link bar-links position-relative ${
+                  activeSection === "works" ? "active" : ""
+                }`}
                 href="/#works"
                 style={{ fontSize: "16px", fontWeight: 500 }}
               >
@@ -96,7 +131,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item mx-3 navbar-slide-down-menu2">
               <a
-                className="nav-link text-secondary"
+                className={`nav-link bar-links position-relative ${
+                  activeSection === "about" ? "active" : ""
+                }`}
                 href="/about"
                 style={{ fontSize: "16px", fontWeight: 500 }}
               >
@@ -105,7 +142,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item mx-3 navbar-slide-down-menu3">
               <a
-                className="nav-link text-secondary"
+                className={`nav-link bar-links position-relative ${
+                  activeSection === "resume" ? "active" : ""
+                }`}
                 href="#resume"
                 style={{ fontSize: "16px", fontWeight: 500 }}
               >
@@ -137,9 +176,14 @@ const Navbar = () => {
           </span>
           <div className="d-flex flex-column justify-content-center align-items-center h-100">
             <ul className="navbar-nav text-center">
-              <li className="nav-item" style={isOpen ? slideInStyle : {}}>
+              <li
+                className="nav-item sidebar-links"
+                style={isOpen ? slideInStyle : {}}
+              >
                 <a
-                  className="nav-link text-dark"
+                  className={`nav-link position-relative ${
+                    activeSection === "works" ? "text-primary" : "text-dark"
+                  }`}
                   href="/#works"
                   onClick={toggleSidebar}
                   style={{ fontSize: "16px", fontWeight: 500 }}
@@ -147,18 +191,32 @@ const Navbar = () => {
                   Work
                 </a>
               </li>
-              <li className="nav-item" style={isOpen ? slideInStyle2 : {}}>
+              <li
+                className="nav-item sidebar-links"
+                style={isOpen ? slideInStyle2 : {}}
+              >
                 <a
-                  className="nav-link text-secondary"
+                  className={`nav-link position-relative ${
+                    activeSection === "about"
+                      ? "text-primary"
+                      : "text-secondary"
+                  }`}
                   href="/about"
                   style={{ fontSize: "16px", fontWeight: 500 }}
                 >
                   About
                 </a>
               </li>
-              <li className="nav-item" style={isOpen ? slideInStyle3 : {}}>
+              <li
+                className="nav-item sidebar-links"
+                style={isOpen ? slideInStyle3 : {}}
+              >
                 <a
-                  className="nav-link text-secondary"
+                  className={`nav-link position-relative ${
+                    activeSection === "resume"
+                      ? "text-primary"
+                      : "text-secondary"
+                  }`}
                   href="#resume"
                   style={{ fontSize: "16px", fontWeight: 500 }}
                 >
@@ -192,6 +250,39 @@ const Navbar = () => {
               opacity: 1;
             }
           }
+
+          .bar-links {
+            transition: color 0.3s ease;
+          }
+
+          .bar-links.active::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #0d6efd; /* Use your primary color here */
+            transform: scaleX(1);
+            transition: transform 0.3s ease;
+          }
+
+          .bar-links::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #0d6efd;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+          }
+
+          .bar-links:hover::after {
+            transform: scaleX(1);
+          }
+            
         `}
       </style>
     </nav>

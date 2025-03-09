@@ -132,7 +132,12 @@ const Hero = () => {
           style={{ position: "relative", zIndex: 5 }}
         >
           <h6
-            style={{ fontSize: "72px", fontWeight: 600, letterSpacing: "2px" }}
+            style={{
+              fontSize: "72px",
+              fontWeight: 600,
+              letterSpacing: "2px",
+              color: "#00274D",
+            }}
           >
             Crafting designs that prioritize{" "}
             <InteractiveWord

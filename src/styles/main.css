@@ -169,3 +169,29 @@ body {
 .hero-btn {
   padding: 22px 32px;
 }
+
+/* footer2  */
+.footer-container {
+  min-height: 580px !important;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+/* Optional hover effects for social icons */
+.bx {
+  transition: color 0.3s ease;
+}
+
+.bx:hover {
+  color: #0d6efd !important;
+}
+
+.custom-padding-footer-p {
+  max-width: 764px !important;
+}
+
+.footer-link:hover {
+  color: black !important;
+}
