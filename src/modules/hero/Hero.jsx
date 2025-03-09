@@ -40,7 +40,7 @@ const InteractiveWord = ({
         style={{
           color: isHovered || isActive ? "#1F75FE" : "#6C757D",
           cursor: "pointer",
-          fontWeight: isActive ? 700 : 600,
+          fontWeight: isActive ? 600 : 600,
           transition: "all 0.3s ease",
           userSelect: "none",
         }}

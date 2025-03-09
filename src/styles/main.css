@@ -116,14 +116,14 @@ body {
 
 /* Positioning Hero Icons */
 .hero-icon-1 {
-  left: 15%;
-  top: 30%;
+  left: 10%;
+  top: 22%;
   transform: translateY(-50%);
 }
 
 .hero-icon-2 {
-  right: 15%;
-  top: 30%;
+  right: 10%;
+  top: 22%;
   transform: translateY(-50%);
 }
 
