@@ -128,7 +128,7 @@ const Hero = () => {
 
         {/* Hero Content */}
         <div
-          className="col-12 col-lg-8 mx-auto hero-custom-padding overlay"
+          className="col-12 col-lg-8 mx-auto hero-custom-padding overlay mt-3"
           style={{ position: "relative", zIndex: 5 }}
         >
           <h6

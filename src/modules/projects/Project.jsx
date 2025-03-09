@@ -27,15 +27,17 @@ const Project = () => {
             >
               Selected Works
             </h6>
-            <p
-              className="lead text-muted mb-5 responsive-p"
-              style={{ fontSize: "20px", lineHeight: "32px" }}
-            >
-              These are the projects I worked on during my internship and
-              part-time as a UI/UX Designer at an IT company. Each project
-              highlights my design process, the challenges I faced, and the
-              user-centered solutions I implemented.
-            </p>
+            <div className="custom-padding-p">
+              <p
+                className="lead text-muted mb-5 responsive-p"
+                style={{ fontSize: "20px", lineHeight: "32px" }}
+              >
+                These are the projects I worked on during my internship and
+                part-time as a UI/UX Designer at an IT company. Each project
+                highlights my design process, the challenges I faced, and the
+                user-centered solutions I implemented.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -66,14 +68,28 @@ const Project = () => {
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <h2 className="h1 fw-bold mb-4">HRIS Redesign</h2>
-                <p className="lead mb-4">
+                <h6 className="h1 fw-bold mb-4 responsive-h">HRIS Redesign</h6>
+                <div className="tags mb-3">
+                  <span
+                    className="badge border me-2 p-2 rounded text-secondary"
+                    style={{ background: "#F3F4F6" }}
+                  >
+                    HR Tech
+                  </span>
+                  <span
+                    className="badge border me-2 p-2 rounded text-secondary mx-2"
+                    style={{ background: "#F3F4F6" }}
+                  >
+                    Web App
+                  </span>
+                </div>
+                <p className="lead mb-4 responsive-p">
                   I redesigned the company's HRIS interface to improve usability
                   and enhance employee management, making tasks easier and more
                   efficient for both employees and administrators.
                 </p>
-                <a href="#" className="btn btn-outline-primary px-5 py-3">
-                  View Work
+                <a href="#" className="btn btn-outline-secondary px-5 py-3">
+                  View Work <i class="bx bx-arrow-back bx-rotate-180"></i>
                 </a>
               </div>
             </div>
@@ -89,15 +105,31 @@ const Project = () => {
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <h2 className="h1 fw-bold mb-4">CMS for Market Launch</h2>
-                <p className="lead mb-4">
+                <h6 className="h1 fw-bold mb-4 responsive-h">
+                  CMS for Market Launch
+                </h6>
+                <div className="tags mb-3">
+                  <span
+                    className="badge border me-2 p-2 rounded text-secondary"
+                    style={{ background: "#F3F4F6" }}
+                  >
+                    MarTech
+                  </span>
+                  <span
+                    className="badge border me-2 p-2 rounded text-secondary mx-2"
+                    style={{ background: "#F3F4F6" }}
+                  >
+                    Web App
+                  </span>
+                </div>
+                <p className="lead mb-4 responsive-p">
                   I designed a Content Management System to simplify and
                   optimize content creation and management, ensuring seamless
-                  operations and supporting the company’s successful market
+                  operations and supporting the company's successful market
                   launch.
                 </p>
-                <a href="#" className="btn btn-outline-primary px-5 py-3">
-                  View Work
+                <a href="#" className="btn btn-outline-secondary px-5 py-3">
+                  View Work <i class="bx bx-arrow-back bx-rotate-180"></i>
                 </a>
               </div>
               <div
@@ -149,16 +181,30 @@ const Project = () => {
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <h2 className="h1 fw-bold mb-4">
+                <h6 className="h1 fw-bold mb-4 responsive-h">
                   Custom HRIS with New Features
-                </h2>
-                <p className="lead mb-4">
+                </h6>
+                <div className="tags mb-3">
+                  <span
+                    className="badge border me-2 p-2 rounded text-secondary"
+                    style={{ background: "#F3F4F6" }}
+                  >
+                    HR Tech
+                  </span>
+                  <span
+                    className="badge border me-2 p-2 rounded text-secondary mx-2"
+                    style={{ background: "#F3F4F6" }}
+                  >
+                    Web App
+                  </span>
+                </div>
+                <p className="lead mb-4 responsive-p">
                   I customized the HRIS with additional features and
-                  enhancements, tailored to the company’s client’s specific
+                  enhancements, tailored to the company's client's specific
                   needs for better employee management and improved processes.
                 </p>
-                <a href="#" className="btn btn-outline-primary px-5 py-3">
-                  View Work
+                <a href="#" className="btn btn-outline-secondary px-5 py-3">
+                  View Work <i class="bx bx-arrow-back bx-rotate-180"></i>
                 </a>
               </div>
             </div>
