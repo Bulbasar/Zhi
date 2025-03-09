@@ -24,14 +24,14 @@ const Footer = () => {
     >
       {/* Main Section */}
       <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-        <h1
-          className="footer-lookingFor fw-bold mb-3"
+        <h6
+          className="footer-lookingFor fw-bold mb-3 responsive-h"
           style={{ fontSize: "54px", fontWeight: 700 }}
         >
           Looking for a UX/UI Designer?
-        </h1>
+        </h6>
         <p
-          className="footer-text text-muted mb-4"
+          className="footer-text text-muted mb-4 responsive-p"
           style={{
             fontSize: "20px",
             fontWeight: 500,
