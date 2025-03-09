@@ -131,7 +131,9 @@ const Hero = () => {
           className="col-12 col-lg-8 mx-auto hero-custom-padding overlay"
           style={{ position: "relative", zIndex: 5 }}
         >
-          <h6 style={{ fontSize: "72px", fontWeight: 600 }}>
+          <h6
+            style={{ fontSize: "72px", fontWeight: 600, letterSpacing: "2px" }}
+          >
             Crafting designs that prioritize{" "}
             <InteractiveWord
               word="usability"
@@ -169,7 +171,7 @@ const Hero = () => {
           </div>
           <div className="container">
             <a
-              className="contactBtn btn btn-primary text-white mb-3"
+              className="contactBtn btn btn-primary text-white mb-3 hero-btn"
               href="#contact"
             >
               Get in touch
@@ -179,7 +181,7 @@ const Hero = () => {
               href={resume}
               target="_blank"
               rel="noopener noreferrer"
-              className="contactBtn btn btn-outline-secondary text-dark mx-2 custom-border-outline mb-3"
+              className="contactBtn btn btn-outline-secondary text-dark mx-2 custom-border-outline mb-3 hero-btn"
             >
               View Resume
             </a>

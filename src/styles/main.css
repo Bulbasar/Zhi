@@ -129,13 +129,13 @@ body {
 /* Positioning Hero Icons */
 .hero-icon-1 {
   left: 10%;
-  top: 22%;
+  top: 18%;
   transform: translateY(-50%);
 }
 
 .hero-icon-2 {
   right: 10%;
-  top: 22%;
+  top: 18%;
   transform: translateY(-50%);
 }
 
@@ -164,4 +164,8 @@ body {
 .hoverable-text.active {
   font-weight: 700;
   color: #0047ab !important; /* Deep blue when active */
+}
+
+.hero-btn {
+  padding: 22px 32px;
 }

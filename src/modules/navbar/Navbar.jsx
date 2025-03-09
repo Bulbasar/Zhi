@@ -84,7 +84,7 @@ const Navbar = () => {
 
         {/* Default Navbar Links for larger screens */}
         <div className="collapse navbar-collapse d-none d-lg-block">
-          <ul className="navbar-nav mx-auto" style={{ marginTop: "1rem" }}>
+          <ul className="navbar-nav mx-auto" style={{ marginTop: "0.5rem" }}>
             <li className="nav-item mx-3 navbar-slide-down-menu1">
               <a
                 className="nav-link "
