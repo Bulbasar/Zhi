@@ -10,8 +10,8 @@
 
 /* For WebKit browsers like Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 3px;
-  height: 3px; /* For horizontal scrollbar */
+  width: 1px;
+  height: 1px; /* For horizontal scrollbar */
 }
 
 *::-webkit-scrollbar-thumb {

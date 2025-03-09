@@ -108,11 +108,11 @@ const Hero = () => {
   return (
     <section
       className="container-fluid min-vh-100 py-2 hero-section"
-      style={{ marginTop: "6.25rem" }}
+      style={{ marginTop: "11vh" }}
     >
-      <div className="hero-container d-flex flex-column align-items-center justify-content-center text-center">
+      <div className="hero-container d-flex flex-column align-items-center justify-content-center text-center ">
         {/* Hero Icons */}
-        <div className="hero-icons">
+        <div className="hero-icons overlay">
           {getCurrentIcons().map((icon, index) => (
             <img
               key={index}
@@ -128,7 +128,7 @@ const Hero = () => {
 
         {/* Hero Content */}
         <div
-          className="col-12 col-lg-8 mx-auto hero-custom-padding"
+          className="col-12 col-lg-8 mx-auto hero-custom-padding overlay"
           style={{ position: "relative", zIndex: 5 }}
         >
           <h6 style={{ fontSize: "72px", fontWeight: 600 }}>
@@ -169,7 +169,7 @@ const Hero = () => {
           </div>
           <div className="container">
             <a
-              className="contactBtn btn btn-primary text-white navbar-slide-down-menu4 mb-3"
+              className="contactBtn btn btn-primary text-white mb-3"
               href="#contact"
             >
               Get in touch
@@ -179,7 +179,7 @@ const Hero = () => {
               href={resume}
               target="_blank"
               rel="noopener noreferrer"
-              className="contactBtn btn btn-outline-secondary text-dark navbar-slide-down-menu4 mx-2 custom-border-outline mb-3"
+              className="contactBtn btn btn-outline-secondary text-dark mx-2 custom-border-outline mb-3"
             >
               View Resume
             </a>

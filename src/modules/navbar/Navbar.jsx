@@ -52,7 +52,7 @@ const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light bg-white w-100 "
-      style={{ position: "fixed", zIndex: 100, top: 0, height: "6.25rem" }}
+      style={{ position: "fixed", zIndex: 100, top: 0, height: "11vh" }}
     >
       <div className="container-fluid navbar-container">
         {/* Brand Name */}
