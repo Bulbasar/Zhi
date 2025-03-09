@@ -24,24 +24,26 @@ const Footer = () => {
     >
       {/* Main Section */}
       <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-        <h6
-          className=" fw-bold mb-3 responsive-h"
-          style={{ fontSize: "54px", fontWeight: 700 }}
-        >
-          Looking for a UX/UI Designer?
-        </h6>
-        <p
-          className="footer-text text-muted mb-4 responsive-p"
-          style={{
-            fontSize: "20px",
-            fontWeight: 500,
-            lineHeight: "32px",
-            width: "678px",
-          }}
-        >
-          I'm open to full-time UI/UX design opportunities. Let's connect and
-          discuss how I can contribute to your team.
-        </p>
+        <div className="container-fluid">
+          <h6
+            className=" fw-bold mb-3 responsive-h"
+            style={{ fontSize: "54px", fontWeight: 700 }}
+          >
+            Looking for a UX/UI Designer?
+          </h6>
+          <p
+            className="footer-text text-muted mb-4 responsive-p"
+            style={{
+              fontSize: "20px",
+              fontWeight: 500,
+              lineHeight: "32px",
+              width: "678px",
+            }}
+          >
+            I'm open to full-time UI/UX design opportunities. Let's connect and
+            discuss how I can contribute to your team.
+          </p>
+        </div>
         <div className="d-flex align-items-center gap-3 footer-email">
           <div
             className="d-flex align-items-center p-3 shadow-sm rounded border footer-email-input"
