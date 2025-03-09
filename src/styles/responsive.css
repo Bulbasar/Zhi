@@ -599,7 +599,7 @@
   }
 
   .hero-custom-padding a {
-    font-size: 13px !important;
+    font-size: 11px !important;
   }
 
   .custom-padding-p {
@@ -607,7 +607,11 @@
   }
 
   .custom-padding-p p {
-    font-size: 13px !important;
+    font-size: 11px !important;
+  }
+
+  .hero-custom-padding.contactBtn {
+    width: 100% !important;
   }
 }
 
