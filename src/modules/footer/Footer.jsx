@@ -60,7 +60,7 @@ const Footer = () => {
             </span>
           </div>
           <button
-            className="btn btn-primary px-4 h-100"
+            className="btn btn-primary px-4 h-100 responsive-p"
             onClick={handleCopy}
             disabled={isCopied} // Disable the button when copied
           >
