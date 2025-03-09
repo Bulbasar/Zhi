@@ -46,7 +46,7 @@ const Footer2 = () => {
             </p>
           </div>
 
-          <div className="d-flex justify-content-center align-items-center gap-2">
+          <div className="d-flex justify-content-center align-items-center gap-2 p-3">
             <span
               className=" border px-4 py-3 bg-white border d-flex flex-row align-items-center responsive-p"
               style={{
