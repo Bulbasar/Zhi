@@ -169,7 +169,7 @@ const Hero = () => {
           </div>
           <div className="container">
             <a
-              className="contactBtn btn btn-primary text-white navbar-slide-down-menu4"
+              className="contactBtn btn btn-primary text-white navbar-slide-down-menu4 mb-3"
               href="#contact"
             >
               Get in touch
@@ -179,7 +179,7 @@ const Hero = () => {
               href={resume}
               target="_blank"
               rel="noopener noreferrer"
-              className="contactBtn btn btn-outline-secondary text-dark navbar-slide-down-menu4 mx-2 custom-border-outline"
+              className="contactBtn btn btn-outline-secondary text-dark navbar-slide-down-menu4 mx-2 custom-border-outline mb-3"
             >
               View Resume
             </a>

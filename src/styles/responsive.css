@@ -1,4 +1,8 @@
 @media screen and (max-width: 1546px) {
+  .navbar-container a {
+    font-size: 17px !important;
+  }
+
   .hero-custom-padding {
     width: 85% !important;
   }
