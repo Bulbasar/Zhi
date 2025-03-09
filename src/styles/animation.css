@@ -30,7 +30,6 @@
   animation: slideDown 1.8s ease-out forwards;
 }
 
-
 /* sidebar */
 .slide-in {
   animation: slideIn 5s ease forwards !important;
@@ -82,4 +81,25 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* hero section */
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.wave-animation {
+  animation: wave 2s ease-in-out infinite;
+  transform-origin: center center;
 }
