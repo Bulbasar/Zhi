@@ -15,7 +15,7 @@ const Project = () => {
 
   return (
     <section
-      className="container-fluid px-5 min-vh-100 d-flex align-items-center py-5 container-90 showcase-section bg-white mt-5"
+      className="container-fluid min-vh-100 d-flex align-items-center py-5 container-90 project-section bg-white"
       id="works"
     >
       <div className="row align-items-center showcase-container">
@@ -39,7 +39,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="container-fluid project-section">
+        <div className="container-fluid project-card">
           <div className="project-container mb-5">
             <div className="row align-items-center gy-5 mx-0">
               <div
@@ -81,7 +81,7 @@ const Project = () => {
           <br />
           <br />
           <br />
-          <div className="project-container">
+          <div className="project-container position-relative">
             <div className="row align-items-center gy-5 mx-0">
               <div
                 className="col-12 col-lg-6 ps-lg-5 order-2 order-lg-1 project-desc"
@@ -108,12 +108,13 @@ const Project = () => {
               >
                 <div
                   className="position-relative project-img"
-                  style={{ height: "28rem", paddingLeft: "7rem" }}
+                  style={{ height: "28rem" }}
                 >
                   <img
                     src={showcase2Img}
                     alt="HRIS Project"
-                    className="img-fluid w-100 h-100 rounded shadow border p-2"
+                    className="img-fluid position-absolute"
+                    style={{ right: 0 }}
                   />
                 </div>
               </div>
@@ -137,7 +138,7 @@ const Project = () => {
                   <img
                     src={showcase2Img}
                     alt="HRIS Project"
-                    className="img-fluid w-100 h-100 rounded shadow border p-2"
+                    className="img-fluid"
                   />
                 </div>
               </div>

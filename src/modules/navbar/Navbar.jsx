@@ -84,12 +84,12 @@ const Navbar = () => {
 
         {/* Default Navbar Links for larger screens */}
         <div className="collapse navbar-collapse d-none d-lg-block">
-          <ul className="navbar-nav mx-auto">
+          <ul className="navbar-nav mx-auto" style={{ marginTop: "1rem" }}>
             <li className="nav-item mx-3 navbar-slide-down-menu1">
               <a
-                className="nav-link text-dark"
+                className="nav-link "
                 href="/#works"
-                style={{ fontSize: "16px" }}
+                style={{ fontSize: "16px", fontWeight: 500 }}
               >
                 Work
               </a>
@@ -98,7 +98,7 @@ const Navbar = () => {
               <a
                 className="nav-link text-secondary"
                 href="/about"
-                style={{ fontSize: "16px" }}
+                style={{ fontSize: "16px", fontWeight: 500 }}
               >
                 About
               </a>
@@ -107,7 +107,7 @@ const Navbar = () => {
               <a
                 className="nav-link text-secondary"
                 href="#resume"
-                style={{ fontSize: "16px" }}
+                style={{ fontSize: "16px", fontWeight: 500 }}
               >
                 Resume
               </a>
@@ -142,7 +142,7 @@ const Navbar = () => {
                   className="nav-link text-dark"
                   href="/#works"
                   onClick={toggleSidebar}
-                  style={{ fontSize: "16px" }}
+                  style={{ fontSize: "16px", fontWeight: 500 }}
                 >
                   Work
                 </a>
@@ -151,7 +151,7 @@ const Navbar = () => {
                 <a
                   className="nav-link text-secondary"
                   href="/about"
-                  style={{ fontSize: "16px" }}
+                  style={{ fontSize: "16px", fontWeight: 500 }}
                 >
                   About
                 </a>
@@ -160,7 +160,7 @@ const Navbar = () => {
                 <a
                   className="nav-link text-secondary"
                   href="#resume"
-                  style={{ fontSize: "16px" }}
+                  style={{ fontSize: "16px", fontWeight: 500 }}
                 >
                   Resume
                 </a>

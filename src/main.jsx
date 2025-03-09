@@ -35,7 +35,7 @@ createRoot(document.getElementById("root")).render(
               <>
                 <Hero />
                 {/* <Showcase /> */}
-                {/* <Project /> */}
+                <Project />
               </>
             }
           />

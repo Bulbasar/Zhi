@@ -33,9 +33,10 @@ body {
 
 .contactBtn {
   border-radius: 16px;
-  font-size: 20px;
-  padding: 13px 20px;
+  font-size: 16px;
+  padding: 10px 20px;
   font-weight: 600;
+  /* height: 48px !important; */
 }
 
 .custom-border-outline:hover {
@@ -65,6 +66,17 @@ body {
 /* .showcase-container-first {
   margin-top: -10rem;
 } */
+
+/* .showcase-section {
+  overflow: hidden !important;
+  padding: 0 30px !important;
+} */
+
+.project-section {
+  padding-left: 24px;
+  padding-right: 24px;
+  overflow: hidden !important;
+}
 
 .container-90 {
   width: 100%;
