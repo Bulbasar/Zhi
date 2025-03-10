@@ -195,3 +195,12 @@ body {
 .footer-link:hover {
   color: black !important;
 }
+
+.project-card {
+  padding: 0 150px !important;
+}
+
+.responsive-h {
+  color: #00274d !important;
+  font-weight: 600 !important;
+}

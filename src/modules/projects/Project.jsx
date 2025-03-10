@@ -18,12 +18,12 @@ const Project = () => {
       className="container-fluid min-vh-100 d-flex align-items-center py-5 container-90 project-section bg-white"
       id="works"
     >
-      <div className="row align-items-center showcase-container">
+      <div className="row align-items-center showcase-container mt-2">
         <div className="container mt-5">
           <div className=" text-center">
             <h6
               className="display-4 mb-4 responsive-h"
-              style={{ fontSize: "72px", fontWeight: 700 }}
+              style={{ fontSize: "72px", fontWeight: 600, color: "#00274D" }}
             >
               Selected Works
             </h6>
@@ -41,29 +41,26 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="container-fluid project-card">
+        <div className="container-fluid project-card ">
           <div className="project-container mb-5">
-            <div className="row align-items-center gy-5 mx-0">
+            <div className="row align-items-center justify-content-between gy-5">
               <div
-                className="col-12 col-lg-6 px-0"
+                className="col-12 col-lg-6 project-container-img-container"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <div
-                  className="position-relative project-img"
-                  style={{ height: "28rem", paddingRight: "7rem" }}
-                >
+                <div className="project-img w-100">
                   <img
                     src={showcase2Img}
                     alt="HRIS Project"
-                    className="img-fluid w-100 h-100 rounded "
+                    className="img-fluid w-100"
                   />
                 </div>
               </div>
 
               <div
-                className="col-12 col-lg-6 ps-lg-5 project-desc"
+                className="col-12 col-lg-5 project-desc"
                 data-aos="fade-left"
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
@@ -71,36 +68,39 @@ const Project = () => {
                 <h6 className="h1 fw-bold mb-4 responsive-h">HRIS Redesign</h6>
                 <div className="tags mb-3">
                   <span
-                    className="badge border me-2 p-2 rounded text-secondary"
+                    className="badge me-2 p-2 rounded-1 text-secondary "
                     style={{ background: "#F3F4F6" }}
                   >
                     HR Tech
                   </span>
                   <span
-                    className="badge border me-2 p-2 rounded text-secondary mx-2"
+                    className="badge me-2 p-2 rounded-1 text-secondary "
                     style={{ background: "#F3F4F6" }}
                   >
                     Web App
                   </span>
                 </div>
-                <p className="lead mb-4 responsive-p">
+                <p className="text-muted mb-4 responsive-p">
                   I redesigned the company's HRIS interface to improve usability
                   and enhance employee management, making tasks easier and more
                   efficient for both employees and administrators.
                 </p>
-                <a href="#" className="btn btn-outline-secondary px-5 py-3">
-                  View Work <i className="bx bx-arrow-back bx-rotate-180"></i>
+                <a
+                  href="#"
+                  className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
+                >
+                  View Work{" "}
+                  <i className="bx bx-arrow-back bx-rotate-180 ms-2"></i>
                 </a>
               </div>
             </div>
           </div>
           <br />
           <br />
-          <br />
-          <div className="project-container position-relative">
-            <div className="row align-items-center gy-5 mx-0">
+          <div className="project-container mb-5">
+            <div className="row align-items-center justify-content-between gy-5">
               <div
-                className="col-12 col-lg-6 ps-lg-5 order-2 order-lg-1 project-desc"
+                className="col-12 col-lg-5 project-desc order-2 order-lg-1"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
@@ -110,43 +110,43 @@ const Project = () => {
                 </h6>
                 <div className="tags mb-3">
                   <span
-                    className="badge border me-2 p-2 rounded text-secondary"
+                    className="badge me-2 p-2 rounded-1 text-secondary"
                     style={{ background: "#F3F4F6" }}
                   >
                     MarTech
                   </span>
                   <span
-                    className="badge border me-2 p-2 rounded text-secondary mx-2"
+                    className="badge me-2 p-2 rounded-1 text-secondary"
                     style={{ background: "#F3F4F6" }}
                   >
                     Web App
                   </span>
                 </div>
-                <p className="lead mb-4 responsive-p">
+                <p className="text-muted mb-4 responsive-p">
                   I designed a Content Management System to simplify and
                   optimize content creation and management, ensuring seamless
                   operations and supporting the company's successful market
                   launch.
                 </p>
-                <a href="#" className="btn btn-outline-secondary px-5 py-3">
-                  View Work <i className="bx bx-arrow-back bx-rotate-180"></i>
+                <a
+                  href="#"
+                  className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
+                >
+                  View Work{" "}
+                  <i className="bx bx-arrow-back bx-rotate-180 ms-2"></i>
                 </a>
               </div>
               <div
-                className="col-12 col-lg-6 px-0 order-1 order-lg-2"
+                className="col-12 col-lg-6 order-1 order-lg-2 project-container-img-container"
                 data-aos="fade-left"
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <div
-                  className="position-relative project-img"
-                  style={{ height: "28rem" }}
-                >
+                <div className="project-img w-100">
                   <img
                     src={showcase2Img}
-                    alt="HRIS Project"
-                    className="img-fluid position-absolute"
-                    style={{ right: 0 }}
+                    alt="CMS Project"
+                    className="img-fluid w-100"
                   />
                 </div>
               </div>
@@ -154,29 +154,25 @@ const Project = () => {
           </div>
           <br />
           <br />
-          <br />
           <div className="project-container mb-5">
-            <div className="row align-items-center gy-5 mx-0">
+            <div className="row align-items-center justify-content-between gy-5">
               <div
-                className="col-12 col-lg-6 px-0"
+                className="col-12 col-lg-6 project-container-img-container"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <div
-                  className="position-relative project-img"
-                  style={{ height: "28rem", paddingRight: "7rem" }}
-                >
+                <div className="project-img w-100">
                   <img
                     src={showcase2Img}
-                    alt="HRIS Project"
-                    className="img-fluid"
+                    alt="Custom HRIS Project"
+                    className="img-fluid w-100"
                   />
                 </div>
               </div>
 
               <div
-                className="col-12 col-lg-6 ps-lg-5 project-desc"
+                className="col-12 col-lg-5 project-desc"
                 data-aos="fade-left"
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
@@ -186,25 +182,29 @@ const Project = () => {
                 </h6>
                 <div className="tags mb-3">
                   <span
-                    className="badge border me-2 p-2 rounded text-secondary"
+                    className="badge me-2 p-2 rounded-1 text-secondary"
                     style={{ background: "#F3F4F6" }}
                   >
                     HR Tech
                   </span>
                   <span
-                    className="badge border me-2 p-2 rounded text-secondary mx-2"
+                    className="badge me-2 p-2 rounded-1 text-secondary"
                     style={{ background: "#F3F4F6" }}
                   >
                     Web App
                   </span>
                 </div>
-                <p className="lead mb-4 responsive-p">
+                <p className="text-muted mb-4 responsive-p">
                   I customized the HRIS with additional features and
                   enhancements, tailored to the company's client's specific
                   needs for better employee management and improved processes.
                 </p>
-                <a href="#" className="btn btn-outline-secondary px-5 py-3">
-                  View Work <i className="bx bx-arrow-back bx-rotate-180"></i>
+                <a
+                  href="#"
+                  className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
+                >
+                  View Work{" "}
+                  <i className="bx bx-arrow-back bx-rotate-180 ms-2"></i>
                 </a>
               </div>
             </div>
