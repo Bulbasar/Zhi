@@ -65,7 +65,12 @@ const Project = () => {
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <h6 className="h1 fw-bold mb-4 responsive-h">HRIS Redesign</h6>
+                <h6
+                  className="h1 fw-bold mb-4 responsive-h-title"
+                  style={{ fontSize: "48px" }}
+                >
+                  HRIS Redesign
+                </h6>
                 <div className="tags mb-3">
                   <span
                     className="badge me-2 p-2 rounded-1 text-secondary "
@@ -105,7 +110,10 @@ const Project = () => {
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <h6 className="h1 fw-bold mb-4 responsive-h">
+                <h6
+                  className="h1 fw-bold mb-4 responsive-h-title"
+                  style={{ fontSize: "48px" }}
+                >
                   CMS for Market Launch
                 </h6>
                 <div className="tags mb-3">
@@ -177,7 +185,10 @@ const Project = () => {
                 data-aos-delay="500"
                 data-aos-sm="fade-up"
               >
-                <h6 className="h1 fw-bold mb-4 responsive-h">
+                <h6
+                  className="h1 fw-bold mb-4 responsive-h-title"
+                  style={{ fontSize: "48px" }}
+                >
                   Custom HRIS with New Features
                 </h6>
                 <div className="tags mb-3">

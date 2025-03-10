@@ -59,6 +59,10 @@
   .project-card {
     padding: 0 80px !important;
   }
+
+  .responsive-h-title {
+    font-size: 43px !important;
+  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -141,6 +145,10 @@
   .responsive-p {
     font-size: 16px !important;
   }
+
+  .responsive-h-title {
+    font-size: 38px !important;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -188,6 +196,10 @@
 
   .responsive-p {
     font-size: 16px !important;
+  }
+
+  .responsive-h-title {
+    font-size: 33px !important;
   }
 }
 
@@ -468,6 +480,10 @@
   .responsive-p {
     font-size: 15px !important;
   }
+
+  .responsive-h-title {
+    font-size: 26px !important;
+  }
 }
 
 @media screen and (max-width: 815px) {
@@ -705,6 +721,15 @@
     font-size: 14px !important;
     line-height: 20px !important;
   }
+
+  .responsive-h-title {
+    font-size: 43px !important;
+  }
+
+  .responsive-h-title {
+    font-size: 23px !important;
+    margin-bottom: 1rem !important;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -779,6 +804,10 @@
   /* project */
   .project-card {
     padding: 0 20px !important;
+  }
+
+  .responsive-h-title {
+    font-size: 20px !important;
   }
 }
 
