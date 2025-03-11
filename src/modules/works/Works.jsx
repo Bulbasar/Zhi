@@ -1,17 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import workImg from "../../assets/work1.png";
 
 const Works = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: true, // animations will occur every time element comes into view
+      offset: 0,
+    });
+  }, []);
+
   return (
     <section
-      className="container-fluid min-vh-100 py-2 work-section"
+      className="container-fluid min-vh-100 py-2 work-section "
       style={{ marginTop: "11vh", padding: "0 24px" }}
     >
       <div className="work-container d-flex flex-column align-items-center text-center px-2 py-5">
-        <div className="w-100 mt-5 work-showcase-container">
-          <div className="row mx-auto custom-row">
-            <div className="col-sm custom-col text-start">
+        <div className="w-100 mt-5 work-showcase-container ">
+          <div className="row mx-auto custom-row ">
+            <div
+              className="col-sm custom-col text-start "
+              data-aos="fade-right"
+              data-aos-delay="500"
+              data-aos-sm="fade-up"
+            >
               <a
                 href="#"
                 className="nav-link d-flex flex-row align-items-center work-a"
@@ -101,6 +117,9 @@ const Works = () => {
             <div
               className="col-sm custom-col work-showcase-img"
               style={{ padding: "10px 0 0 50px" }}
+              data-aos="fade-left"
+              data-aos-delay="500"
+              data-aos-sm="fade-up"
             >
               <img src={workImg} alt="Project Image" className="h-100 w-100" />
             </div>
