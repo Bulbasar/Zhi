@@ -107,7 +107,7 @@ body {
 /* Hero Container */
 .hero-container {
   min-height: 80vh !important;
-  background: linear-gradient(to bottom, #eff3f7, #ffffff);
+  background: linear-gradient(to bottom, #edf1f6, #ffffff);
   border-radius: 56px;
   position: relative;
 }
@@ -208,4 +208,21 @@ body {
 .responsive-h-title {
   color: #00274d !important;
   font-weight: 600 !important;
+}
+
+/* works */
+
+.work-container {
+  min-height: 200vh !important;
+  background: linear-gradient(to bottom, #edf1f6, #ffffff);
+  border-radius: 56px;
+  position: relative;
+}
+
+.work-showcase-container {
+  padding: 80px 130px !important;
+}
+
+.work-h {
+  color: #000 !important;
 }

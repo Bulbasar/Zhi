@@ -17,6 +17,9 @@ import Footer from "./modules/footer/Footer";
 import Hero from "./modules/hero/Hero";
 import Footer2 from "./modules/footer/Footer2";
 
+// works
+import Works from "./modules/works/Works";
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
@@ -35,14 +38,13 @@ createRoot(document.getElementById("root")).render(
             element={
               <>
                 <Hero />
-                {/* <Showcase /> */}
                 <Project />
               </>
             }
           />
           <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Works />} />
         </Routes>
-        {/* <Footer /> */}
         <Footer2 />
       </div>
     </BrowserRouter>

@@ -91,7 +91,7 @@ const Project = () => {
                   efficient for both employees and administrators.
                 </p>
                 <a
-                  href="#"
+                  href="/work"
                   className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
                 >
                   View Work{" "}
@@ -137,7 +137,7 @@ const Project = () => {
                   launch.
                 </p>
                 <a
-                  href="#"
+                  href="/work"
                   className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
                 >
                   View Work{" "}
@@ -211,7 +211,7 @@ const Project = () => {
                   needs for better employee management and improved processes.
                 </p>
                 <a
-                  href="#"
+                  href="/work"
                   className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
                 >
                   View Work{" "}
