@@ -497,6 +497,11 @@
   .footer-section {
     padding: 0 20px !important;
   }
+
+  /* work */
+  .work-section {
+    padding: 0 20px !important;
+  }
 }
 
 @media screen and (max-width: 950px) {
