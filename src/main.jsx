@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { StrictMode, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,6 +20,22 @@ import Footer2 from "./modules/footer/Footer2";
 // works
 import Works from "./modules/works/Works";
 
+// Create a new component for the home page to handle the scroll
+function Home() {
+  useEffect(() => {
+    if (window.location.hash === "#works") {
+      document.getElementById("works").scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
+  return (
+    <>
+      <Hero />
+      <Project />
+    </>
+  );
+}
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
@@ -33,15 +49,7 @@ createRoot(document.getElementById("root")).render(
       >
         <Navbar />
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Hero />
-                <Project />
-              </>
-            }
-          />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Works />} />
         </Routes>

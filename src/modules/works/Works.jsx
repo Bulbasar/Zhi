@@ -29,7 +29,7 @@ const Works = () => {
               data-aos-sm="fade-up"
             >
               <a
-                href="#"
+                href="/#works"
                 className="nav-link d-flex flex-row align-items-center work-a"
                 style={{
                   fontSize: "24px",
