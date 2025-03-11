@@ -862,6 +862,11 @@
   .project-card {
     padding: 0 50px !important;
   }
+
+  /* hero section */
+  .work-container {
+    border-radius: 36px;
+  }
 }
 
 @media screen and (max-width: 700px) {
