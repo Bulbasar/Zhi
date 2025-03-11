@@ -20,7 +20,10 @@ const Works = () => {
       style={{ marginTop: "11vh", padding: "0 24px" }}
     >
       <div className="work-container d-flex flex-column align-items-center text-center px-2 py-5">
-        <div className="w-100 mt-5 work-showcase-container ">
+        <div
+          className="w-100 mt-5 work-showcase-container "
+          style={{ overflow: "hidden" }}
+        >
           <div className="row mx-auto custom-row ">
             <div
               className="col-sm custom-col text-start "

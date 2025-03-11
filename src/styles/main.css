@@ -107,7 +107,7 @@ body {
 /* Hero Container */
 .hero-container {
   min-height: 80vh !important;
-  background: linear-gradient(to bottom, #edf1f6, #ffffff);
+  background: linear-gradient(to bottom, #edf1f6 60%, #ffffff 80%);
   border-radius: 56px;
   position: relative;
 }
@@ -214,7 +214,7 @@ body {
 
 .work-container {
   min-height: 200vh !important;
-  background: linear-gradient(to bottom, #edf1f6, #ffffff);
+  background: linear-gradient(to bottom, #edf1f6 20%, #ffffff 40%);
   border-radius: 56px;
   position: relative;
 }
