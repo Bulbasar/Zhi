@@ -99,6 +99,10 @@ body {
   padding: 0 10rem;
 }
 
+.custom-padding-project-p {
+  padding: 0 20rem;
+}
+
 /* Hero Section */
 .hero-section {
   padding: 0 30px;
@@ -242,6 +246,12 @@ body {
 
 .work-a i:hover {
   color: #333 !important;
+}
+
+.work-showcase-container2 {
+  min-height: 80vh !important;
+  /* width: 100%; */
+  padding: 80px 240px !important;
 }
 
 /* Defaults */

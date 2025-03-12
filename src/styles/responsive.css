@@ -65,6 +65,10 @@
     padding: 0 5rem;
   }
 
+  .custom-padding-project-p {
+    padding: 0 15rem;
+  }
+
   .custom-padding-p p {
     font-size: 17px !important;
   }
@@ -129,6 +133,10 @@
 }
 
 @media screen and (max-width: 1440px) {
+  .custom-padding-project-p {
+    padding: 0 10rem;
+  }
+
   .hero-custom-padding h6 {
     font-size: 50px !important;
   }
@@ -649,6 +657,10 @@
     width: 100%;
     padding: 10px 0;
   }
+
+  .custom-padding-project-p {
+    padding: 0 8rem;
+  }
 }
 
 @media screen and (max-width: 888px) {
@@ -899,6 +911,10 @@
   .work-container {
     border-radius: 36px;
   }
+
+  .custom-padding-project-p {
+    padding: 0 5rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -987,6 +1003,10 @@
     line-height: 24px !important;
     margin-bottom: 20px !important;
   }
+
+  .custom-padding-project-p {
+    padding: 0 1.5rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -1065,6 +1085,10 @@
 
   .responsive-h-title {
     font-size: 20px !important;
+  }
+
+  .custom-padding-project-p {
+    padding: 0 0.5rem;
   }
 }
 

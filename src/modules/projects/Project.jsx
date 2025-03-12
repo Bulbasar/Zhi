@@ -27,7 +27,7 @@ const Project = () => {
             >
               Selected Works
             </h6>
-            <div className="custom-padding-p">
+            <div className="custom-padding-project-p">
               <p
                 className="lead text-muted mb-5 responsive-p"
                 style={{ fontSize: "20px", lineHeight: "32px" }}

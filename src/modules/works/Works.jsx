@@ -126,6 +126,13 @@ const Works = () => {
             </div>
           </div>
         </div>
+
+        <div
+          className="border work-showcase-container2"
+          style={{ overflow: "hidden" }}
+        >
+          <img src={workImg} alt="Image" className="h-100 w-100" />
+        </div>
       </div>
     </section>
   );
