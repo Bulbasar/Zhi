@@ -611,6 +611,7 @@
   /* works */
   .work-showcase-container {
     padding: 0 25px !important;
+    margin-top: 16px !important;
   }
 
   .work-showcase-img {
