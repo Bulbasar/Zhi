@@ -108,7 +108,7 @@ const Hero = () => {
   return (
     <section
       className="container-fluid min-vh-100 py-2 hero-section"
-      style={{ marginTop: "11vh", padding: "0 24px" }}
+      style={{ marginTop: "8.5vh", padding: "0 24px" }}
     >
       <div className="hero-container d-flex flex-column align-items-center justify-content-center text-center ">
         {/* Hero Icons */}
@@ -186,7 +186,7 @@ const Hero = () => {
               href={resume}
               target="_blank"
               rel="noopener noreferrer"
-              className="contactBtn btn btn-outline-secondary text-dark mx-2 custom-border-outline mb-3 hero-btn"
+              className="contactBtn btn text-dark mx-2 custom-border-outline mb-3 hero-btn btnHover shadow-sm"
             >
               View Resume
             </a>

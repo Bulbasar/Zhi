@@ -15,7 +15,7 @@
 
   .work-showcase-img {
     padding: 0 !important;
-    padding: 20px 0 !important;
+    padding: 0px 0 !important;
   }
 }
 
@@ -28,6 +28,15 @@
     padding: 0 !important;
     padding: 40px 0px !important;
     /* border: 1px solid black; */
+  }
+
+  .work-h {
+    font-size: 49px !important;
+  }
+
+  .work-p {
+    font-size: 18px !important;
+    line-height: 30px !important;
   }
 }
 
@@ -98,31 +107,24 @@
   }
 
   /* works */
+
+  .work-h {
+    font-size: 41px !important;
+  }
+
+  .work-p {
+    font-size: 16px !important;
+    line-height: 28px !important;
+  }
+
   .work-showcase-container {
-    padding: 0 50px !important;
+    padding: 0 90px !important;
   }
 
   .work-showcase-img {
     padding: 0 !important;
     padding: 40px 0px !important;
     /* border: 1px solid black; */
-  }
-
-  .work-h {
-    font-size: 65px !important;
-  }
-
-  .work-p {
-    font-size: 24px !important;
-    line-height: 39px !important;
-  }
-
-  .work-info-tab span {
-    font-size: 16px !important;
-  }
-
-  .work-info-tab p {
-    font-size: 17px !important;
   }
 }
 
@@ -158,6 +160,10 @@
 
   .responsive-p {
     font-size: 16px !important;
+  }
+
+  .work-showcase-container {
+    padding: 0 80px !important;
   }
 }
 
@@ -213,34 +219,27 @@
 
   /* works */
   .work-showcase-container {
-    padding: 0 30px !important;
+    padding: 0 50px !important;
   }
 
   .work-showcase-img {
     padding: 0 !important;
-    padding: 40px 0px !important;
+    padding: 0px 0px !important;
     /* border: 1px solid black; */
   }
 
   .work-h {
-    font-size: 53px !important;
-  }
-
-  .work-a {
-    font-size: 21px !important;
+    font-size: 37px !important;
   }
 
   .work-p {
-    font-size: 22px !important;
-    line-height: 34px !important;
+    font-size: 16px !important;
+    line-height: 28px !important;
   }
 
-  .work-info-tab span {
-    font-size: 16px !important;
-  }
-
-  .work-info-tab p {
-    font-size: 16px !important;
+  .work-info-tab span,
+  p {
+    font-size: 14px !important;
   }
 }
 
@@ -296,8 +295,28 @@
   }
 
   /* works */
-  .work-container {
+  .work-showcase-container {
+    padding: 0 50px !important;
+  }
+
+  .work-showcase-img {
     padding: 0 !important;
+    padding: 0px 0px !important;
+    /* border: 1px solid black; */
+  }
+
+  .work-h {
+    font-size: 37px !important;
+  }
+
+  .work-p {
+    font-size: 16px !important;
+    line-height: 28px !important;
+  }
+
+  .work-info-tab span,
+  p {
+    font-size: 14px !important;
   }
 }
 
@@ -349,35 +368,33 @@
   }
 
   /* works */
+  /* works */
   .work-showcase-container {
-    padding: 0 30px !important;
+    padding: 0 40px !important;
   }
 
   .work-showcase-img {
     padding: 0 !important;
-    padding: 40px 0px !important;
+    padding: 0px 0px !important;
     /* border: 1px solid black; */
   }
 
   .work-h {
-    font-size: 53px !important;
+    font-size: 34px !important;
   }
 
   .work-a {
-    font-size: 21px !important;
+    font-size: 15px !important;
   }
 
   .work-p {
-    font-size: 20px !important;
-    line-height: 32px !important;
+    font-size: 15px !important;
+    line-height: 26px !important;
   }
 
-  .work-info-tab span {
-    font-size: 16px !important;
-  }
-
-  .work-info-tab p {
-    font-size: 16px !important;
+  .work-info-tab span,
+  p {
+    font-size: 14px !important;
   }
 }
 
@@ -421,6 +438,36 @@
   .hero-icon-4 {
     right: 7.5%;
     top: 48%;
+  }
+
+  /* works */
+  /* works */
+  .work-showcase-container {
+    padding: 0 25px !important;
+  }
+
+  .work-showcase-img {
+    padding: 0 !important;
+    padding: 0px 0px !important;
+    /* border: 1px solid black; */
+  }
+
+  .work-h {
+    font-size: 30px !important;
+  }
+
+  .work-a {
+    font-size: 14px !important;
+  }
+
+  .work-p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+
+  .work-info-tab span,
+  p {
+    font-size: 12px !important;
   }
 }
 
@@ -504,9 +551,9 @@
   }
 
   /* work */
-  .work-section {
+  /* .work-section {
     padding: 0 20px !important;
-  }
+  } */
 }
 
 @media screen and (max-width: 950px) {
@@ -561,35 +608,36 @@
   }
 
   /* works */
+  /* works */
   .work-showcase-container {
-    padding: 0 30px !important;
+    padding: 0 25px !important;
   }
 
   .work-showcase-img {
     padding: 0 !important;
-    padding: 40px 0px !important;
+    padding: 0px 0px !important;
     /* border: 1px solid black; */
   }
 
-  .work-h {
-    font-size: 53px !important;
+  .work-a {
+    font-size: 14px !important;
+    margin-bottom: 16px !important;
   }
 
-  .work-a {
-    font-size: 20px !important;
+  .work-h {
+    font-size: 30px !important;
+    margin-bottom: 16px !important;
   }
 
   .work-p {
-    font-size: 18px !important;
-    line-height: 30px !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    margin-bottom: 40px !important;
   }
 
-  .work-info-tab span {
-    font-size: 16px !important;
-  }
-
-  .work-info-tab p {
-    font-size: 16px !important;
+  .work-info-tab span,
+  p {
+    font-size: 12px !important;
   }
 
   .custom-row {
@@ -599,10 +647,6 @@
   .custom-col {
     width: 100%;
     padding: 10px 0;
-  }
-
-  .work-showcase-img {
-    padding: 20px 0 !important;
   }
 }
 
@@ -674,29 +718,6 @@
     padding: 0 !important;
     padding: 40px 0px !important;
     /* border: 1px solid black; */
-  }
-
-  .work-a {
-    font-size: 18px !important;
-    margin-bottom: 15px !important;
-  }
-
-  .work-h {
-    margin-bottom: 15px !important;
-  }
-
-  .work-p {
-    font-size: 16px !important;
-    line-height: 32px !important;
-    margin-bottom: 40px !important;
-  }
-
-  .work-info-tab span {
-    font-size: 15px !important;
-  }
-
-  .work-info-tab p {
-    font-size: 16px !important;
   }
 }
 
@@ -951,13 +972,19 @@
   }
 
   .work-showcase-container {
-    padding: 0 18px !important;
+    padding: 0 28px !important;
   }
 
   .work-showcase-img {
     padding: 0 !important;
-    padding: 20px 0px !important;
+    padding: 0px 0px !important;
     /* border: 1px solid black; */
+  }
+
+  .work-p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+    margin-bottom: 20px !important;
   }
 }
 

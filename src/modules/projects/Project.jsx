@@ -92,7 +92,7 @@ const Project = () => {
                 </p>
                 <a
                   href="/work"
-                  className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
+                  className="btn rounded-4 px-4 py-2 responsive-p btnHover"
                 >
                   View Work{" "}
                   <i className="bx bx-arrow-back bx-rotate-180 ms-2"></i>
@@ -138,7 +138,7 @@ const Project = () => {
                 </p>
                 <a
                   href="/work"
-                  className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
+                  className="btn rounded-4 px-4 py-2 responsive-p btnHover"
                 >
                   View Work{" "}
                   <i className="bx bx-arrow-back bx-rotate-180 ms-2"></i>
@@ -212,10 +212,10 @@ const Project = () => {
                 </p>
                 <a
                   href="/work"
-                  className="btn btn-outline-secondary rounded-4 px-4 py-2 responsive-p"
+                  className="btn rounded-4 px-4 py-2 responsive-p btnHover"
                 >
                   View Work{" "}
-                  <i className="bx bx-arrow-back bx-rotate-180 ms-2"></i>
+                  <i className="bx bx-arrow-back bx-rotate-180 ms-2 "></i>
                 </a>
               </div>
             </div>

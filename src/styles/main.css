@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-container {
-  padding: 0 32px;
+  padding: 0 80px;
 }
 
 .contactBtn {
@@ -108,8 +108,12 @@ body {
 .hero-container {
   min-height: 80vh !important;
   background: linear-gradient(to bottom, #edf1f6 60%, #ffffff 80%);
-  border-radius: 56px;
+  border-radius: 48px;
   position: relative;
+}
+
+.hero-custom-padding {
+  width: 70% !important;
 }
 
 /* Hero Icons */
@@ -215,14 +219,46 @@ body {
 .work-container {
   min-height: 200vh !important;
   background: linear-gradient(to bottom, #edf1f6 20%, #ffffff 40%);
-  border-radius: 56px;
+  border-radius: 48px;
   position: relative;
 }
 
 .work-showcase-container {
-  padding: 80px 130px !important;
+  padding: 80px 240px !important;
 }
 
 .work-h {
   color: #000 !important;
+}
+
+.work-p {
+  font-size: 20px !important;
+  line-height: 32px !important;
+}
+
+.work-a:hover {
+  color: #333 !important;
+}
+
+.work-a i:hover {
+  color: #333 !important;
+}
+
+/* Defaults */
+.btnHover {
+  border: 1px solid #afb5bd !important;
+  color: #002345 !important;
+}
+
+.btnHover:hover {
+  background: #e1e4e8 !important;
+  color: #002345 !important;
+}
+
+.btnHover i {
+  color: #002345 !important;
+}
+
+.btnHover i:hover {
+  color: #002345 !important;
 }

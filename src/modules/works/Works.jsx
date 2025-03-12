@@ -17,9 +17,9 @@ const Works = () => {
   return (
     <section
       className="container-fluid min-vh-100 py-2 work-section "
-      style={{ marginTop: "11vh", padding: "0 24px" }}
+      style={{ marginTop: "8.5vh", padding: "0 24px" }}
     >
-      <div className="work-container d-flex flex-column align-items-center text-center px-2 py-5">
+      <div className="work-container d-flex flex-column align-items-center text-center py-5">
         <div
           className="w-100 mt-5 work-showcase-container "
           style={{ overflow: "hidden" }}
@@ -35,7 +35,7 @@ const Works = () => {
                 href="/#works"
                 className="nav-link d-flex flex-row align-items-center work-a"
                 style={{
-                  fontSize: "24px",
+                  fontSize: "16px",
                   fontWeight: 500,
                   color: "#8F99C2",
                   marginBottom: "24px",
@@ -45,9 +45,9 @@ const Works = () => {
                 <span className="mx-1">All Works</span>
               </a>
               <h6
-                className="responsive-h work-h"
+                className="work-h"
                 style={{
-                  fontSize: "72px",
+                  fontSize: "56px",
                   fontWeight: 600,
                   letterSpacing: "2px",
                   marginBottom: "24px",
@@ -58,8 +58,6 @@ const Works = () => {
               <p
                 className="text-start work-p"
                 style={{
-                  fontSize: "28px",
-                  lineHeight: "42px",
                   marginBottom: "78px",
                   color: "#4E657D",
                 }}
@@ -76,14 +74,14 @@ const Works = () => {
                   <span
                     className=""
                     style={{
-                      fontWeight: 600,
-                      fontSize: "18px",
+                      fontWeight: 500,
+                      fontSize: "16px",
                       color: "#899EB2",
                     }}
                   >
                     Duration
                   </span>
-                  <p style={{ fontSize: "20px", fontWeight: 600 }}>
+                  <p style={{ fontSize: "16px", fontWeight: 600 }}>
                     July 2023 - Oct 2023
                   </p>
                 </div>
@@ -91,14 +89,14 @@ const Works = () => {
                   <span
                     className=""
                     style={{
-                      fontWeight: 600,
-                      fontSize: "18px",
+                      fontWeight: 500,
+                      fontSize: "16px",
                       color: "#899EB2",
                     }}
                   >
                     Deliverables
                   </span>
-                  <p style={{ fontSize: "20px", fontWeight: 600 }}>
+                  <p style={{ fontSize: "16px", fontWeight: 600 }}>
                     Web App Design
                   </p>
                 </div>
@@ -106,14 +104,14 @@ const Works = () => {
                   <span
                     className=""
                     style={{
-                      fontWeight: 600,
-                      fontSize: "18px",
+                      fontWeight: 500,
+                      fontSize: "16px",
                       color: "#899EB2",
                     }}
                   >
                     Toolstack
                   </span>
-                  <p style={{ fontSize: "20px", fontWeight: 600 }}>Figma</p>
+                  <p style={{ fontSize: "16px", fontWeight: 600 }}>Figma</p>
                 </div>
               </div>
             </div>
