@@ -1,0 +1,67 @@
+.h-primary-color {
+  color: #002c57 !important;
+}
+
+.p-text-muted {
+  color: #5c7185 !important;
+}
+
+.primaryBtnNav {
+  padding: 14px 20px !important;
+  background: #0073e6 !important;
+  color: #fff !important;
+  border-radius: 16px !important;
+  border: 1px solid #0073e6 !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  transition: ease-in-out 0.4s;
+}
+
+.primaryBtnNav:hover {
+  background: #0b5ed7 !important;
+}
+
+.primaryBtn {
+  padding: 20px 32px !important;
+  background: #0073e6 !important;
+  color: #fff !important;
+  border-radius: 16px !important;
+  border: 1px solid #0073e6 !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  transition: ease-in-out 0.4s;
+}
+
+.primaryBtn:hover {
+  background: #0b5ed7 !important;
+}
+
+.secondaryBtn {
+  padding: 20px 32px !important;
+  background: transparent !important;
+  color: #002c57 !important;
+  border-radius: 16px !important;
+  border: 1px solid #dee3e9 !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  transition: ease-in-out 0.4s;
+}
+
+.secondaryBtn:hover {
+  background: #eceff3 !important;
+}
+
+.viewWorkSecondaryBtn {
+  padding: 16px 20px 16px 24px !important;
+  background: transparent !important;
+  color: #002c57 !important;
+  border-radius: 16px !important;
+  border: 1px solid #dee3e9 !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  transition: ease-in-out 0.4s;
+}
+
+.viewWorkSecondaryBtn:hover {
+  background: #eceff3 !important;
+}

@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/main.css";
 import "./styles/responsive.css";
 import "./styles/animation.css";
+import "./styles/defaults.css";
 
 // modules
 import Navbar from "./modules/navbar/Navbar";
@@ -20,6 +21,10 @@ import Footer2 from "./modules/footer/Footer2";
 // works
 import Works from "./modules/works/Works";
 
+// updaaate 3-18-25
+import Hero2 from "./modules/hero/Hero2";
+import SelectedWorks from "./modules/selected works/selected-works";
+
 // Create a new component for the home page to handle the scroll
 function Home() {
   useEffect(() => {
@@ -30,8 +35,10 @@ function Home() {
 
   return (
     <>
-      <Hero />
-      <Project />
+      {/* <Hero /> */}
+      {/* <Project /> */}
+      <Hero2 />
+      <SelectedWorks />
     </>
   );
 }

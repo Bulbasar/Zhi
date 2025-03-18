@@ -1,0 +1,142 @@
+import React from "react";
+
+import imgWork1 from "../../assets/selected-works-1.png";
+
+import imgWork2 from "../../assets/selected-works-2.png";
+
+import imgWork3 from "../../assets/selected-works-3.png";
+
+const SelectedWorks = () => {
+  return (
+    <section className="selected-works-section  d-flex flex-row justify-content-center">
+      <div className="selected-works-container ">
+        <div
+          className="w-100 d-flex flex-column align-items-center"
+          style={{ marginBottom: "80px" }}
+        >
+          <h6
+            className="h-primary-color"
+            style={{ fontSize: "48px", fontWeight: 600 }}
+          >
+            Selected Works
+          </h6>
+
+          <p className="text-center p-text-muted" style={{ fontSize: "20px" }}>
+            These are the projects I worked on during my internship and
+            part-time as a UI/UX Designer at an IT company. Each project
+            highlights my design process, the challenges I faced, and the
+            user-centered solutions I implemented.
+          </p>
+        </div>
+
+        <div
+          className="w-100 d-flex flex-row  align-items-center work-container-cards"
+          style={{ minHeight: "460px" }}
+        >
+          <div className=" work-img-container d-flex flex-row align-items-center justify-content-center">
+            <img src={imgWork1} alt="" className="img-fluid" />
+          </div>
+
+          <div className=" work-text-container">
+            <p
+              className="p-text-muted"
+              style={{ fontSize: "16px", fontWeight: 600 }}
+            >
+              HR TECH · WEB APP
+            </p>
+
+            <div className="w-100" style={{ marginBottom: "64px" }}>
+              <h6
+                className="h-primary-color"
+                style={{
+                  fontSize: "40px",
+                  lineHeight: "48px",
+                  fontWeight: 600,
+                }}
+              >
+                Enhancing the HRIS for a more efficient and intuitive workflow.
+              </h6>
+            </div>
+
+            <button className="viewWorkSecondaryBtn">
+              View Work <i class="bx bx-right-arrow-alt "></i>
+            </button>
+          </div>
+        </div>
+
+        <div
+          className="w-100 d-flex flex-row  align-items-center work-container-cards"
+          style={{ minHeight: "460px" }}
+        >
+          <div className=" work-text-container">
+            <p
+              className="p-text-muted"
+              style={{ fontSize: "16px", fontWeight: 600 }}
+            >
+              MARTECH · WEB APP
+            </p>
+
+            <div className="w-100" style={{ marginBottom: "64px" }}>
+              <h6
+                className="h-primary-color"
+                style={{
+                  fontSize: "40px",
+                  lineHeight: "48px",
+                  fontWeight: 600,
+                }}
+              >
+                Building a CMS to simplify content management and enhance
+                operations.
+              </h6>
+            </div>
+
+            <button className="viewWorkSecondaryBtn">
+              View Work <i class="bx bx-right-arrow-alt "></i>
+            </button>
+          </div>
+
+          <div className=" work-img-container d-flex flex-row align-items-center justify-content-center">
+            <img src={imgWork2} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div
+          className="w-100 d-flex flex-row  align-items-center work-container-cards"
+          style={{ minHeight: "460px" }}
+        >
+          <div className="work-img-container3 d-flex flex-row align-items-center justify-content-center">
+            <img src={imgWork3} alt="" className="img-fluid" />
+          </div>
+
+          <div className="work-text-container">
+            <p
+              className="p-text-muted"
+              style={{ fontSize: "16px", fontWeight: 600 }}
+            >
+              HR TECH · WEB APP
+            </p>
+
+            <div className="w-100" style={{ marginBottom: "64px" }}>
+              <h6
+                className="h-primary-color"
+                style={{
+                  fontSize: "40px",
+                  lineHeight: "48px",
+                  fontWeight: 600,
+                }}
+              >
+                Enhancing the HRIS for a more efficient and intuitive workflow.
+              </h6>
+            </div>
+
+            <button className="viewWorkSecondaryBtn">
+              View Work <i class="bx bx-right-arrow-alt "></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SelectedWorks;

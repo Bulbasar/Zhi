@@ -225,7 +225,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item" style={isOpen ? slideInStyle4 : {}}>
                 <a
-                  className="contactBtn btn btn-primary text-white"
+                  className="primaryBtnNav"
                   href="#contact"
                   onClick={toggleSidebar}
                 >
