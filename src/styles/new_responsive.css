@@ -1,4 +1,5 @@
 @media screen and (max-width: 1240px) {
+  /* hero */
   .hero-h-container {
     justify-content: center !important;
   }
@@ -14,9 +15,104 @@
   .secondaryBtn {
     padding: 17px 27px !important;
   }
+
+  /* selected works */
+  .selected-works-container {
+    width: 976px !important;
+  }
+
+  .selected-works-h {
+    font-size: 41px !important;
+  }
+
+  .selected-works-p {
+    font-size: 18px !important;
+  }
+
+  .selected-work-card-title {
+    font-size: 32px !important;
+  }
+
+  .work-img-container:nth-child(1) {
+    width: 528px;
+    min-height: 460px;
+    margin-right: 60px;
+    border-radius: 48px;
+    padding: 10px;
+  }
+
+  .work-img-container:nth-child(2) {
+    width: 528px;
+    min-height: 460px;
+    margin-left: 60px;
+    border-radius: 48px;
+    padding: 10px;
+  }
+
+  .work-img-container3 {
+    width: 528px;
+    min-height: 460px;
+    margin-right: 60px;
+    border-radius: 48px;
+    background: #e2f1de !important;
+  }
+
+  .work-img-container {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  /* selected works */
+  .selected-works-container {
+    width: 976px !important;
+    /* background: red !important; */
+  }
+
+  .selected-works-h {
+    font-size: 37px !important;
+  }
+
+  .selected-works-p {
+    font-size: 16px !important;
+  }
+
+  .selected-work-card-tags {
+    font-size: 14px !important;
+  }
+
+  .selected-work-card-title {
+    font-size: 30px !important;
+    line-height: 43px !important;
+  }
+
+  .work-img-container:nth-child(1) {
+    width: 528px !important;
+    min-height: 460px !important;
+    margin-right: 45px !important;
+    border-radius: 48px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container:nth-child(2) {
+    width: 528px !important;
+    min-height: 460px !important;
+    margin-left: 45px !important;
+    border-radius: 48px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container3 {
+    width: 528px !important;
+    min-height: 460px !important;
+    margin-right: 45px !important;
+    border-radius: 48px !important;
+    background: #e2f1de !important;
+  }
 }
 
 @media screen and (max-width: 1040px) {
+  /* hero */
   .hero-card {
     width: 856px !important;
   }
@@ -41,9 +137,115 @@
   .secondaryBtn {
     padding: 14px 24px !important;
   }
+
+  /* selected works */
+  .selected-works-container {
+    width: 856px !important;
+    /* background: red !important; */
+  }
+
+  .selected-works-h {
+    font-size: 35px !important;
+  }
+
+  .selected-works-p {
+    font-size: 16px !important;
+  }
+
+  .selected-work-card-tags {
+    font-size: 14px !important;
+  }
+
+  .selected-work-card-title {
+    font-size: 27px !important;
+    line-height: 43px !important;
+  }
+
+  .work-img-container:nth-child(1) {
+    width: 528px !important;
+    min-height: 400px !important;
+    margin-right: 45px !important;
+    border-radius: 48px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container:nth-child(2) {
+    width: 528px !important;
+    min-height: 400px !important;
+    margin-left: 45px !important;
+    border-radius: 48px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container3 {
+    width: 528px !important;
+    min-height: 400px !important;
+    margin-right: 45px !important;
+    border-radius: 48px !important;
+    background: #e2f1de !important;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  /* selected works */
+  .selected-works-container {
+    width: 856px !important;
+    /* background: red !important; */
+  }
+
+  .selected-works-container div:nth-child(1) {
+    margin-bottom: 50px !important;
+  }
+
+  .work-container-cards {
+    margin-bottom: 200px !important;
+    padding: 30px !important;
+  }
+
+  .selected-works-h {
+    font-size: 35px !important;
+  }
+
+  .selected-works-p {
+    font-size: 16px !important;
+  }
+
+  .selected-work-card-tags {
+    font-size: 14px !important;
+  }
+
+  .selected-work-card-title {
+    font-size: 25px !important;
+    line-height: 43px !important;
+  }
+
+  .work-img-container:nth-child(1) {
+    width: 500px !important;
+    min-height: 400px !important;
+    margin-right: 40px !important;
+    border-radius: 48px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container:nth-child(2) {
+    width: 500px !important;
+    min-height: 400px !important;
+    margin-left: 40px !important;
+    border-radius: 48px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container3 {
+    width: 500px !important;
+    min-height: 400px !important;
+    margin-right: 40px !important;
+    border-radius: 48px !important;
+    background: #e2f1de !important;
+  }
 }
 
 @media screen and (max-width: 888px) {
+  /* hero */
   .hero-card {
     width: 700px !important;
   }
@@ -70,9 +272,66 @@
   .secondaryBtn {
     padding: 14px 24px !important;
   }
+
+  /* selected works */
+  .selected-works-container {
+    width: 700px !important;
+    /* background: red !important; */
+  }
+
+  .selected-works-container div:nth-child(1) {
+    margin-bottom: 50px !important;
+  }
+
+  .work-container-cards {
+    margin-bottom: 200px !important;
+    padding: 0px !important;
+  }
+
+  .selected-works-h {
+    font-size: 30px !important;
+  }
+
+  .selected-works-p {
+    font-size: 15px !important;
+  }
+
+  .selected-work-card-tags {
+    font-size: 14px !important;
+  }
+
+  .selected-work-card-title {
+    font-size: 22px !important;
+    line-height: 37px !important;
+  }
+
+  .work-img-container:nth-child(1) {
+    width: 500px !important;
+    min-height: 400px !important;
+    margin-right: 25px !important;
+    border-radius: 48px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container:nth-child(2) {
+    width: 500px !important;
+    min-height: 400px !important;
+    margin-left: 25px !important;
+    border-radius: 48px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container3 {
+    width: 500px !important;
+    min-height: 400px !important;
+    margin-right: 25px !important;
+    border-radius: 48px !important;
+    background: #e2f1de !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  /* hero */
   .hero-card {
     width: 620px !important;
   }
@@ -100,9 +359,107 @@
     padding: 12px 20px !important;
     font-size: 15px !important;
   }
+
+  /* selected works */
+  .selected-works-container {
+    width: 100% !important;
+    padding: 0 3rem !important;
+    /* background: red !important; */
+  }
+
+  .selected-works-container-first-div {
+    margin-bottom: 50px !important;
+  }
+
+  .selected-works-container div:nth-child(1) {
+    margin-bottom: 0px !important;
+  }
+
+  .work-container-cards {
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+    flex-direction: column !important;
+  }
+
+  .work-container-cards:nth-child(3) {
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .selected-works-h {
+    font-size: 30px !important;
+  }
+
+  .selected-works-p {
+    font-size: 15px !important;
+  }
+
+  .selected-work-card-tags {
+    font-size: 14px !important;
+  }
+
+  .selected-work-card-title {
+    font-size: 22px !important;
+    line-height: 37px !important;
+  }
+
+  .work-img-container:nth-child(1) {
+    width: 100% !important;
+    min-height: 400px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    border-radius: 48px;
+    padding: 10px !important;
+    margin-top: 50px !important;
+  }
+
+  .work-img-container:nth-child(2) {
+    width: 100% !important;
+    min-height: 400px !important;
+    margin-left: 0px !important;
+    border-radius: 48px !important;
+    margin-bottom: 0px !important;
+    padding: 10px !important;
+  }
+
+  .work-img-container3 {
+    width: 100% !important;
+    min-height: 400px !important;
+    margin-right: 0px !important;
+    border-radius: 48px !important;
+    background: #e2f1de !important;
+    margin-bottom: 0px !important;
+  }
+
+  .work-text-container {
+    height: none !important;
+    width: 100% !important;
+    padding: 0px 0px !important;
+    margin-top: 2rem !important;
+  }
+
+  .selected-work-info {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    text-align: center !important;
+  }
+
+  .selected-work-card-title-container {
+    margin-bottom: 0px !important;
+  }
+
+  .selected-work-card-title {
+    text-align: center !important;
+  }
+
+  .viewWorkSecondaryBtn {
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 700px) {
+  /* hero */
   .hero-card {
     width: 530px !important;
   }
@@ -130,9 +487,17 @@
     padding: 12px 20px !important;
     font-size: 15px !important;
   }
+
+  /* selected works */
+  .selected-works-container {
+    width: 100% !important;
+    padding: 0 25px !important;
+    /* background: red !important; */
+  }
 }
 
 @media screen and (max-width: 640px) {
+  /* hero */
   .hero-card {
     width: 500px !important;
   }
@@ -163,6 +528,7 @@
 }
 
 @media screen and (max-width: 590px) {
+  /* hero */
   .hero-container {
     padding: 0 15px !important;
   }

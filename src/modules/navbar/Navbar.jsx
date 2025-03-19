@@ -223,11 +223,12 @@ const Navbar = () => {
                   Resume
                 </a>
               </li>
-              <li className="nav-item" style={isOpen ? slideInStyle4 : {}}>
+              <li className="nav-item mt-3" style={isOpen ? slideInStyle4 : {}}>
                 <a
                   className="primaryBtnNav"
                   href="#contact"
                   onClick={toggleSidebar}
+                  style={{ textDecoration: "none" }}
                 >
                   Get in touch
                 </a>

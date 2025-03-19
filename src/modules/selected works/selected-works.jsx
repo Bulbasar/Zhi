@@ -17,20 +17,26 @@ const SelectedWorks = () => {
     });
   }, []);
   return (
-    <section className="selected-works-section  d-flex flex-row justify-content-center">
+    <section
+      className="selected-works-section  d-flex flex-row justify-content-center"
+      id="works"
+    >
       <div className="selected-works-container ">
         <div
-          className="w-100 d-flex flex-column align-items-center"
+          className="w-100 d-flex flex-column align-items-center selected-works-container-first-div"
           style={{ marginBottom: "80px" }}
         >
           <h6
-            className="h-primary-color"
+            className="h-primary-color selected-works-h"
             style={{ fontSize: "48px", fontWeight: 600 }}
           >
             Selected Works
           </h6>
 
-          <p className="text-center p-text-muted" style={{ fontSize: "20px" }}>
+          <p
+            className="text-center p-text-muted selected-works-p"
+            style={{ fontSize: "20px" }}
+          >
             These are the projects I worked on during my internship and
             part-time as a UI/UX Designer at an IT company. Each project
             highlights my design process, the challenges I faced, and the
@@ -43,7 +49,7 @@ const SelectedWorks = () => {
           style={{ minHeight: "460px" }}
         >
           <div
-            className=" work-img-container d-flex flex-row align-items-center justify-content-center"
+            className="work-img-container1 work-img-container d-flex flex-row align-items-center justify-content-center"
             data-aos="fade-right"
             data-aos-delay="500"
             data-aos-sm="fade-up"
@@ -57,28 +63,34 @@ const SelectedWorks = () => {
             data-aos-delay="500"
             data-aos-sm="fade-up"
           >
-            <p
-              className="p-text-muted"
-              style={{ fontSize: "16px", fontWeight: 600 }}
-            >
-              HR TECH · WEB APP
-            </p>
-
-            <div className="w-100" style={{ marginBottom: "64px" }}>
-              <h6
-                className="h-primary-color"
-                style={{
-                  fontSize: "40px",
-                  lineHeight: "48px",
-                  fontWeight: 600,
-                }}
+            <div className="selected-work-info">
+              <p
+                className="p-text-muted selected-work-card-tags"
+                style={{ fontSize: "16px", fontWeight: 600 }}
               >
-                Enhancing the HRIS for a more efficient and intuitive workflow.
-              </h6>
+                HR TECH · WEB APP
+              </p>
+
+              <div
+                className="w-100 selected-work-card-title-container"
+                style={{ marginBottom: "64px" }}
+              >
+                <h6
+                  className="h-primary-color selected-work-card-title"
+                  style={{
+                    fontSize: "40px",
+                    lineHeight: "48px",
+                    fontWeight: 600,
+                  }}
+                >
+                  Enhancing the HRIS for a more efficient and intuitive
+                  workflow.
+                </h6>
+              </div>
             </div>
 
             <button className="viewWorkSecondaryBtn">
-              View Work <i class="bx bx-right-arrow-alt "></i>
+              View Work <i className="bx bx-right-arrow-alt "></i>
             </button>
           </div>
         </div>
@@ -93,29 +105,34 @@ const SelectedWorks = () => {
             data-aos-delay="500"
             data-aos-sm="fade-up"
           >
-            <p
-              className="p-text-muted"
-              style={{ fontSize: "16px", fontWeight: 600 }}
-            >
-              MARTECH · WEB APP
-            </p>
-
-            <div className="w-100" style={{ marginBottom: "64px" }}>
-              <h6
-                className="h-primary-color"
-                style={{
-                  fontSize: "40px",
-                  lineHeight: "48px",
-                  fontWeight: 600,
-                }}
+            <div className="selected-work-info">
+              <p
+                className="p-text-muted selected-work-card-tags"
+                style={{ fontSize: "16px", fontWeight: 600 }}
               >
-                Building a CMS to simplify content management and enhance
-                operations.
-              </h6>
+                MARTECH · WEB APP
+              </p>
+
+              <div
+                className="w-100 selected-work-card-title-container"
+                style={{ marginBottom: "64px" }}
+              >
+                <h6
+                  className="h-primary-color selected-work-card-title"
+                  style={{
+                    fontSize: "40px",
+                    lineHeight: "48px",
+                    fontWeight: 600,
+                  }}
+                >
+                  Building a CMS to simplify content management and enhance
+                  operations.
+                </h6>
+              </div>
             </div>
 
             <button className="viewWorkSecondaryBtn">
-              View Work <i class="bx bx-right-arrow-alt "></i>
+              View Work <i className="bx bx-right-arrow-alt "></i>
             </button>
           </div>
 
@@ -148,28 +165,34 @@ const SelectedWorks = () => {
             data-aos-delay="500"
             data-aos-sm="fade-up"
           >
-            <p
-              className="p-text-muted"
-              style={{ fontSize: "16px", fontWeight: 600 }}
-            >
-              HR TECH · WEB APP
-            </p>
-
-            <div className="w-100" style={{ marginBottom: "64px" }}>
-              <h6
-                className="h-primary-color"
-                style={{
-                  fontSize: "40px",
-                  lineHeight: "48px",
-                  fontWeight: 600,
-                }}
+            <div className="selected-work-info">
+              <p
+                className="p-text-muted selected-work-card-tags"
+                style={{ fontSize: "16px", fontWeight: 600 }}
               >
-                Enhancing the HRIS for a more efficient and intuitive workflow.
-              </h6>
+                HR TECH · WEB APP
+              </p>
+
+              <div
+                className="w-100 selected-work-card-title-container"
+                style={{ marginBottom: "64px" }}
+              >
+                <h6
+                  className="h-primary-color selected-work-card-title"
+                  style={{
+                    fontSize: "40px",
+                    lineHeight: "48px",
+                    fontWeight: 600,
+                  }}
+                >
+                  Enhancing the HRIS for a more efficient and intuitive
+                  workflow.
+                </h6>
+              </div>
             </div>
 
             <button className="viewWorkSecondaryBtn">
-              View Work <i class="bx bx-right-arrow-alt "></i>
+              View Work <i className="bx bx-right-arrow-alt "></i>
             </button>
           </div>
         </div>

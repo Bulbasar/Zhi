@@ -1,7 +1,17 @@
 import React, { useState, useEffect } from "react";
-import resume from "../../../Zhizhi_Maro_Nieves.pdf";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import resume from "../../../Zhizhi_Maro_Nieves.pdf";
 const Hero2 = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: true, // animations will occur every time element comes into view
+      offset: 0,
+    });
+  }, []);
   return (
     <section
       className="container-fluid min-vh-100 py-2 hero-section"
@@ -11,6 +21,7 @@ const Hero2 = () => {
         <div
           className="hero-card d-flex flex-column align-items-center "
           style={{ width: "976px", minHeight: "386px" }}
+          data-aos="zoom-in"
         >
           <div
             className="d-flex flex-row align-items-center hero-h-container"
@@ -47,7 +58,13 @@ const Hero2 = () => {
           </div>
 
           <div className="d-flex flex-row gap-3">
-            <button className="primaryBtn">Get in Touch</button>
+            <a
+              className="primaryBtn"
+              href="#works"
+              style={{ textDecoration: "none" }}
+            >
+              Get in Touch
+            </a>
             <button className="secondaryBtn">View Resume</button>
           </div>
         </div>
