@@ -5,7 +5,7 @@ const Hero2 = () => {
   return (
     <section
       className="container-fluid min-vh-100 py-2 hero-section"
-      style={{ marginTop: "8.5vh", padding: "0 24px" }}
+      style={{ marginTop: "80px", padding: "0 24px" }}
     >
       <div className="hero-container d-flex flex-column align-items-center justify-content-center text-center ">
         <div
@@ -13,11 +13,11 @@ const Hero2 = () => {
           style={{ width: "976px", minHeight: "386px" }}
         >
           <div
-            className="d-flex flex-row align-items-center"
+            className="d-flex flex-row align-items-center hero-h-container"
             style={{ width: "778px", marginBottom: "32px" }}
           >
             <h6
-              className="h-primary-color"
+              className="h-primary-color hero-h"
               style={{
                 fontSize: "64px",
                 fontWeight: 600,
@@ -32,10 +32,13 @@ const Hero2 = () => {
               </span>
             </h6>
           </div>
-          <div className="w-100" style={{ marginBottom: "56px" }}>
+          <div
+            className="w-100 hero-p-container"
+            style={{ marginBottom: "56px" }}
+          >
             <p
-              className="p-text-muted"
-              style={{ fontSize: "24px", lineHeight: "34px" }}
+              className="p-text-muted hero-p"
+              style={{ fontSize: "24px", lineHeight: "34px", fontWeight: 400 }}
             >
               Hi, I’m Zhizhi Maro, an IT graduate with a well-rounded foundation
               in UX/UI design, dedicated to creating user-centered solutions for

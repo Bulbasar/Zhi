@@ -6,6 +6,7 @@ import "./styles/main.css";
 import "./styles/responsive.css";
 import "./styles/animation.css";
 import "./styles/defaults.css";
+import "./styles/new_responsive.css";
 
 // modules
 import Navbar from "./modules/navbar/Navbar";

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import imgWork1 from "../../assets/selected-works-1.png";
 
@@ -7,6 +9,13 @@ import imgWork2 from "../../assets/selected-works-2.png";
 import imgWork3 from "../../assets/selected-works-3.png";
 
 const SelectedWorks = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: true, // animations will occur every time element comes into view
+      offset: 0,
+    });
+  }, []);
   return (
     <section className="selected-works-section  d-flex flex-row justify-content-center">
       <div className="selected-works-container ">
@@ -33,11 +42,21 @@ const SelectedWorks = () => {
           className="w-100 d-flex flex-row  align-items-center work-container-cards"
           style={{ minHeight: "460px" }}
         >
-          <div className=" work-img-container d-flex flex-row align-items-center justify-content-center">
+          <div
+            className=" work-img-container d-flex flex-row align-items-center justify-content-center"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-sm="fade-up"
+          >
             <img src={imgWork1} alt="" className="img-fluid" />
           </div>
 
-          <div className=" work-text-container">
+          <div
+            className=" work-text-container"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-sm="fade-up"
+          >
             <p
               className="p-text-muted"
               style={{ fontSize: "16px", fontWeight: 600 }}
@@ -68,7 +87,12 @@ const SelectedWorks = () => {
           className="w-100 d-flex flex-row  align-items-center work-container-cards"
           style={{ minHeight: "460px" }}
         >
-          <div className=" work-text-container">
+          <div
+            className=" work-text-container"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-sm="fade-up"
+          >
             <p
               className="p-text-muted"
               style={{ fontSize: "16px", fontWeight: 600 }}
@@ -95,7 +119,12 @@ const SelectedWorks = () => {
             </button>
           </div>
 
-          <div className=" work-img-container d-flex flex-row align-items-center justify-content-center">
+          <div
+            className=" work-img-container d-flex flex-row align-items-center justify-content-center"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-sm="fade-up"
+          >
             <img src={imgWork2} alt="" className="img-fluid" />
           </div>
         </div>
@@ -104,11 +133,21 @@ const SelectedWorks = () => {
           className="w-100 d-flex flex-row  align-items-center work-container-cards"
           style={{ minHeight: "460px" }}
         >
-          <div className="work-img-container3 d-flex flex-row align-items-center justify-content-center">
+          <div
+            className="work-img-container3 d-flex flex-row align-items-center justify-content-center"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-sm="fade-up"
+          >
             <img src={imgWork3} alt="" className="img-fluid" />
           </div>
 
-          <div className="work-text-container">
+          <div
+            className="work-text-container"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-sm="fade-up"
+          >
             <p
               className="p-text-muted"
               style={{ fontSize: "16px", fontWeight: 600 }}

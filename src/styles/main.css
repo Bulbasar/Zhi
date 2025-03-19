@@ -1,5 +1,5 @@
 * {
-  font-family: "Inter" sans-serif;
+  font-family: "Lato" sans-serif;
 }
 
 /* Apply to all elements */
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-container {
-  padding: 0 80px;
+  padding: 16px 40px;
 }
 
 .contactBtn {
@@ -279,6 +279,7 @@ body {
   width: 100% !important;
   min-height: 100vh;
   padding: 80px 0 !important;
+  overflow: hidden !important;
 }
 
 .selected-works-container {
