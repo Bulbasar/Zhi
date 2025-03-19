@@ -97,7 +97,7 @@ const Navbar = () => {
             <img src={logo} alt="Logo" style={{ width: "40px" }} />
           </span>
           <span
-            className="h-100 mx-3 text-dark custom-logo-p"
+            className="h-100 mx-3 text-dark custom-logo-p h-primary-color"
             style={{ fontSize: "24px", fontWeight: 600 }}
           >
             Zhimaro
@@ -161,10 +161,7 @@ const Navbar = () => {
         </div>
 
         {/* Sidebar for mobile view */}
-        <div
-          className={`sidebar ${isOpen ? "active border" : ""}`}
-          ref={sidebarRef}
-        >
+        <div className={`sidebar ${isOpen ? "active" : ""}`} ref={sidebarRef}>
           {/* Close Button */}
           <span
             className="close-btn btn fs-1"

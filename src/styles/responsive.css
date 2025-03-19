@@ -482,7 +482,9 @@
 @media screen and (max-width: 991px) {
   /* nav */
   .custom-logo-p {
-    display: none !important;
+    font-size: 19px !important;
+    margin: 0 !important;
+    margin: 0 5px !important;
   }
 
   .sidebar {
