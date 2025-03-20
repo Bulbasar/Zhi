@@ -439,18 +439,18 @@
     margin-top: 2rem !important;
   }
 
-  .selected-work-info {
+  /* .selected-work-info {
     display: flex !important;
     flex-direction: column-reverse !important;
     text-align: center !important;
-  }
+  } */
 
   .selected-work-card-title-container {
     margin-bottom: 0px !important;
   }
 
   .selected-work-card-title {
-    text-align: center !important;
+    /* text-align: center !important; */
   }
 
   .viewWorkSecondaryBtn {
