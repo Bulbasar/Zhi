@@ -89,7 +89,11 @@ const SelectedWorks = () => {
               </div>
             </div>
 
-            <button className="viewWorkSecondaryBtn">
+            <button
+              style={{ textDecoration: "none" }}
+              className="viewWorkSecondaryBtn"
+              onClick={() => (window.location.href = "/view-work/1")}
+            >
               View Work <i className="bx bx-right-arrow-alt "></i>
             </button>
           </div>
@@ -131,7 +135,11 @@ const SelectedWorks = () => {
               </div>
             </div>
 
-            <button className="viewWorkSecondaryBtn">
+            <button
+              style={{ textDecoration: "none" }}
+              className="viewWorkSecondaryBtn"
+              onClick={() => (window.location.href = "/view-work/2")}
+            >
               View Work <i className="bx bx-right-arrow-alt "></i>
             </button>
           </div>
@@ -191,7 +199,11 @@ const SelectedWorks = () => {
               </div>
             </div>
 
-            <button className="viewWorkSecondaryBtn">
+            <button
+              style={{ textDecoration: "none" }}
+              className="viewWorkSecondaryBtn"
+              onClick={() => (window.location.href = "/view-work/3")}
+            >
               View Work <i className="bx bx-right-arrow-alt "></i>
             </button>
           </div>

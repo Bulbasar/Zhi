@@ -397,11 +397,13 @@
 
   .selected-work-card-tags {
     font-size: 14px !important;
+    margin-bottom: 5px !important;
   }
 
   .selected-work-card-title {
     font-size: 22px !important;
     line-height: 37px !important;
+    /* margin-bottom: 1.5rem !important; */
   }
 
   .work-img-container:nth-child(1) {
