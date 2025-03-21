@@ -338,3 +338,161 @@ body {
   padding: 40px;
   border-radius: 24px;
 }
+
+/* Project2 Component Styles */
+
+.project-section {
+  margin-top: 80px;
+  padding: 0 24px;
+}
+
+.hero-container {
+  padding: 80px 164px;
+}
+
+.project-work-card {
+  width: 1136px;
+}
+
+.project-work-title-card {
+  width: 882px;
+  margin-bottom: 80px;
+}
+
+.project-work-img-container {
+  margin-bottom: 80px;
+}
+
+.project-work-overview {
+  padding: 40px;
+  border-radius: 24px;
+}
+
+.project-work-documentation {
+  padding: 80px 0;
+}
+
+.project-work-goal {
+  width: 976px;
+  margin-bottom: 80px;
+}
+
+.project-work-goal-title {
+  width: 296px;
+}
+
+.project-work-goal-p {
+  width: 592px;
+}
+
+.project-work-hero-img {
+  width: 1176px;
+  margin-bottom: 80px;
+}
+
+.project-work-requirements-container {
+  width: 1176px;
+  margin-bottom: 80px;
+  background: #002c57;
+  padding: 80px 80px;
+  border-radius: 48px;
+}
+
+.project-work-requirements {
+  width: 976px;
+  color: #fff !important;
+  margin-bottom: 120px;
+}
+
+.project-work-requirements-title {
+  width: 215px;
+}
+
+.project-work-requirements-p {
+  width: 592px;
+}
+
+.project-work-requirements-p p {
+  font-size: 16px;
+  font-size: 400;
+  line-height: 24px;
+  color: #cbd2db !important;
+}
+
+.defining-container {
+  margin-bottom: 60px;
+}
+
+.defining-card-container {
+  gap: 8px;
+}
+
+.defining-card {
+  border-radius: 16px;
+  background: #003366;
+  padding: 32px 32px;
+}
+
+.defining-card h6 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: start;
+  font-weight: 600;
+}
+
+.defining-card h6:nth-child(2) {
+  line-height: 32px;
+}
+
+.defining-card p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: start;
+}
+
+.project-work-solutions {
+  width: 976px;
+  color: #fff !important;
+}
+
+.project-work-solutions-title {
+  width: 215px;
+}
+
+.solutions-container {
+  margin-bottom: 60px;
+}
+
+.project-solutions-requirements-p {
+  width: 592px;
+}
+
+.solutions-card-container {
+  gap: 8px;
+}
+
+.solutions-card {
+  border-radius: 16px;
+  background: #ffffff;
+  padding: 32px 32px;
+}
+
+.solutions-card h6 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: start;
+  font-weight: 600;
+  color: #002c57 !important;
+}
+
+.solutions-card h6:nth-child(2) {
+  line-height: 32px;
+}
+
+.solutions-card p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: start;
+}
