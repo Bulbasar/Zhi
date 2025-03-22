@@ -77,3 +77,48 @@
 .viewWorkSecondaryBtn:hover {
   background: #eceff3 !important;
 }
+
+/* Scroll to Top Button */
+.scroll-to-top-container {
+  position: fixed; /* Fixes it to the viewport */
+  bottom: 50px; /* Distance from the bottom */
+  right: 40px; /* Distance from the right */
+  text-decoration: none !important;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
+.scroll-to-top {
+  height: 56px !important;
+  width: 56px !important;
+  background: #002c57 !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Hide the button when at the top */
+.scroll-to-top-container.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scroll-to-top-container:hover {
+  color: #fff !important;
+}
+
+.scroll-to-top-container div:hover {
+  color: #fff !important;
+}
+
+.scroll-to-top-container i:hover {
+  color: #fff !important;
+}
+
+.scroll-to-top:hover {
+  color: #fff !important;
+  transform: scale(1.1);
+}

@@ -1,14 +1,41 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import ProjectHris1 from "../projects/Project-hris1";
+import ProjectCms from "../projects/Project-cms.jsx";
+import ProjectHris3 from "../projects/Project-hris2.jsx";
 
 import project1Image1 from "../../assets/Project-1/work-1.png";
 import project1Image2 from "../../assets/Project-1/work-2.png";
+import project1Image3 from "../../assets/Project-1/work-3.png";
+import project1Image4 from "../../assets/Project-1/work-4.png";
+import project1Image5 from "../../assets/Project-1/work-5.jpg";
+import project1Image6 from "../../assets/Project-1/work-6.png";
+import project1Image7 from "../../assets/Project-1/work-7.png";
+import project1Image8 from "../../assets/Project-1/work-8.png";
+import project1Image9 from "../../assets/Project-1/work-9.png";
+import project1Image10 from "../../assets/Project-1/work-10.png";
+import project1Image11 from "../../assets/Project-1/work-11.png";
+import project1Image12 from "../../assets/Project-1/work-12.jpg";
+import project1Image13 from "../../assets/Project-1/work-13.jpg";
+import project1Image14 from "../../assets/Project-1/work-14.png";
 
 import project2Image1 from "../../assets/Project-2/work-1.png";
 import project2Image2 from "../../assets/Project-2/work-2.png";
+import project2Image3 from "../../assets/Project-2/work-3.png";
+import project2Image4 from "../../assets/Project-2/work-4.jpg";
+import project2Image5 from "../../assets/Project-2/work-5.jpg";
+import project2Image6 from "../../assets/Project-2/work-6.png";
 
 import project3Image1 from "../../assets/Project-3/work-1.png";
 import project3Image2 from "../../assets/Project-3/work-2.png";
+import project3Image3 from "../../assets/Project-3/work-3.png";
+import project3Image4 from "../../assets/Project-3/work-4.png";
+import project3Image5 from "../../assets/Project-3/work-5.jpg";
+import project3Image6 from "../../assets/Project-3/work-6.jpg";
+import project3Image7 from "../../assets/Project-3/work-7.jpg";
+import project3Image8 from "../../assets/Project-3/work-8.jpg";
+import project3Image9 from "../../assets/Project-3/work-9.jpg";
+import project3Image10 from "../../assets/Project-3/work-10.png";
 
 const Project2 = () => {
   const { id } = useParams(); // Get the ID from the URL
@@ -45,7 +72,7 @@ const Project2 = () => {
           cardId: "02",
           title: "Inefficient Layout & Navigation Issues",
           description:
-            "Poor placement of key elements disrupted the workflow. The search bar and item count weren’t intuitive, tables had too many action buttons, and large tables crammed excessive information, causing overload.",
+            "Poor placement of key elements disrupted the workflow. The search bar and item count weren't intuitive, tables had too many action buttons, and large tables crammed excessive information, causing overload.",
         },
         {
           cardId: "03",
@@ -78,6 +105,34 @@ const Project2 = () => {
             "I refine text styles to establish better hierarchy, enhance contrast, and label clarity. I also replace modals with full pages for more detailed and structured content, resulting in clearer and more organized information.",
         },
       ],
+      // implemented
+      implementedImg: project1Image3,
+      // showcase
+      // 1
+      showcaseTitle: "Standardizing UI & Simplifying Filters",
+      showcaseParagraph:
+        "I applied a consistent color scheme, unified button styles, and improved contrast. Filters were decluttered by removing unnecessary labels and refining spacing, creating a more cohesive and user-friendly interface.",
+      showcaseImageBefore1: project1Image4,
+      showcaseImageAfter1: project1Image5,
+      // 2
+      showcaseTitle2: "Improving Layout & Navigation",
+      showcaseParagraph2:
+        'I repositioned key elements, placed the search bar where users expect it, replaced multiple action buttons with a "More" button for cleaner tables, and introduced horizontal scrolling for large tables to improve readability.',
+      showcaseImageBefore2: project1Image6,
+      showcaseImageBefore2_1: project1Image7,
+      showcaseImageAfter2: project1Image8,
+      showcaseImageAfter2_1: project1Image9,
+      // 3
+      showcaseTitle3: "Enhancing Readability & Content Structure",
+      showcaseParagraph3:
+        "I refine text styles to establish better hierarchy, enhance contrast, and label clarity. I also replace modals with full pages for more detailed and structured content, resulting in clearer and more organized information.",
+      showcaseImageBefore3_1: project1Image10,
+      showcaseImageAfter3_1: project1Image11,
+      showcaseImageBefore3_2: project1Image12,
+      showcaseImageAfter3_2: project1Image13,
+      // demo
+      demoTitle: "Slash HRIS",
+      demoImg: project1Image14,
     },
     {
       id: "2",
@@ -140,6 +195,17 @@ const Project2 = () => {
             "The Playlist Module was created with customizable timing and smooth transitions for greater flexibility. These powerful features allow users to create engaging and professional slideshows with minimal effort.",
         },
       ],
+      // implemented
+      implementedImg: project2Image3,
+      // showcase
+      showcaseTitle: "Website-like Navigation Layout",
+      showcaseParagraph:
+        "The interface was redesigned with a top navigation bar, optimizing screen space and improving accessibility. This structure made it easier for users to navigate between modules efficiently.",
+      showcaseImageCms1: project2Image4,
+      showcaseImageCms2: project2Image5,
+      // demo
+      demoTitle: "CMS",
+      demoImg: project2Image6,
     },
     {
       id: "3",
@@ -166,7 +232,7 @@ const Project2 = () => {
           cardId: "01",
           title: "Branded Interface Customization",
           description:
-            "The client wanted the HRIS to reflect their brand identity by updating the interface with their official colors and design elements. They requested a more polished, modern look to create a seamless experience for employees while maintaining the platform’s familiar structure.",
+            "The client wanted the HRIS to reflect their brand identity by updating the interface with their official colors and design elements. They requested a more polished, modern look to create a seamless experience for employees while maintaining the platform's familiar structure.",
         },
         {
           cardId: "02",
@@ -178,13 +244,13 @@ const Project2 = () => {
       // solutions
       solutionTitle: "Customizations",
       solutionParagraph:
-        "These are the modifications I implemented to enhance the system’s interface and functionality based on the client’s needs.",
+        "These are the modifications I implemented to enhance the system's interface and functionality based on the client's needs.",
       solutionsCards: [
         {
           cardId: "01",
           title: "Tailoring the UI to Match Brand Identity",
           description:
-            "To align the HRIS with the client’s branding, I updated the color scheme across buttons, navigation bars, tables, and other elements. I refined shades for better contrast, ensured accessibility, and maintained a cohesive, modern, and professional look.",
+            "To align the HRIS with the client's branding, I updated the color scheme across buttons, navigation bars, tables, and other elements. I refined shades for better contrast, ensured accessibility, and maintained a cohesive, modern, and professional look.",
         },
         {
           cardId: "02",
@@ -193,6 +259,28 @@ const Project2 = () => {
             "I designed a Pakyawan module with four sub-modules: Piece Rate for pay calculation, Workload for task tracking, Pakyawan Payroll for automation, and Cash Advance for requests. This created a more efficient system for handling Pakyawan-based compensation.",
         },
       ],
+      // implemented
+      implementedImg: project3Image3,
+      // showcase
+      // 1
+      showcaseTitle: "Tailoring the UI to Match Brand Identity",
+      showcaseParagraph:
+        "To align the HRIS with the client's branding, I updated the color scheme across buttons, navigation bars, tables, and other elements. I refined shades for better contrast, ensured accessibility, and maintained a cohesive, modern, and professional look.",
+      showcaseImageBefore1: project3Image4,
+      showcaseImageAfter1: project3Image5,
+      // 2
+      showcaseTitle2: "Building a  Pakyawan Module",
+      showcaseParagraph2:
+        "I designed a Pakyawan module with four sub-modules: Piece Rate for pay calculation, Workload for task tracking, Pakyawan Payroll for automation, and Cash Advance for requests. This created a more efficient system for handling Pakyawan-based compensation.",
+      // 3
+      pakyawanImg1: project3Image6,
+      pakyawanImg2: project3Image7,
+      pakyawanImg3: project3Image8,
+      pakyawanImg4: project3Image9,
+
+      // demo
+      demoTitle: "Infinity",
+      demoImg: project3Image10,
     },
   ];
 
@@ -203,9 +291,37 @@ const Project2 = () => {
     return <div>Project not found</div>;
   }
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY > 300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <section className="container-fluid min-vh-100 py-2 project-section">
-      <div className="hero-container d-flex flex-column align-items-center project-container">
+    <section className="container-fluid min-vh-100 py-2 project-section ">
+      <a
+        href="#"
+        className={`scroll-to-top-container ${isVisible ? "" : "hidden"}`}
+        onClick={scrollToTop}
+      >
+        <div className="scroll-to-top d-flex flex-row align-items-center justify-content-center">
+          <i className="bx bxs-chevron-up fs-3 text-white"></i>
+        </div>
+      </a>
+      <div className="hero-container d-flex flex-column align-items-center project-container ">
         <div className="d-flex flex-column project-work-card">
           <div className="project-work-title-card">
             <a
@@ -406,6 +522,66 @@ const Project2 = () => {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+
+        <div className="project-work-implement">
+          <img
+            src={projectContent.implementedImg}
+            className="w-100"
+            alt="Implemented Image"
+          />
+        </div>
+
+        <div className="project-work-show-container ">
+          {/* 1 */}
+          <div className="project-work-show d-flex flex-row justify-content-between">
+            <div className="project-work-show-title">
+              <h6
+                className="h-primary-color"
+                style={{ fontSize: "32px", fontWeight: 600 }}
+              >
+                {projectContent.showcaseTitle}
+              </h6>
+            </div>
+            <div className="project-work-show-p">
+              <p
+                className="p-text-muted text-start"
+                style={{
+                  fontSize: "16px",
+                  lineHeight: "24px",
+                  fontWeight: 400,
+                }}
+              >
+                {projectContent.showcaseParagraph}
+              </p>
+            </div>
+          </div>
+
+          {/* Customized content for every project */}
+          {id === "1" && <ProjectHris1 projectContent={projectContent} />}
+          {id === "2" && <ProjectCms projectContent={projectContent} />}
+          {id === "3" && <ProjectHris3 projectContent={projectContent} />}
+        </div>
+
+        <div className="project-work-demo d-flex flex-row align-items-center">
+          <div className="d-flex flex-column project-work-demo-title text-start">
+            <h6 className="h-primary-color text-start">
+              {projectContent.demoTitle}
+            </h6>
+            <p className="p-text-muted text-start">
+              Click the button to view the final design in action
+            </p>
+            <a href="" className="primaryBtnNav text-center">
+              View Prototype
+            </a>
+          </div>
+          <div className="project-work-demo-img shadow">
+            <img
+              src={projectContent.demoImg}
+              alt="Demo Image"
+              className="w-100"
+            />
           </div>
         </div>
       </div>

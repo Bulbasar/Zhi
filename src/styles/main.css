@@ -496,3 +496,103 @@ body {
   font-weight: 400;
   text-align: start;
 }
+
+.project-work-implement {
+  width: 1176px;
+  margin-bottom: 80px;
+}
+
+.project-work-show-container {
+  width: 976px;
+}
+
+.project-work-show {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.project-work-show-title {
+  width: 296px;
+}
+
+.project-work-show-p {
+  width: 592px;
+}
+
+.project-work-show-img p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.project-work-show-img img {
+  border-radius: 16px;
+}
+
+.works-showcase-before-1 {
+  margin-bottom: 40px;
+}
+
+.works-showcase-after-1 {
+  margin-bottom: 80px;
+}
+
+.works-showcase-cms-1 {
+  margin-bottom: 80px;
+}
+
+.works-showcase-before-3 {
+  gap: 24px;
+}
+
+.works-showcase-before-3 {
+  margin-bottom: 80px;
+}
+
+.project-work-demo {
+  width: 1136px;
+  background: #f2f4f7;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  padding-right: 0px;
+  gap: 100px;
+  border-radius: 48px;
+}
+
+.project-work-demo-title {
+  width: 256px;
+}
+
+.project-work-demo-title h6 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.project-work-demo-title p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.project-work-demo-title a {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  padding: 18px 0px;
+  width: 167px;
+  border-radius: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-work-demo-img {
+  height: 679px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
