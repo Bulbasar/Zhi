@@ -558,6 +558,7 @@ body {
   padding-right: 0px;
   gap: 100px;
   border-radius: 48px;
+  margin-bottom: 80px;
 }
 
 .project-work-demo-title {
@@ -595,4 +596,110 @@ body {
   padding-right: 0px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+.project-work-takeaways-container {
+  width: 976px;
+  margin-bottom: 80px;
+}
+
+.project-work-takeaways-title {
+  width: 296px;
+}
+
+.project-work-takeaways-p {
+  width: 592px;
+}
+/* Adjust the bullet styling */
+.project-work-takeaways-p ul {
+  padding-left: 0;
+}
+
+.project-work-takeaways-p li span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5c7185;
+}
+
+.project-work-thanks-container {
+  width: 1136px;
+  background: #002c57;
+  height: 504px;
+  border-radius: 48px;
+  padding: 140px 0;
+  margin-bottom: 80px;
+}
+
+.project-work-thanks-container img {
+  height: 104px;
+  width: 104px;
+  margin-bottom: 56px;
+}
+
+.project-work-thanks-container h6 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.project-work-more-work {
+  width: 976px;
+}
+
+.project-work-more-work h6:nth-child(1) {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: auto;
+  margin-bottom: 40px;
+}
+
+.project-work-more-work-card-container {
+  gap: 32px;
+}
+
+.project-work-more-work-card {
+  width: 100%;
+  height: 540px;
+  border-radius: 32px;
+}
+
+.project-work-more-work-card-title {
+  padding: 40px;
+}
+
+.project-work-more-work-card-title p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.project-work-more-work-card-title h6 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.seeWorkSecondaryBtn {
+  padding: 14px 20px !important;
+  background: transparent !important;
+  color: #002c57 !important;
+  border-radius: 14px !important;
+  border: 1px solid #dee3e9 !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  transition: ease-in-out 0.4s;
+}
+
+.seeWorkSecondaryBtn:hover {
+  background: #eceff3 !important;
+}
+
+.seeWorkSecondaryBtn i:hover {
+  color: #002c57 !important;
+}
+
+.project-work-more-work-card-img img {
+  height: 279px;
+  padding: 0.35rem 0;
 }

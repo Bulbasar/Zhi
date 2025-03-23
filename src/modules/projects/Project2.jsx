@@ -4,6 +4,8 @@ import ProjectHris1 from "../projects/Project-hris1";
 import ProjectCms from "../projects/Project-cms.jsx";
 import ProjectHris3 from "../projects/Project-hris2.jsx";
 
+import faith from "../../assets/Faith.png";
+
 import project1Image1 from "../../assets/Project-1/work-1.png";
 import project1Image2 from "../../assets/Project-1/work-2.png";
 import project1Image3 from "../../assets/Project-1/work-3.png";
@@ -18,6 +20,8 @@ import project1Image11 from "../../assets/Project-1/work-11.png";
 import project1Image12 from "../../assets/Project-1/work-12.jpg";
 import project1Image13 from "../../assets/Project-1/work-13.jpg";
 import project1Image14 from "../../assets/Project-1/work-14.png";
+import project1Image15 from "../../assets/Project-1/work-15.png";
+import project1Image16 from "../../assets/Project-1/work-16.png";
 
 import project2Image1 from "../../assets/Project-2/work-1.png";
 import project2Image2 from "../../assets/Project-2/work-2.png";
@@ -25,6 +29,8 @@ import project2Image3 from "../../assets/Project-2/work-3.png";
 import project2Image4 from "../../assets/Project-2/work-4.jpg";
 import project2Image5 from "../../assets/Project-2/work-5.jpg";
 import project2Image6 from "../../assets/Project-2/work-6.png";
+import project2Image7 from "../../assets/Project-2/work-7.png";
+import project2Image8 from "../../assets/Project-2/work-8.png";
 
 import project3Image1 from "../../assets/Project-3/work-1.png";
 import project3Image2 from "../../assets/Project-3/work-2.png";
@@ -36,6 +42,8 @@ import project3Image7 from "../../assets/Project-3/work-7.jpg";
 import project3Image8 from "../../assets/Project-3/work-8.jpg";
 import project3Image9 from "../../assets/Project-3/work-9.jpg";
 import project3Image10 from "../../assets/Project-3/work-10.png";
+import project3Image11 from "../../assets/Project-3/work-11.png";
+import project3Image12 from "../../assets/Project-3/work-12.png";
 
 const Project2 = () => {
   const { id } = useParams(); // Get the ID from the URL
@@ -133,6 +141,42 @@ const Project2 = () => {
       // demo
       demoTitle: "Slash HRIS",
       demoImg: project1Image14,
+      // takeaways
+      takeAwayList: [
+        {
+          takeawayPoints:
+            "Ensuring consistency by standardizing colors and unifying design elements creates a more structured and visually cohesive interface that enhances usability.",
+        },
+        {
+          takeawayPoints:
+            "Improving layout and organization by repositioning key elements and decluttering tables makes navigation more intuitive and interactions more efficient.",
+        },
+        {
+          takeawayPoints:
+            "Enhancing readability by defining a clear text hierarchy, improving contrast, and refining labels helps users process information more quickly and accurately.",
+        },
+      ],
+      // more work
+      moreWorkList: [
+        {
+          moreWorkTag1: "MARTECH",
+          moreWorkTagDot1: "·",
+          moreWorkTag2: "WEB APP",
+          moreWorkTitle:
+            "Building a CMS to simplify content management & enhance.",
+          moreWorkLink: "/view-work/2",
+          moreWorkImg: project1Image15,
+        },
+        {
+          moreWorkTag1: "HR TECH",
+          moreWorkTagDot1: "·",
+          moreWorkTag2: "WEB APP",
+          moreWorkTitle:
+            "Customizing the HRIS to align with client’s needs and branding.",
+          moreWorkLink: "/view-work/3",
+          moreWorkImg: project1Image16,
+        },
+      ],
     },
     {
       id: "2",
@@ -157,18 +201,21 @@ const Project2 = () => {
       definingCards: [
         {
           cardId: "01",
-          title: "Branded Interface Customization",
-          description: "The client wanted the HRIS...",
+          title: "Website-like Navigation Layout",
+          description:
+            "The CMS needed to have a layout that resembled a website, replacing the sidebar navigation with a top bar for a modern look. This adjustment aimed to improve accessibility and create an enhanced user experience.",
         },
         {
           cardId: "02",
-          title: "Pakyawan Wage & Workload Management",
-          description: "The client required a custom Pakyawan module...",
+          title: "Adopt Key System Modules",
+          description:
+            "The system had to incorporate key modules from the reference platform to maintain core functionality, serving as a foundation for building the company's own CMS with enhanced usability and tailored features.",
         },
         {
           cardId: "03",
-          title: "Additional Feature",
-          description: "Description for additional feature...",
+          title: "Slideshow Creation Feature",
+          description:
+            "A slideshow creation module was required to let users compile and manage media presentations efficiently. This feature allowed for seamless content organization and playback customization.",
         },
       ],
       // solutions
@@ -206,6 +253,42 @@ const Project2 = () => {
       // demo
       demoTitle: "CMS",
       demoImg: project2Image6,
+      // takeaways
+      takeAwayList: [
+        {
+          takeawayPoints:
+            "Optimizing navigation by implementing a website-like top bar layout improves accessibility and makes module switching easier.",
+        },
+        {
+          takeawayPoints:
+            "Enhancing usability by refining module layouts, spacing, and responsiveness makes interactions smoother and more intuitive.",
+        },
+        {
+          takeawayPoints:
+            "Simplifying slideshow creation with the Playlist Module allows users to efficiently build and customize engaging media presentations.",
+        },
+      ],
+      // more work
+      moreWorkList: [
+        {
+          moreWorkTag1: "HR TECH",
+          moreWorkTagDot1: "·",
+          moreWorkTag2: "WEB APP",
+          moreWorkTitle:
+            "Enhancing the HRIS for a more efficient and intuitive workflow.",
+          moreWorkLink: "/view-work/1",
+          moreWorkImg: project2Image7,
+        },
+        {
+          moreWorkTag1: "HR TECH",
+          moreWorkTagDot1: "·",
+          moreWorkTag2: "WEB APP",
+          moreWorkTitle:
+            "Customizing the HRIS to align with client’s needs and branding.",
+          moreWorkLink: "/view-work/3",
+          moreWorkImg: project2Image8,
+        },
+      ],
     },
     {
       id: "3",
@@ -281,6 +364,42 @@ const Project2 = () => {
       // demo
       demoTitle: "Infinity",
       demoImg: project3Image10,
+      // takeaways
+      takeAwayList: [
+        {
+          takeawayPoints:
+            "Aligning the UI with the client’s branding by updating colors and refining visual elements created a more cohesive and professional-looking platform.",
+        },
+        {
+          takeawayPoints:
+            "Tailoring the system to client needs by customizing the HRIS interface and workflows ensured a more intuitive experience while maintaining its core functionality.",
+        },
+        {
+          takeawayPoints:
+            "Developing the Pakyawan module with structured submodules for payroll, workload, and cash advances provided an efficient system for managing output-based compensation.",
+        },
+      ],
+      // more work
+      moreWorkList: [
+        {
+          moreWorkTag1: "HR TECH",
+          moreWorkTagDot1: "·",
+          moreWorkTag2: "WEB APP",
+          moreWorkTitle:
+            "Enhancing the HRIS for a more efficient and intuitive workflow.",
+          moreWorkLink: "/view-work/1",
+          moreWorkImg: project3Image11,
+        },
+        {
+          moreWorkTag1: "HR TECH",
+          moreWorkTagDot1: "·",
+          moreWorkTag2: "WEB APP",
+          moreWorkTitle:
+            "Customizing the HRIS to align with client’s needs and branding.",
+          moreWorkLink: "/view-work/3",
+          moreWorkImg: project3Image12,
+        },
+      ],
     },
   ];
 
@@ -582,6 +701,74 @@ const Project2 = () => {
               alt="Demo Image"
               className="w-100"
             />
+          </div>
+        </div>
+
+        <div className="project-work-takeaways-container d-flex flex-row justify-content-between">
+          <div className="project-work-takeaways-title">
+            <h6
+              className="h-primary-color"
+              style={{ fontSize: "32px", fontWeight: 600 }}
+            >
+              My Takeaways
+            </h6>
+          </div>
+          <div className="project-work-takeaways-p">
+            <ul className="list-unstyled ">
+              {projectContent.takeAwayList.map((item, index) => (
+                <li key={index} className="d-flex align-items-start mb-3">
+                  <span className="me-2">•</span>
+                  <p
+                    className="m-0 text-secondary"
+                    style={{ fontSize: "18px", lineHeight: "1.5" }}
+                  >
+                    {item.takeawayPoints}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <div className="project-work-thanks-container d-flex flex-column justify-content-center align-items-center">
+          <img src={faith} alt="Faith" />
+          <h6 className="text-white">Thank you for viewing!</h6>
+        </div>
+
+        <div className="project-work-more-work d-flex flex-column">
+          <h6 className="text-center h-primary-color">See more of my work</h6>
+
+          <div className="d-flex flex-row project-work-more-work-card-container">
+            {projectContent.moreWorkList.map((work, index) => (
+              <div
+                key={index}
+                className="w-100 project-work-more-work-card border"
+              >
+                {/* Work Title & Details */}
+                <div className="project-work-more-work-card-title">
+                  <p className="p-text-muted text-start">
+                    {work.moreWorkTag1}{" "}
+                    <span className="mx-1">{work.moreWorkTagDot1}</span>
+                    {work.moreWorkTag2}
+                  </p>
+                  <h6 className="text-start h-primary-color">
+                    {work.moreWorkTitle}
+                  </h6>
+                  <button
+                    style={{ textDecoration: "none" }}
+                    className="seeWorkSecondaryBtn"
+                    onClick={() => (window.location.href = work.moreWorkLink)}
+                  >
+                    View Work <i className="bx bx-right-arrow-alt "></i>
+                  </button>
+                </div>
+
+                {/* Work Image */}
+                <div className="project-work-more-work-card-img d-flex flex-row justify-content-end">
+                  <img src={work.moreWorkImg} alt="Card Image" />
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
