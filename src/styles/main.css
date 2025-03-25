@@ -110,7 +110,7 @@ body {
 
 /* Hero Container */
 .hero-container {
-  min-height: 80vh !important;
+  min-height: 90vh !important;
   background: linear-gradient(to bottom, #edf1f6 15%, #ffffff 40%);
   border-radius: 48px;
   position: relative;
@@ -702,4 +702,187 @@ body {
 .project-work-more-work-card-img img {
   height: 279px;
   padding: 0.35rem 0;
+}
+
+/* footer */
+.footer-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
+}
+.footer3-container {
+  height: 448px;
+  width: 1136px;
+  border-radius: 48px;
+  padding: 100px 0;
+  background: #f2f4f7;
+}
+
+.footer3-container h6 {
+  margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.footer3-container p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  width: 534px;
+  margin-bottom: 48px;
+}
+
+.footerPrimaryBtn {
+  padding: 18px 24px !important;
+  background: #0073e6 !important;
+  color: #fff !important;
+  border-radius: 16px !important;
+  border: 1px solid #0073e6 !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  transition: ease-in-out 0.4s;
+}
+.footerPrimaryBtn:hover {
+  background: #0b5ed7 !important;
+}
+
+.rights-section {
+  height: 96.92px;
+  padding: 24px 0;
+  overflow: hidden !important;
+}
+
+.rights-section-container {
+  width: 1136px;
+}
+
+.rights-section p {
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 400;
+  bottom: -15px;
+}
+
+.footer-icons {
+  gap: 25px;
+}
+
+/* about me  */
+.about-me-section {
+  margin-top: 80px;
+  padding-left: 24px;
+  padding-right: 24px;
+  overflow: hidden !important;
+}
+
+.about-me-container {
+  min-height: 90vh !important;
+  background: linear-gradient(to bottom, #edf1f6 15%, #ffffff 40%);
+  border-radius: 48px;
+  position: relative;
+}
+
+.about-me-container {
+  height: 100%;
+  width: 100%;
+}
+
+.about-me-card {
+  width: 975px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.about-me-card h6 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.about-me-card p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 40px;
+}
+
+.about-me-btn {
+  gap: 16px;
+}
+
+.about-me-primaryBtn {
+  width: 142px;
+  height: 56px;
+  background: #0073e6;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: ease-in-out 0.4s;
+}
+
+.about-me-primaryBtn:hover {
+  background: #0b5ed7;
+  color: #fff;
+}
+
+.about-me-secondaryBtn {
+  width: 153px;
+  height: 56px;
+  color: #002c57;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #dee3e9 !important;
+  background: #fff;
+  transition: ease-in-out 0.4s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-secondaryBtn:hover {
+  background: #eceff3 !important;
+  color: #002c57;
+}
+
+.my-journey-container {
+  min-height: 100vh;
+}
+
+.my-journey-card {
+  width: 976px;
+}
+
+.my-journey-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 72px;
+}
+
+.my-journey-sentence {
+  margin-bottom: 64px;
+}
+
+.my-journey-sentence h6 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+
+.my-journey-sentence p {
+  font-weight: 18px;
+  line-height: 28px;
+  font-weight: 400;
 }

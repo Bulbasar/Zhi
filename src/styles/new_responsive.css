@@ -111,6 +111,23 @@
   }
 }
 
+@media screen and (max-width: 1180px) {
+  /* footer */
+  .footer-section {
+    padding: 0 80px;
+  }
+  .footer3-container {
+    width: 100% !important;
+  }
+
+  .rights-section {
+    padding: 24px 80px !important;
+  }
+  .rights-section-container {
+    width: 100% !important;
+  }
+}
+
 @media screen and (max-width: 1040px) {
   /* hero */
   .hero-card {
@@ -183,6 +200,15 @@
     margin-right: 45px !important;
     border-radius: 48px !important;
     background: #e2f1de !important;
+  }
+
+  /* footer */
+  .footer3-container h6 {
+    font-size: 40px !important;
+  }
+
+  .footer3-container p {
+    font-size: 16px !important;
   }
 }
 
@@ -328,6 +354,22 @@
     border-radius: 48px !important;
     background: #e2f1de !important;
   }
+
+  /* footer */
+  .footer3-container h6 {
+    font-size: 38px !important;
+  }
+
+  .footer3-container p {
+    font-size: 16px !important;
+  }
+
+  .footer3-container span {
+    font-size: 16px;
+  }
+  .footerPrimaryBtn {
+    padding: 16px 24px !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -458,6 +500,21 @@
   .viewWorkSecondaryBtn {
     width: 100% !important;
   }
+
+  /* footer */
+  .footer-section {
+    padding: 0 3rem;
+  }
+  .footer3-container {
+    width: 100% !important;
+  }
+
+  .rights-section {
+    padding: 24px 3rem !important;
+  }
+  .rights-section-container {
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -496,6 +553,41 @@
     padding: 0 25px !important;
     /* background: red !important; */
   }
+
+  /* footer */
+  .footer-section {
+    padding: 0 25px;
+  }
+
+  .footer3-container h6 {
+    font-size: 33px !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .footer3-container p {
+    font-size: 15px !important;
+  }
+
+  .footer3-container span {
+    font-size: 15px;
+  }
+  .footerPrimaryBtn {
+    padding: 15px 24px !important;
+  }
+
+  .rights-section {
+    padding: 24px 25px !important;
+  }
+  .rights-section-container {
+    width: 100% !important;
+  }
+  .footer3-email-container {
+    padding: 0 !important;
+  }
+  .footer3-email-container-span {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -526,6 +618,24 @@
   .secondaryBtn {
     padding: 12px 20px !important;
     font-size: 14px !important;
+  }
+
+  /* footer */
+  .footer3-container {
+    padding: 2rem !important;
+  }
+
+  .footer3-container h6 {
+    font-size: 30px !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .footer3-container p {
+    width: 100% !important;
+    text-align: center;
+    line-height: 23px;
   }
 }
 

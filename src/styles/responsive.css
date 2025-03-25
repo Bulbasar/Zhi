@@ -555,11 +555,6 @@
     padding: 0 20px !important;
   }
 
-  /* footer */
-  .footer-section {
-    padding: 0 20px !important;
-  }
-
   /* work */
   /* .work-section {
     padding: 0 20px !important;
@@ -784,9 +779,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  .footer-section {
-    height: 279px !important;
-  }
   .footer-logo {
     margin-right: 0 !important;
   }
@@ -917,6 +909,10 @@
   .custom-padding-project-p {
     padding: 0 5rem;
   }
+
+  * {
+    overflow: visible !important;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -934,10 +930,6 @@
   /* footer */
   .footer-lookingFor {
     font-size: 55px !important;
-  }
-
-  .footer-section {
-    height: 279px !important;
   }
 
   .about-me-img img {

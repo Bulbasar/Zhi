@@ -27,7 +27,9 @@ import Hero2 from "./modules/hero/Hero2";
 import SelectedWorks from "./modules/selected works/selected-works";
 
 import Project2 from "./modules/projects/Project2";
+import Footer3 from "./modules/footer/Footer3";
 
+import AboutMe from "./modules/about/About-me";
 // Create a new component for the home page to handle the scroll
 function Home() {
   useEffect(() => {
@@ -60,10 +62,10 @@ createRoot(document.getElementById("root")).render(
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutMe />} />
           <Route path="/view-work/:id" element={<Project2 />} />
         </Routes>
-        <Footer2 />
+        <Footer3 />
       </div>
     </BrowserRouter>
   </StrictMode>

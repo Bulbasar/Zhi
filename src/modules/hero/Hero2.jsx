@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import resume from "../../../Zhizhi_Maro_Nieves.pdf";
+import resume from "../../../ZhizhiNieves_Resume_2025.pdf";
 const Hero2 = () => {
   useEffect(() => {
     AOS.init({
@@ -65,7 +65,15 @@ const Hero2 = () => {
             >
               Get in Touch
             </a>
-            <button className="secondaryBtn">View Resume</button>
+            <a
+              className="secondaryBtn"
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              View Resume
+            </a>
           </div>
         </div>
       </div>
