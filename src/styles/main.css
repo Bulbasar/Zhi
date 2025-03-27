@@ -361,6 +361,7 @@ body {
 
 .project-work-img-container {
   margin-bottom: 80px;
+  max-height: 850px;
 }
 
 .project-work-overview {
@@ -809,7 +810,7 @@ body {
 
 .about-me-card p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 34px;
   margin-bottom: 40px;
 }
@@ -871,7 +872,7 @@ body {
 }
 
 .my-journey-sentence {
-  margin-bottom: 64px;
+  margin-bottom: 56px;
 }
 
 .my-journey-sentence h6 {
@@ -885,4 +886,5 @@ body {
   font-weight: 18px;
   line-height: 28px;
   font-weight: 400;
+  font-size: 18px;
 }

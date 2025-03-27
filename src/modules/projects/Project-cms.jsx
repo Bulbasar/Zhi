@@ -11,10 +11,10 @@ const ProjectCms = ({ projectContent }) => {
         />
       </div>
 
-      <div className="project-work-show d-flex flex-row justify-content-between">
+      <div className="project-work-show d-flex flex-row justify-content-between project-work-break-container">
         <div className="project-work-show-title">
           <h6
-            className="h-primary-color"
+            className="h-primary-color h6-flex-responsive"
             style={{ fontSize: "32px", fontWeight: 600 }}
           >
             {projectContent.showcaseTitle}

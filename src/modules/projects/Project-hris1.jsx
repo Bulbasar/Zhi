@@ -23,10 +23,10 @@ const ProjectHris1 = ({ projectContent }) => {
       </div>
 
       {/* 2 */}
-      <div className="project-work-show d-flex flex-row justify-content-between">
-        <div className="project-work-show-title">
+      <div className="project-work-show d-flex flex-row justify-content-between project-work-break-container">
+        <div className="project-work-show-title ">
           <h6
-            className="h-primary-color"
+            className="h-primary-color h6-flex-responsive"
             style={{ fontSize: "32px", fontWeight: 600 }}
           >
             {projectContent.showcaseTitle2}
@@ -80,10 +80,11 @@ const ProjectHris1 = ({ projectContent }) => {
 
       {/* 3 */}
 
-      <div className="project-work-show d-flex flex-row justify-content-between">
-        <div className="project-work-show-title">
+      <div className="project-work-show d-flex flex-row justify-content-between project-work-break-container">
+        <div className="project-work-show-title ">
           <h6
-            className="h-primary-color"
+            className="h-primary-color h6-flex-responsive
+            "
             style={{ fontSize: "32px", fontWeight: 600 }}
           >
             {projectContent.showcaseTitle3}
@@ -103,7 +104,7 @@ const ProjectHris1 = ({ projectContent }) => {
         </div>
       </div>
 
-      <div className="project-work-show-img w-100 works-showcase-before-3 d-flex flex-row justify-content-between">
+      <div className="project-work-show-img w-100 works-showcase-before-3 d-flex flex-row justify-content-between project-work-show-img-responsive">
         <div className="d-flex flex-column w-100">
           <p className="p-text-muted">Before</p>
           <img

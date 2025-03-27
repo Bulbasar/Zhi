@@ -38,9 +38,9 @@ const SelectedWorks = () => {
             style={{ fontSize: "20px" }}
           >
             These are the projects I worked on during my internship and
-            part-time as a UI/UX Designer at an IT company. Each project
-            highlights my design process, the challenges I faced, and the
-            user-centered solutions I implemented.
+            part-time as a UI/UX Designer, highlighting the problems I
+            identified, client requirements I addressed, and the user-centered
+            solutions I delivered through before-and-after UI comparisons.
           </p>
         </div>
 
@@ -83,8 +83,7 @@ const SelectedWorks = () => {
                     fontWeight: 600,
                   }}
                 >
-                  Enhancing the HRIS for a more efficient and intuitive
-                  workflow.
+                  Enhanced the HRIS for a more efficient and intuitive workflow.
                 </h6>
               </div>
             </div>

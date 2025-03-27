@@ -19,7 +19,7 @@ const Footer3 = () => {
   return (
     <>
       <section className="footer-section d-flex flex-row align-item-center justify-content-center">
-        <div className="footer3-container d-flex flex-column justify-content-center align-items-center">
+        <div className="footer3-container d-flex flex-column justify-content-center align-items-center border-radius-responsive">
           <h6 className="h-primary-color">Looking for a UX/UI Designer?</h6>
           <p className="p-text-muted text-center">
             I'm open to full-time UI/UX design opportunities. Let’s connect and

@@ -6,9 +6,9 @@ import ProjectHris3 from "../projects/Project-hris2.jsx";
 
 import faith from "../../assets/Faith.png";
 
-import project1Image1 from "../../assets/Project-1/work-1.png";
-import project1Image2 from "../../assets/Project-1/work-2.png";
-import project1Image3 from "../../assets/Project-1/work-3.png";
+import project1Image1 from "../../assets/Project-1/work-1.jpg";
+import project1Image2 from "../../assets/Project-1/work-2.svg";
+import project1Image3 from "../../assets/Project-1/work-3.svg";
 import project1Image4 from "../../assets/Project-1/work-4.png";
 import project1Image5 from "../../assets/Project-1/work-5.jpg";
 import project1Image6 from "../../assets/Project-1/work-6.png";
@@ -23,18 +23,18 @@ import project1Image14 from "../../assets/Project-1/work-14.png";
 import project1Image15 from "../../assets/Project-1/work-15.png";
 import project1Image16 from "../../assets/Project-1/work-16.png";
 
-import project2Image1 from "../../assets/Project-2/work-1.png";
-import project2Image2 from "../../assets/Project-2/work-2.png";
-import project2Image3 from "../../assets/Project-2/work-3.png";
+import project2Image1 from "../../assets/Project-2/work-1.jpg";
+import project2Image2 from "../../assets/Project-2/work-2.svg";
+import project2Image3 from "../../assets/Project-2/work-3.svg";
 import project2Image4 from "../../assets/Project-2/work-4.jpg";
 import project2Image5 from "../../assets/Project-2/work-5.jpg";
 import project2Image6 from "../../assets/Project-2/work-6.png";
 import project2Image7 from "../../assets/Project-2/work-7.png";
 import project2Image8 from "../../assets/Project-2/work-8.png";
 
-import project3Image1 from "../../assets/Project-3/work-1.png";
-import project3Image2 from "../../assets/Project-3/work-2.png";
-import project3Image3 from "../../assets/Project-3/work-3.png";
+import project3Image1 from "../../assets/Project-3/work-1.jpg";
+import project3Image2 from "../../assets/Project-3/work-2.svg";
+import project3Image3 from "../../assets/Project-3/work-3.svg";
 import project3Image4 from "../../assets/Project-3/work-4.png";
 import project3Image5 from "../../assets/Project-3/work-5.jpg";
 import project3Image6 from "../../assets/Project-3/work-6.jpg";
@@ -45,372 +45,391 @@ import project3Image10 from "../../assets/Project-3/work-10.png";
 import project3Image11 from "../../assets/Project-3/work-11.png";
 import project3Image12 from "../../assets/Project-3/work-12.png";
 
+const contentArray = [
+  {
+    id: "1",
+    // hero section
+    title: "Enhanced the HRIS for a more efficient and intuitive workflow.",
+    description:
+      "I enhanced the company's HRIS by refining its interface and simplifying workflows, making it easier for employees and administrators to navigate and manage tasks efficiently.",
+    image: project1Image1,
+    company: "Slashtech Solutions",
+    industry: "Information Technology",
+    timeline: "Jul - Sep 2023",
+    platform: "Web App",
+    role: "Product Designer",
+    // goal section
+    goalImg: project1Image2,
+    goalParagraph:
+      "The goal is to enhance the overall design and functionality of the HRIS system to make it more intuitive, visually consistent, and user-friendly. Through enhancing the interface, the aim is to improve accessibility, simplify workflows, and ensure that users can efficiently manage HR-related tasks with clarity and ease.",
+    // requirements section
+    definingTitle: "Problems",
+    definingParagraph:
+      "These are the key usability and design challenges I identified that impacted the interface's clarity, consistency, and user experience.",
+    definingCards: [
+      {
+        cardId: "01",
+        title: "Inconsistent UI & Visual Clutter",
+        description:
+          "The platform lacked a unified design, with buttons, pagination, and other elements using different styles. Overly bright colors and poor spacing made the interface feel cluttered and visually unbalanced.",
+      },
+      {
+        cardId: "02",
+        title: "Inefficient Layout & Navigation Issues",
+        description:
+          "Poor placement of key elements disrupted the workflow. The search bar and item count weren't intuitive, tables had too many action buttons, and large tables crammed excessive information, causing overload.",
+      },
+      {
+        cardId: "03",
+        title: "Readability Challenges & Unclear Terminology",
+        description:
+          "Weak typographic hierarchy made scanning difficult. Low text contrast reduced readability, and the use of modals limited the capacity for detailed information. Unclear titles and labels caused confusion",
+      },
+    ],
+    // solutions
+    solutionTitle: "Solutions",
+    solutionParagraph:
+      "These are the design improvements I implemented to enhance clarity, reduce clutter, and create a more user-friendly interface.",
+    solutionsCards: [
+      {
+        cardId: "01",
+        title: "Standardizing UI  & Simplifying Filters",
+        description:
+          "I applied a consistent color scheme, unified button styles, and improved contrast. Filters were decluttered by removing unnecessary labels and refining spacing, creating a more cohesive and user-friendly interface.",
+      },
+      {
+        cardId: "02",
+        title: "Enhancing Workflow and Accessibility",
+        description:
+          'I repositioned key elements, placed the search bar where users expect it, replaced multiple action buttons with a "More" button for cleaner tables, and introduced horizontal scrolling for large tables to improve readability.',
+      },
+      {
+        cardId: "03",
+        title: "Refining Readability & Content Structure",
+        description:
+          "I refine text styles to establish better hierarchy, enhance contrast, and label clarity. I also replace modals with full pages for more detailed and structured content, resulting in clearer and more organized information.",
+      },
+    ],
+    // implemented
+    implementedImg: project1Image3,
+    // showcase
+    // 1
+    showcaseTitle: "Standardizing UI & Simplifying Filters",
+    showcaseParagraph:
+      "I applied a consistent color scheme, unified button styles, and improved contrast. Filters were decluttered by removing unnecessary labels and refining spacing, creating a more cohesive and user-friendly interface.",
+    showcaseImageBefore1: project1Image4,
+    showcaseImageAfter1: project1Image5,
+    // 2
+    showcaseTitle2: "Improving Layout & Navigation",
+    showcaseParagraph2:
+      'I repositioned key elements, placed the search bar where users expect it, replaced multiple action buttons with a "More" button for cleaner tables, and introduced horizontal scrolling for large tables to improve readability.',
+    showcaseImageBefore2: project1Image6,
+    showcaseImageBefore2_1: project1Image7,
+    showcaseImageAfter2: project1Image8,
+    showcaseImageAfter2_1: project1Image9,
+    // 3
+    showcaseTitle3: "Enhancing Readability & Content Structure",
+    showcaseParagraph3:
+      "I refine text styles to establish better hierarchy, enhance contrast, and label clarity. I also replace modals with full pages for more detailed and structured content, resulting in clearer and more organized information.",
+    showcaseImageBefore3_1: project1Image10,
+    showcaseImageAfter3_1: project1Image11,
+    showcaseImageBefore3_2: project1Image12,
+    showcaseImageAfter3_2: project1Image13,
+    // demo
+    demoTitle: "Slash HRIS",
+    demoImg: project1Image14,
+    demoImgResponsive: project1Image1,
+    // takeaways
+    takeAwayList: [
+      {
+        takeawayPoints:
+          "Ensuring consistency by standardizing colors and unifying design elements creates a more structured and visually cohesive interface that enhances usability.",
+      },
+      {
+        takeawayPoints:
+          "Improving layout and organization by repositioning key elements and decluttering tables makes navigation more intuitive and interactions more efficient.",
+      },
+      {
+        takeawayPoints:
+          "Enhancing readability by defining a clear text hierarchy, improving contrast, and refining labels helps users process information more quickly and accurately.",
+      },
+    ],
+    // more work
+    moreWorkList: [
+      {
+        moreWorkTag1: "MARTECH",
+        moreWorkTagDot1: "·",
+        moreWorkTag2: "WEB APP",
+        moreWorkTitle:
+          "Building a CMS to simplify content management & enhance.",
+        moreWorkLink: "/view-work/2",
+        moreWorkImg: project1Image15,
+      },
+      {
+        moreWorkTag1: "HR TECH",
+        moreWorkTagDot1: "·",
+        moreWorkTag2: "WEB APP",
+        moreWorkTitle:
+          "Customizing the HRIS to align with client’s needs and branding.",
+        moreWorkLink: "/view-work/3",
+        moreWorkImg: project1Image16,
+      },
+    ],
+  },
+  {
+    id: "2",
+    // hero section
+    title: "Developed a CMS to enable the company's upcoming market launch.",
+    description:
+      "I developed a content management system to simplify content creation and management, supporting the company's successful market launch.",
+    image: project2Image1,
+    company: "Slashtech Solutions",
+    industry: "Information Technology",
+    timeline: "Jul - Aug 2023",
+    platform: "Web App",
+    role: "Product Designer",
+    // goal section
+    goalImg: project2Image2,
+    goalParagraph:
+      "The goal is to enhance the overall design and functionality of the HRIS system to make it more intuitive, visually consistent, and user-friendly. Through enhancing the interface, the aim is to improve accessibility, simplify workflows, and ensure that users can efficiently manage HR-related tasks with clarity and ease.",
+    // requirements section
+    definingTitle: "Requirements",
+    definingParagraph:
+      "These are the client's requirements to better align the system with their branding, workflows, and operational processes.",
+    definingCards: [
+      {
+        cardId: "01",
+        title: "Website-like Navigation Layout",
+        description:
+          "The CMS needed to have a layout that resembled a website, replacing the sidebar navigation with a top bar for a modern look. This adjustment aimed to improve accessibility and create an enhanced user experience.",
+      },
+      {
+        cardId: "02",
+        title: "Adopt Key System Modules",
+        description:
+          "The system had to incorporate key modules from the reference platform to maintain core functionality, serving as a foundation for building the company's own CMS with enhanced usability and tailored features.",
+      },
+      {
+        cardId: "03",
+        title: "Slideshow Creation Feature",
+        description:
+          "A slideshow creation module was required to let users compile and manage media presentations efficiently. This feature allowed for seamless content organization and playback customization.",
+      },
+    ],
+    // solutions
+    solutionTitle: "Solutions",
+    solutionParagraph:
+      "These are the design improvements I implemented to enhance clarity, reduce clutter, and create a more user-friendly interface.",
+    solutionsCards: [
+      {
+        cardId: "01",
+        title: "Optimized Navigation for Better Accessibility",
+        description:
+          "The interface was redesigned with a top navigation bar, optimizing screen space and improving accessibility. This structure made it easier for users to navigate between modules efficiently.",
+      },
+      {
+        cardId: "02",
+        title: "Improved Layouts for Better Usability",
+        description:
+          "While core modules were retained, the CMS was redesigned with a new layout and improved interactions, offering better usability through clearer navigation and a more intuitive user experience.",
+      },
+      {
+        cardId: "03",
+        title: "Playlist Module for Slideshows",
+        description:
+          "The Playlist Module was created with customizable timing and smooth transitions for greater flexibility. These powerful features allow users to create engaging and professional slideshows with minimal effort.",
+      },
+    ],
+    // implemented
+    implementedImg: project2Image3,
+    // showcase
+    showcaseTitle: "Website-like Navigation Layout",
+    showcaseParagraph:
+      "The interface was redesigned with a top navigation bar, optimizing screen space and improving accessibility. This structure made it easier for users to navigate between modules efficiently.",
+    showcaseImageCms1: project2Image4,
+    showcaseImageCms2: project2Image5,
+    // demo
+    demoTitle: "CMS",
+    demoImg: project2Image6,
+    demoImgResponsive: project2Image1,
+    // takeaways
+    takeAwayList: [
+      {
+        takeawayPoints:
+          "Optimizing navigation by implementing a website-like top bar layout improves accessibility and makes module switching easier.",
+      },
+      {
+        takeawayPoints:
+          "Enhancing usability by refining module layouts, spacing, and responsiveness makes interactions smoother and more intuitive.",
+      },
+      {
+        takeawayPoints:
+          "Simplifying slideshow creation with the Playlist Module allows users to efficiently build and customize engaging media presentations.",
+      },
+    ],
+    // more work
+    moreWorkList: [
+      {
+        moreWorkTag1: "HR TECH",
+        moreWorkTagDot1: "·",
+        moreWorkTag2: "WEB APP",
+        moreWorkTitle:
+          "Enhancing the HRIS for a more efficient and intuitive workflow.",
+        moreWorkLink: "/view-work/1",
+        moreWorkImg: project2Image7,
+      },
+      {
+        moreWorkTag1: "HR TECH",
+        moreWorkTagDot1: "·",
+        moreWorkTag2: "WEB APP",
+        moreWorkTitle:
+          "Customizing the HRIS to align with client’s needs and branding.",
+        moreWorkLink: "/view-work/3",
+        moreWorkImg: project2Image8,
+      },
+    ],
+  },
+  {
+    id: "3",
+    // hero section
+    title: "Customized the HRIS to align with business needs and branding.",
+    description:
+      "I customized the HRIS with additional features and enhancements tailored to the client's specific needs, improving employee management and operational processes.",
+    image: project3Image1,
+    company: "Infinity Eight",
+    industry: "Trading & Marketing",
+    timeline: "Oct - Nov 2023",
+    platform: "Web App",
+    role: "Product Designer",
+    // goal section
+    goalImg: project3Image2,
+    goalParagraph:
+      "The goal of this project was to tailor the HRIS to meet the client's unique needs by customizing its interface and functionality. This involved adapting the system's design to reflect their brand identity and incorporating new features that align with their operational processes, ensuring a cohesive and efficient user experience.",
+    // requirements section
+    definingTitle: "Requirements",
+    definingParagraph:
+      "These are the client's requirements to better align the system with their branding, workflows, and operational processes.",
+    definingCards: [
+      {
+        cardId: "01",
+        title: "Branded Interface Customization",
+        description:
+          "The client wanted the HRIS to reflect their brand identity by updating the interface with their official colors and design elements. They requested a more polished, modern look to create a seamless experience for employees while maintaining the platform's familiar structure.",
+      },
+      {
+        cardId: "02",
+        title: "Pakyawan Wage & Workload Management",
+        description:
+          "The client required a custom Pakyawan module to handle employees paid based on output rather than fixed salaries. They needed a reliable system that could track workloads, calculate piece-rate payments, manage payroll, and handle cash advances efficiently.",
+      },
+    ],
+    // solutions
+    solutionTitle: "Customizations",
+    solutionParagraph:
+      "These are the modifications I implemented to enhance the system's interface and functionality based on the client's needs.",
+    solutionsCards: [
+      {
+        cardId: "01",
+        title: "Tailoring the UI to Match Brand Identity",
+        description:
+          "To align the HRIS with the client's branding, I updated the color scheme across buttons, navigation bars, tables, and other elements. I refined shades for better contrast, ensured accessibility, and maintained a cohesive, modern, and professional look.",
+      },
+      {
+        cardId: "02",
+        title: "Building a Pakyawan Module",
+        description:
+          "I designed a Pakyawan module with four sub-modules: Piece Rate for pay calculation, Workload for task tracking, Pakyawan Payroll for automation, and Cash Advance for requests. This created a more efficient system for handling Pakyawan-based compensation.",
+      },
+    ],
+    // implemented
+    implementedImg: project3Image3,
+    // showcase
+    // 1
+    showcaseTitle: "Tailoring the UI to Match Brand Identity",
+    showcaseParagraph:
+      "To align the HRIS with the client's branding, I updated the color scheme across buttons, navigation bars, tables, and other elements. I refined shades for better contrast, ensured accessibility, and maintained a cohesive, modern, and professional look.",
+    showcaseImageBefore1: project3Image4,
+    showcaseImageAfter1: project3Image5,
+    // 2
+    showcaseTitle2: "Building a  Pakyawan Module",
+    showcaseParagraph2:
+      "I designed a Pakyawan module with four sub-modules: Piece Rate for pay calculation, Workload for task tracking, Pakyawan Payroll for automation, and Cash Advance for requests. This created a more efficient system for handling Pakyawan-based compensation.",
+    // 3
+    pakyawanImg1: project3Image6,
+    pakyawanImg2: project3Image7,
+    pakyawanImg3: project3Image8,
+    pakyawanImg4: project3Image9,
+
+    // demo
+    demoTitle: "Infinity",
+    demoImg: project3Image10,
+    demoImgResponsive: project3Image1,
+    // takeaways
+    takeAwayList: [
+      {
+        takeawayPoints:
+          "Aligning the UI with the client’s branding by updating colors and refining visual elements created a more cohesive and professional-looking platform.",
+      },
+      {
+        takeawayPoints:
+          "Tailoring the system to client needs by customizing the HRIS interface and workflows ensured a more intuitive experience while maintaining its core functionality.",
+      },
+      {
+        takeawayPoints:
+          "Developing the Pakyawan module with structured submodules for payroll, workload, and cash advances provided an efficient system for managing output-based compensation.",
+      },
+    ],
+    // more work
+    moreWorkList: [
+      {
+        moreWorkTag1: "HR TECH",
+        moreWorkTagDot1: "·",
+        moreWorkTag2: "WEB APP",
+        moreWorkTitle:
+          "Enhancing the HRIS for a more efficient and intuitive workflow.",
+        moreWorkLink: "/view-work/1",
+        moreWorkImg: project3Image11,
+      },
+      {
+        moreWorkTag1: "HR TECH",
+        moreWorkTagDot1: "·",
+        moreWorkTag2: "WEB APP",
+        moreWorkTitle:
+          "Customizing the HRIS to align with client’s needs and branding.",
+        moreWorkLink: "/view-work/3",
+        moreWorkImg: project3Image12,
+      },
+    ],
+  },
+];
+
 const Project2 = () => {
-  const { id } = useParams(); // Get the ID from the URL
+  const { id } = useParams();
+  const [imageSrc, setImageSrc] = useState(null);
+  const [isVisible, setIsVisible] = useState(false);
 
-  const contentArray = [
-    {
-      id: "1",
-      // hero section
-      title: "Enhanced the HRIS for a more efficient and intuitive workflow.",
-      description:
-        "I enhanced the company's HRIS by refining its interface and simplifying workflows, making it easier for employees and administrators to navigate and manage tasks efficiently.",
-      image: project1Image1,
-      company: "Slashtech Solutions",
-      industry: "Information Technology",
-      timeline: "Jul - Sep 2023",
-      platform: "Web App",
-      role: "Product Designer",
-      // goal section
-      goalImg: project1Image2,
-      goalParagraph:
-        "The goal is to enhance the overall design and functionality of the HRIS system to make it more intuitive, visually consistent, and user-friendly. Through enhancing the interface, the aim is to improve accessibility, simplify workflows, and ensure that users can efficiently manage HR-related tasks with clarity and ease.",
-      // requirements section
-      definingTitle: "Problems",
-      definingParagraph:
-        "These are the key usability and design challenges I identified that impacted the interface's clarity, consistency, and user experience.",
-      definingCards: [
-        {
-          cardId: "01",
-          title: "Inconsistent UI & Visual Clutter",
-          description:
-            "The platform lacked a unified design, with buttons, pagination, and other elements using different styles. Overly bright colors and poor spacing made the interface feel cluttered and visually unbalanced.",
-        },
-        {
-          cardId: "02",
-          title: "Inefficient Layout & Navigation Issues",
-          description:
-            "Poor placement of key elements disrupted the workflow. The search bar and item count weren't intuitive, tables had too many action buttons, and large tables crammed excessive information, causing overload.",
-        },
-        {
-          cardId: "03",
-          title: "Readability Challenges & Unclear Terminology",
-          description:
-            "Weak typographic hierarchy made scanning difficult. Low text contrast reduced readability, and the use of modals limited the capacity for detailed information. Unclear titles and labels caused confusion",
-        },
-      ],
-      // solutions
-      solutionTitle: "Solutions",
-      solutionParagraph:
-        "These are the design improvements I implemented to enhance clarity, reduce clutter, and create a more user-friendly interface.",
-      solutionsCards: [
-        {
-          cardId: "01",
-          title: "Standardizing UI  & Simplifying Filters",
-          description:
-            "I applied a consistent color scheme, unified button styles, and improved contrast. Filters were decluttered by removing unnecessary labels and refining spacing, creating a more cohesive and user-friendly interface.",
-        },
-        {
-          cardId: "02",
-          title: "Enhancing Workflow and Accessibility",
-          description:
-            'I repositioned key elements, placed the search bar where users expect it, replaced multiple action buttons with a "More" button for cleaner tables, and introduced horizontal scrolling for large tables to improve readability.',
-        },
-        {
-          cardId: "03",
-          title: "Refining Readability & Content Structure",
-          description:
-            "I refine text styles to establish better hierarchy, enhance contrast, and label clarity. I also replace modals with full pages for more detailed and structured content, resulting in clearer and more organized information.",
-        },
-      ],
-      // implemented
-      implementedImg: project1Image3,
-      // showcase
-      // 1
-      showcaseTitle: "Standardizing UI & Simplifying Filters",
-      showcaseParagraph:
-        "I applied a consistent color scheme, unified button styles, and improved contrast. Filters were decluttered by removing unnecessary labels and refining spacing, creating a more cohesive and user-friendly interface.",
-      showcaseImageBefore1: project1Image4,
-      showcaseImageAfter1: project1Image5,
-      // 2
-      showcaseTitle2: "Improving Layout & Navigation",
-      showcaseParagraph2:
-        'I repositioned key elements, placed the search bar where users expect it, replaced multiple action buttons with a "More" button for cleaner tables, and introduced horizontal scrolling for large tables to improve readability.',
-      showcaseImageBefore2: project1Image6,
-      showcaseImageBefore2_1: project1Image7,
-      showcaseImageAfter2: project1Image8,
-      showcaseImageAfter2_1: project1Image9,
-      // 3
-      showcaseTitle3: "Enhancing Readability & Content Structure",
-      showcaseParagraph3:
-        "I refine text styles to establish better hierarchy, enhance contrast, and label clarity. I also replace modals with full pages for more detailed and structured content, resulting in clearer and more organized information.",
-      showcaseImageBefore3_1: project1Image10,
-      showcaseImageAfter3_1: project1Image11,
-      showcaseImageBefore3_2: project1Image12,
-      showcaseImageAfter3_2: project1Image13,
-      // demo
-      demoTitle: "Slash HRIS",
-      demoImg: project1Image14,
-      // takeaways
-      takeAwayList: [
-        {
-          takeawayPoints:
-            "Ensuring consistency by standardizing colors and unifying design elements creates a more structured and visually cohesive interface that enhances usability.",
-        },
-        {
-          takeawayPoints:
-            "Improving layout and organization by repositioning key elements and decluttering tables makes navigation more intuitive and interactions more efficient.",
-        },
-        {
-          takeawayPoints:
-            "Enhancing readability by defining a clear text hierarchy, improving contrast, and refining labels helps users process information more quickly and accurately.",
-        },
-      ],
-      // more work
-      moreWorkList: [
-        {
-          moreWorkTag1: "MARTECH",
-          moreWorkTagDot1: "·",
-          moreWorkTag2: "WEB APP",
-          moreWorkTitle:
-            "Building a CMS to simplify content management & enhance.",
-          moreWorkLink: "/view-work/2",
-          moreWorkImg: project1Image15,
-        },
-        {
-          moreWorkTag1: "HR TECH",
-          moreWorkTagDot1: "·",
-          moreWorkTag2: "WEB APP",
-          moreWorkTitle:
-            "Customizing the HRIS to align with client’s needs and branding.",
-          moreWorkLink: "/view-work/3",
-          moreWorkImg: project1Image16,
-        },
-      ],
-    },
-    {
-      id: "2",
-      // hero section
-      title: "Developed a CMS to enable the company's upcoming market launch.",
-      description:
-        "I developed a content management system to simplify content creation and management, supporting the company's successful market launch.",
-      image: project2Image1,
-      company: "Slashtech Solutions",
-      industry: "Information Technology",
-      timeline: "Jul - Aug 2023",
-      platform: "Web App",
-      role: "Product Designer",
-      // goal section
-      goalImg: project2Image2,
-      goalParagraph:
-        "The goal is to enhance the overall design and functionality of the HRIS system to make it more intuitive, visually consistent, and user-friendly. Through enhancing the interface, the aim is to improve accessibility, simplify workflows, and ensure that users can efficiently manage HR-related tasks with clarity and ease.",
-      // requirements section
-      definingTitle: "Requirements",
-      definingParagraph:
-        "These are the client's requirements to better align the system with their branding, workflows, and operational processes.",
-      definingCards: [
-        {
-          cardId: "01",
-          title: "Website-like Navigation Layout",
-          description:
-            "The CMS needed to have a layout that resembled a website, replacing the sidebar navigation with a top bar for a modern look. This adjustment aimed to improve accessibility and create an enhanced user experience.",
-        },
-        {
-          cardId: "02",
-          title: "Adopt Key System Modules",
-          description:
-            "The system had to incorporate key modules from the reference platform to maintain core functionality, serving as a foundation for building the company's own CMS with enhanced usability and tailored features.",
-        },
-        {
-          cardId: "03",
-          title: "Slideshow Creation Feature",
-          description:
-            "A slideshow creation module was required to let users compile and manage media presentations efficiently. This feature allowed for seamless content organization and playback customization.",
-        },
-      ],
-      // solutions
-      solutionTitle: "Solutions",
-      solutionParagraph:
-        "These are the design improvements I implemented to enhance clarity, reduce clutter, and create a more user-friendly interface.",
-      solutionsCards: [
-        {
-          cardId: "01",
-          title: "Optimized Navigation for Better Accessibility",
-          description:
-            "The interface was redesigned with a top navigation bar, optimizing screen space and improving accessibility. This structure made it easier for users to navigate between modules efficiently.",
-        },
-        {
-          cardId: "02",
-          title: "Improved Layouts for Better Usability",
-          description:
-            "While core modules were retained, the CMS was redesigned with a new layout and improved interactions, offering better usability through clearer navigation and a more intuitive user experience.",
-        },
-        {
-          cardId: "03",
-          title: "Playlist Module for Slideshows",
-          description:
-            "The Playlist Module was created with customizable timing and smooth transitions for greater flexibility. These powerful features allow users to create engaging and professional slideshows with minimal effort.",
-        },
-      ],
-      // implemented
-      implementedImg: project2Image3,
-      // showcase
-      showcaseTitle: "Website-like Navigation Layout",
-      showcaseParagraph:
-        "The interface was redesigned with a top navigation bar, optimizing screen space and improving accessibility. This structure made it easier for users to navigate between modules efficiently.",
-      showcaseImageCms1: project2Image4,
-      showcaseImageCms2: project2Image5,
-      // demo
-      demoTitle: "CMS",
-      demoImg: project2Image6,
-      // takeaways
-      takeAwayList: [
-        {
-          takeawayPoints:
-            "Optimizing navigation by implementing a website-like top bar layout improves accessibility and makes module switching easier.",
-        },
-        {
-          takeawayPoints:
-            "Enhancing usability by refining module layouts, spacing, and responsiveness makes interactions smoother and more intuitive.",
-        },
-        {
-          takeawayPoints:
-            "Simplifying slideshow creation with the Playlist Module allows users to efficiently build and customize engaging media presentations.",
-        },
-      ],
-      // more work
-      moreWorkList: [
-        {
-          moreWorkTag1: "HR TECH",
-          moreWorkTagDot1: "·",
-          moreWorkTag2: "WEB APP",
-          moreWorkTitle:
-            "Enhancing the HRIS for a more efficient and intuitive workflow.",
-          moreWorkLink: "/view-work/1",
-          moreWorkImg: project2Image7,
-        },
-        {
-          moreWorkTag1: "HR TECH",
-          moreWorkTagDot1: "·",
-          moreWorkTag2: "WEB APP",
-          moreWorkTitle:
-            "Customizing the HRIS to align with client’s needs and branding.",
-          moreWorkLink: "/view-work/3",
-          moreWorkImg: project2Image8,
-        },
-      ],
-    },
-    {
-      id: "3",
-      // hero section
-      title: "Customized the HRIS to align with business needs and branding.",
-      description:
-        "I customized the HRIS with additional features and enhancements tailored to the client's specific needs, improving employee management and operational processes.",
-      image: project3Image1,
-      company: "Infinity Eight",
-      industry: "Trading & Marketing",
-      timeline: "Oct - Nov 2023",
-      platform: "Web App",
-      role: "Product Designer",
-      // goal section
-      goalImg: project3Image2,
-      goalParagraph:
-        "The goal of this project was to tailor the HRIS to meet the client's unique needs by customizing its interface and functionality. This involved adapting the system's design to reflect their brand identity and incorporating new features that align with their operational processes, ensuring a cohesive and efficient user experience.",
-      // requirements section
-      definingTitle: "Requirements",
-      definingParagraph:
-        "These are the client's requirements to better align the system with their branding, workflows, and operational processes.",
-      definingCards: [
-        {
-          cardId: "01",
-          title: "Branded Interface Customization",
-          description:
-            "The client wanted the HRIS to reflect their brand identity by updating the interface with their official colors and design elements. They requested a more polished, modern look to create a seamless experience for employees while maintaining the platform's familiar structure.",
-        },
-        {
-          cardId: "02",
-          title: "Pakyawan Wage & Workload Management",
-          description:
-            "The client required a custom Pakyawan module to handle employees paid based on output rather than fixed salaries. They needed a reliable system that could track workloads, calculate piece-rate payments, manage payroll, and handle cash advances efficiently.",
-        },
-      ],
-      // solutions
-      solutionTitle: "Customizations",
-      solutionParagraph:
-        "These are the modifications I implemented to enhance the system's interface and functionality based on the client's needs.",
-      solutionsCards: [
-        {
-          cardId: "01",
-          title: "Tailoring the UI to Match Brand Identity",
-          description:
-            "To align the HRIS with the client's branding, I updated the color scheme across buttons, navigation bars, tables, and other elements. I refined shades for better contrast, ensured accessibility, and maintained a cohesive, modern, and professional look.",
-        },
-        {
-          cardId: "02",
-          title: "Building a Pakyawan Module",
-          description:
-            "I designed a Pakyawan module with four sub-modules: Piece Rate for pay calculation, Workload for task tracking, Pakyawan Payroll for automation, and Cash Advance for requests. This created a more efficient system for handling Pakyawan-based compensation.",
-        },
-      ],
-      // implemented
-      implementedImg: project3Image3,
-      // showcase
-      // 1
-      showcaseTitle: "Tailoring the UI to Match Brand Identity",
-      showcaseParagraph:
-        "To align the HRIS with the client's branding, I updated the color scheme across buttons, navigation bars, tables, and other elements. I refined shades for better contrast, ensured accessibility, and maintained a cohesive, modern, and professional look.",
-      showcaseImageBefore1: project3Image4,
-      showcaseImageAfter1: project3Image5,
-      // 2
-      showcaseTitle2: "Building a  Pakyawan Module",
-      showcaseParagraph2:
-        "I designed a Pakyawan module with four sub-modules: Piece Rate for pay calculation, Workload for task tracking, Pakyawan Payroll for automation, and Cash Advance for requests. This created a more efficient system for handling Pakyawan-based compensation.",
-      // 3
-      pakyawanImg1: project3Image6,
-      pakyawanImg2: project3Image7,
-      pakyawanImg3: project3Image8,
-      pakyawanImg4: project3Image9,
-
-      // demo
-      demoTitle: "Infinity",
-      demoImg: project3Image10,
-      // takeaways
-      takeAwayList: [
-        {
-          takeawayPoints:
-            "Aligning the UI with the client’s branding by updating colors and refining visual elements created a more cohesive and professional-looking platform.",
-        },
-        {
-          takeawayPoints:
-            "Tailoring the system to client needs by customizing the HRIS interface and workflows ensured a more intuitive experience while maintaining its core functionality.",
-        },
-        {
-          takeawayPoints:
-            "Developing the Pakyawan module with structured submodules for payroll, workload, and cash advances provided an efficient system for managing output-based compensation.",
-        },
-      ],
-      // more work
-      moreWorkList: [
-        {
-          moreWorkTag1: "HR TECH",
-          moreWorkTagDot1: "·",
-          moreWorkTag2: "WEB APP",
-          moreWorkTitle:
-            "Enhancing the HRIS for a more efficient and intuitive workflow.",
-          moreWorkLink: "/view-work/1",
-          moreWorkImg: project3Image11,
-        },
-        {
-          moreWorkTag1: "HR TECH",
-          moreWorkTagDot1: "·",
-          moreWorkTag2: "WEB APP",
-          moreWorkTitle:
-            "Customizing the HRIS to align with client’s needs and branding.",
-          moreWorkLink: "/view-work/3",
-          moreWorkImg: project3Image12,
-        },
-      ],
-    },
-  ];
-
-  // Find the content based on the ID
+  // Single declaration of projectContent
   const projectContent = contentArray.find((content) => content.id === id);
 
-  if (!projectContent) {
-    return <div>Project not found</div>;
-  }
+  useEffect(() => {
+    // Handle image source based on screen size
+    const handleResize = () => {
+      if (window.innerWidth <= 991 && projectContent?.demoImgResponsive) {
+        setImageSrc(projectContent.demoImgResponsive);
+      } else {
+        setImageSrc(projectContent?.demoImg);
+      }
+    };
 
-  const [isVisible, setIsVisible] = useState(false);
+    // Set initial image
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Clean up
+    return () => window.removeEventListener("resize", handleResize);
+  }, [projectContent]);
 
   useEffect(() => {
     const toggleVisibility = () => {
@@ -424,6 +443,10 @@ const Project2 = () => {
     window.addEventListener("scroll", toggleVisibility);
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
+
+  if (!projectContent) {
+    return <div>Project not found</div>;
+  }
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -474,8 +497,8 @@ const Project2 = () => {
           <div className="project-work-img-container">
             <img
               src={projectContent.image}
-              className="img-fluid"
-              style={{ minHeight: "850px" }}
+              className="img-fluid border-radius-responsive"
+              style={{ height: "100%", borderRadius: "48px" }}
               alt="Hero Work Image"
             />
           </div>
@@ -556,10 +579,10 @@ const Project2 = () => {
       </div>
 
       <div className="d-flex flex-column align-items-center project-work-documentation">
-        <div className="project-work-goal d-flex flex-row justify-content-between">
+        <div className="project-work-goal d-flex flex-row justify-content-between project-work-responsive-container project-work-break-container">
           <div className="project-work-goal-title">
             <h6
-              className="h-primary-color"
+              className="h-primary-color h6-flex-responsive"
               style={{ fontSize: "32px", fontWeight: 600 }}
             >
               Goal
@@ -575,7 +598,7 @@ const Project2 = () => {
           </div>
         </div>
 
-        <div className="project-work-hero-img">
+        <div className="project-work-hero-img project-work-responsive-container">
           <img
             src={projectContent.goalImg}
             alt="Goal Image"
@@ -583,12 +606,12 @@ const Project2 = () => {
           />
         </div>
 
-        <div className="project-work-requirements-container">
-          <div className="project-work-requirements">
-            <div className="w-100 d-flex flex-row justify-content-between defining-container">
+        <div className="project-work-requirements-container project-work-responsive-container border-radius-responsive">
+          <div className="project-work-requirements project-work-responsive-container  ">
+            <div className="w-100 d-flex flex-row justify-content-between defining-container project-work-break-container">
               <div className="project-work-requirements-title">
                 <h6
-                  className="h-primary-color color-white"
+                  className="h-primary-color color-white h6-flex-responsive"
                   style={{ fontSize: "32px", fontWeight: 600 }}
                 >
                   {projectContent.definingTitle}
@@ -601,7 +624,7 @@ const Project2 = () => {
               </div>
             </div>
 
-            <div className="w-100 d-flex flex-row justify-content-between defining-card-container">
+            <div className="w-100 d-flex flex-row justify-content-between defining-card-container blue-white-card">
               {projectContent.definingCards.map((definingCard, index) => (
                 <div key={index} className="w-100 defining-card">
                   <h6 className="text-white">{definingCard.cardId}</h6>
@@ -614,11 +637,11 @@ const Project2 = () => {
             </div>
           </div>
 
-          <div className="project-work-solutions">
-            <div className="w-100 d-flex flex-row justify-content-between solutions-container">
+          <div className="project-work-solutions project-work-responsive-container">
+            <div className="w-100 d-flex flex-row justify-content-between solutions-container project-work-break-container">
               <div className="project-work-solutions-title">
                 <h6
-                  className="h-primary-color color-white"
+                  className="h-primary-color color-white h6-flex-responsive"
                   style={{ fontSize: "32px", fontWeight: 600 }}
                 >
                   {projectContent.solutionTitle}
@@ -630,7 +653,7 @@ const Project2 = () => {
                 </p>
               </div>
             </div>
-            <div className="w-100 d-flex flex-row justify-content-between solutions-card-container">
+            <div className="w-100 d-flex flex-row justify-content-between solutions-card-container blue-white-card">
               {projectContent.definingCards.map((card, index) => (
                 <div key={index} className="w-100 solutions-card">
                   <h6 className="text-white ">{card.cardId}</h6>
@@ -644,7 +667,7 @@ const Project2 = () => {
           </div>
         </div>
 
-        <div className="project-work-implement">
+        <div className="project-work-implement project-work-responsive-container">
           <img
             src={projectContent.implementedImg}
             className="w-100"
@@ -652,12 +675,12 @@ const Project2 = () => {
           />
         </div>
 
-        <div className="project-work-show-container ">
+        <div className="project-work-show-container project-work-responsive-container">
           {/* 1 */}
-          <div className="project-work-show d-flex flex-row justify-content-between">
+          <div className="project-work-show d-flex flex-row justify-content-between project-work-break-container">
             <div className="project-work-show-title">
               <h6
-                className="h-primary-color"
+                className="h-primary-color h6-flex-responsive"
                 style={{ fontSize: "32px", fontWeight: 600 }}
               >
                 {projectContent.showcaseTitle}
@@ -683,9 +706,9 @@ const Project2 = () => {
           {id === "3" && <ProjectHris3 projectContent={projectContent} />}
         </div>
 
-        <div className="project-work-demo d-flex flex-row align-items-center">
+        <div className="project-work-demo d-flex flex-row align-items-center project-work-responsive-container project-work-break-container border-radius-responsive ">
           <div className="d-flex flex-column project-work-demo-title text-start">
-            <h6 className="h-primary-color text-start">
+            <h6 className="h-primary-color text-start ">
               {projectContent.demoTitle}
             </h6>
             <p className="p-text-muted text-start">
@@ -697,17 +720,17 @@ const Project2 = () => {
           </div>
           <div className="project-work-demo-img shadow">
             <img
-              src={projectContent.demoImg}
+              src={imageSrc || projectContent.demoImg}
               alt="Demo Image"
-              className="w-100"
+              className="w-100 img-fluid"
             />
           </div>
         </div>
 
-        <div className="project-work-takeaways-container d-flex flex-row justify-content-between">
-          <div className="project-work-takeaways-title">
+        <div className="project-work-takeaways-container d-flex flex-row justify-content-between project-work-responsive-container project-work-break-container">
+          <div className="project-work-takeaways-title ">
             <h6
-              className="h-primary-color"
+              className="h-primary-color h6-flex-responsive"
               style={{ fontSize: "32px", fontWeight: 600 }}
             >
               My Takeaways
@@ -730,12 +753,12 @@ const Project2 = () => {
           </div>
         </div>
 
-        <div className="project-work-thanks-container d-flex flex-column justify-content-center align-items-center">
+        <div className="project-work-thanks-container d-flex flex-column justify-content-center align-items-center project-work-responsive-container  project-work-break-container border-radius-responsive">
           <img src={faith} alt="Faith" />
           <h6 className="text-white">Thank you for viewing!</h6>
         </div>
 
-        <div className="project-work-more-work d-flex flex-column">
+        <div className="project-work-more-work d-flex flex-column project-work-responsive-container">
           <h6 className="text-center h-primary-color">See more of my work</h6>
 
           <div className="d-flex flex-row project-work-more-work-card-container">
