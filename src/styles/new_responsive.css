@@ -797,7 +797,7 @@
   }
   .footer3-email-container {
     padding: 0 !important;
-    width: 100% !important;
+    width: 95% !important;
     flex-direction: column !important;
     gap: 1rem !important;
   }
@@ -947,6 +947,18 @@
     box-shadow: none !important;
     height: auto !important;
     max-height: 600px !important;
+  }
+
+  .footer3-email-container {
+    padding: 0 !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  .footer3-email-container-span {
+    width: 100% !important;
+    justify-content: center !important;
+    font-size: 16px !important;
   }
 }
 
