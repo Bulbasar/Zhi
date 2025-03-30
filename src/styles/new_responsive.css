@@ -343,6 +343,10 @@
     width: 80px;
     margin-bottom: 56px;
   }
+
+  .project-work-more-work-card-container {
+    flex-direction: column !important;
+  }
 }
 
 @media screen and (max-width: 940px) {
