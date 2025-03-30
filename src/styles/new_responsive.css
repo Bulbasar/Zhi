@@ -348,8 +348,14 @@
     flex-direction: column !important;
   }
 
-  .project-work-more-work-card-img img {
-    height: 100% !important;
+  .project-work-more-work-card-img {
+    justify-content: center !important;
+  }
+
+  .project-work-more-work-card-img img,
+  picture,
+  source {
+    max-height: 100% !important;
   }
 
   .project-work-more-work-card-container button {

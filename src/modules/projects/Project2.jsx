@@ -6,6 +6,10 @@ import ProjectHris3 from "../projects/Project-hris2.jsx";
 
 import faith from "../../assets/Faith.png";
 
+import seeMoreHris1FullScreen from "../../assets/seeMoreHris1FullScreen.png";
+import seeMoreHris2FullScreen from "../../assets/seeMoreHris2FullScreen.png";
+import seeMoreCmsFullScreen from "../../assets/seeMoreCmsFullScreen.png";
+
 import project1Image1 from "../../assets/Project-1/work-1.jpg";
 import project1Image2 from "../../assets/Project-1/work-2.svg";
 import project1Image3 from "../../assets/Project-1/work-3.svg";
@@ -164,6 +168,7 @@ const contentArray = [
           "Building a CMS to simplify content management & enhance.",
         moreWorkLink: "/view-work/2",
         moreWorkImg: project1Image15,
+        moreWorkImgFullScreen: seeMoreCmsFullScreen,
       },
       {
         moreWorkTag1: "HR TECH",
@@ -173,6 +178,7 @@ const contentArray = [
           "Customizing the HRIS to align with client’s needs and branding.",
         moreWorkLink: "/view-work/3",
         moreWorkImg: project1Image16,
+        moreWorkImgFullScreen: seeMoreHris2FullScreen,
       },
     ],
   },
@@ -277,6 +283,7 @@ const contentArray = [
           "Enhancing the HRIS for a more efficient and intuitive workflow.",
         moreWorkLink: "/view-work/1",
         moreWorkImg: project2Image7,
+        moreWorkImgFullScreen: seeMoreHris1FullScreen,
       },
       {
         moreWorkTag1: "HR TECH",
@@ -286,6 +293,7 @@ const contentArray = [
           "Customizing the HRIS to align with client’s needs and branding.",
         moreWorkLink: "/view-work/3",
         moreWorkImg: project2Image8,
+        moreWorkImgFullScreen: seeMoreHris2FullScreen,
       },
     ],
   },
@@ -389,15 +397,17 @@ const contentArray = [
           "Enhancing the HRIS for a more efficient and intuitive workflow.",
         moreWorkLink: "/view-work/1",
         moreWorkImg: project3Image11,
+        moreWorkImgFullScreen: seeMoreHris1FullScreen,
       },
       {
-        moreWorkTag1: "HR TECH",
+        moreWorkTag1: "MARTECH",
         moreWorkTagDot1: "·",
         moreWorkTag2: "WEB APP",
         moreWorkTitle:
-          "Customizing the HRIS to align with client’s needs and branding.",
-        moreWorkLink: "/view-work/3",
+          "Building a CMS to simplify content management & enhance.",
+        moreWorkLink: "/view-work/2",
         moreWorkImg: project3Image12,
+        moreWorkImgFullScreen: seeMoreCmsFullScreen,
       },
     ],
   },
@@ -788,7 +798,20 @@ const Project2 = () => {
 
                 {/* Work Image */}
                 <div className="project-work-more-work-card-img d-flex flex-row justify-content-end">
-                  <img src={work.moreWorkImg} alt="Card Image" />
+                  <picture>
+                    {/* For screens wider than 991px */}
+                    <source
+                      media="(min-width: 992px)"
+                      srcSet={work.moreWorkImg}
+                    />
+                    {/* For screens 991px and narrower */}
+                    <source
+                      media="(max-width: 991px)"
+                      srcSet={work.moreWorkImgFullScreen || work.moreWorkImg}
+                    />
+                    {/* Fallback */}
+                    <img src={work.moreWorkImg} alt="Card Image" />
+                  </picture>
                 </div>
               </div>
             ))}
