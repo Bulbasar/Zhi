@@ -21,7 +21,7 @@ const AboutMe = () => {
                   href="/#works"
                   style={{ textDecoration: "none" }}
                 >
-                  Get in Touch
+                  View Works
                 </a>
                 <a
                   className="about-me-secondaryBtn"

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import logo from "../../assets/logo.png";
+import resume from "../../../ZhizhiNieves_Resume_2025.pdf";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to manage sidebar visibility
@@ -145,7 +146,9 @@ const Navbar = () => {
                 className={`nav-link bar-links position-relative ${
                   activeSection === "resume" ? "active" : ""
                 }`}
-                href="#resume"
+                href={resume}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ fontSize: "16px", fontWeight: 500 }}
               >
                 Resume
@@ -154,7 +157,7 @@ const Navbar = () => {
           </ul>
           <a
             className="contactBtn btn btn-primary text-white navbar-slide-down-menu4"
-            href="#contact"
+            href="/about"
           >
             Get in touch
           </a>
@@ -214,7 +217,9 @@ const Navbar = () => {
                       ? "text-primary"
                       : "text-secondary"
                   }`}
-                  href="#resume"
+                  href={resume}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ fontSize: "16px", fontWeight: 500 }}
                 >
                   Resume
@@ -223,7 +228,7 @@ const Navbar = () => {
               <li className="nav-item mt-3" style={isOpen ? slideInStyle4 : {}}>
                 <a
                   className="primaryBtnNav"
-                  href="#contact"
+                  href="/about"
                   onClick={toggleSidebar}
                   style={{ textDecoration: "none" }}
                 >

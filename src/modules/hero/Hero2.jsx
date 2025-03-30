@@ -60,7 +60,7 @@ const Hero2 = () => {
           <div className="d-flex flex-row gap-3">
             <a
               className="primaryBtn"
-              href="#works"
+              href="/about"
               style={{ textDecoration: "none" }}
             >
               Get in Touch
