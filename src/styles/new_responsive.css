@@ -798,17 +798,18 @@
   .footer3-email-container {
     padding: 0 !important;
     width: 90% !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
   }
   .footer3-email-container-span {
     width: 100% !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-    font-size: 10px !important;
-    color: red !important;
+    justify-content: center !important;
+    font-size: 16px !important;
   }
 
   .footerPrimaryBtn {
-    font-size: 10px !important;
+    font-size: 16px !important;
+    width: 100% !important;
   }
 
   /* view work */
