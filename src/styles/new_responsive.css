@@ -806,6 +806,10 @@
     font-size: 14px !important;
   }
 
+  .footerPrimaryBtn {
+    font-size: 14px !important;
+  }
+
   /* view work */
   .project-container {
     padding: 80px 25px !important;
