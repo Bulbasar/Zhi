@@ -803,12 +803,12 @@
     width: 100% !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    font-size: 12px !important;
+    font-size: 10px !important;
     color: red !important;
   }
 
   .footerPrimaryBtn {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   /* view work */
