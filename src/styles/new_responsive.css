@@ -355,7 +355,7 @@
   .project-work-more-work-card-img img,
   picture,
   source {
-    max-height: 100% !important;
+    max-height: 300px !important;
   }
 
   .project-work-more-work-card-container button {
