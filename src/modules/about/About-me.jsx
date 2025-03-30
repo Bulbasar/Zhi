@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <section className="container-fluid min-vh-100 py-2 about-me-section ">
       <div className="about-me-container d-flex flex-column align-items-center">
-        <div className="about-me-container d-flex flex-row align-items-center justify-content-center">
+        <div className="about-me-container d-flex flex-row align-items-center justify-content-center about-me-showcase">
           <div className="about-me-card">
             <div>
               <h6 className="h-primary-color">About Me</h6>

@@ -148,6 +148,13 @@
     border-radius: 48px !important;
     background: #e2f1de !important;
   }
+
+  /* about */
+
+  .about-me-showcase {
+    padding: 0 80px !important;
+    /* border: 1px solid red !important; */
+  }
 }
 
 @media screen and (max-width: 1180px) {
@@ -364,6 +371,49 @@
 
   .project-work-more-work-card-container button {
     width: 100% !important;
+  }
+
+  /* about-me */
+  .about-me-showcase {
+    padding: 0 0 !important;
+    /* border: 1px solid red !important; */
+  }
+
+  .about-me-card {
+    width: 100% !important;
+    padding: 0px !important;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    gap: 10px !important;
+    text-align: center !important;
+  }
+
+  .about-me-card img {
+    width: 100% !important;
+  }
+
+  .about-me-card p {
+    text-align: center !important;
+    font-size: 16px !important;
+    line-height: 28px !important;
+  }
+
+  .about-me-btn {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .my-journey-container {
+    margin-top: 3rem !important;
+    padding: 0 18px !important;
+  }
+
+  .my-journey-title {
+    text-align: center !important;
+  }
+
+  .my-journey-container p {
+    font-size: 16px !important;
   }
 }
 
