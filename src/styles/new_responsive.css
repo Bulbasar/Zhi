@@ -705,11 +705,11 @@
 
   /* view work */
   .project-container {
-    padding: 80px 3rem !important;
+    padding: 80px 5px !important;
   }
 
   .project-work-documentation {
-    padding: 80px 3rem !important;
+    padding: 80px 5px !important;
   }
 
   .project-work-title-card h6 {
@@ -814,11 +814,11 @@
 
   /* view work */
   .project-container {
-    padding: 80px 25px !important;
+    padding: 80px 5px !important;
   }
 
   .project-work-documentation {
-    padding: 80px 25px !important;
+    padding: 80px 5px !important;
   }
 
   .project-work-title-card h6 {
@@ -998,7 +998,7 @@
 
   /* viewww works */
   .project-container {
-    padding: 40px 15px !important;
+    padding: 40px 5px !important;
   }
 
   .project-work-title-card h6 {
