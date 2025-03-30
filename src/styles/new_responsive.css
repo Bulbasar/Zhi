@@ -797,7 +797,7 @@
   }
   .footer3-email-container {
     padding: 0 !important;
-    width: 90% !important;
+    width: 100% !important;
     flex-direction: column !important;
     gap: 1rem !important;
   }
