@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import ProjectHris1 from "../projects/Project-hris1";
 import ProjectCms from "../projects/Project-cms.jsx";
 import ProjectHris3 from "../projects/Project-hris2.jsx";
@@ -462,6 +466,14 @@ const Project2 = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  // aos
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: true, // animations will occur every time element comes into view
+      offset: 0,
+    });
+  }, []);
   return (
     <section className="container-fluid min-vh-100 py-2 project-section ">
       <a
@@ -474,7 +486,10 @@ const Project2 = () => {
         </div>
       </a>
       <div className="hero-container d-flex flex-column align-items-center project-container ">
-        <div className="d-flex flex-column project-work-card">
+        <div
+          className="d-flex flex-column project-work-card"
+          data-aos="zoom-in"
+        >
           <div className="project-work-title-card">
             <a
               href="/#works"
@@ -608,7 +623,11 @@ const Project2 = () => {
           </div>
         </div>
 
-        <div className="project-work-hero-img project-work-responsive-container">
+        <div
+          className="project-work-hero-img project-work-responsive-container"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <img
             src={projectContent.goalImg}
             alt="Goal Image"
@@ -616,7 +635,11 @@ const Project2 = () => {
           />
         </div>
 
-        <div className="project-work-requirements-container project-work-responsive-container border-radius-responsive">
+        <div
+          className="project-work-requirements-container project-work-responsive-container border-radius-responsive"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <div className="project-work-requirements project-work-responsive-container  ">
             <div className="w-100 d-flex flex-row justify-content-between defining-container project-work-break-container">
               <div className="project-work-requirements-title">
@@ -636,7 +659,12 @@ const Project2 = () => {
 
             <div className="w-100 d-flex flex-row justify-content-between defining-card-container blue-white-card">
               {projectContent.definingCards.map((definingCard, index) => (
-                <div key={index} className="w-100 defining-card">
+                <div
+                  key={index}
+                  className="w-100 defining-card"
+                  data-aos="fade-down"
+                  data-aos-delay="700"
+                >
                   <h6 className="text-white">{definingCard.cardId}</h6>
                   <h6 className="text-white ">{definingCard.title}</h6>
                   <p className="text-align-start project-work">
@@ -663,7 +691,11 @@ const Project2 = () => {
                 </p>
               </div>
             </div>
-            <div className="w-100 d-flex flex-row justify-content-between solutions-card-container blue-white-card">
+            <div
+              className="w-100 d-flex flex-row justify-content-between solutions-card-container blue-white-card"
+              data-aos="fade-down"
+              data-aos-delay="700"
+            >
               {projectContent.definingCards.map((card, index) => (
                 <div key={index} className="w-100 solutions-card">
                   <h6 className="text-white ">{card.cardId}</h6>
@@ -677,7 +709,11 @@ const Project2 = () => {
           </div>
         </div>
 
-        <div className="project-work-implement project-work-responsive-container">
+        <div
+          className="project-work-implement project-work-responsive-container"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <img
             src={projectContent.implementedImg}
             className="w-100"
@@ -716,7 +752,11 @@ const Project2 = () => {
           {id === "3" && <ProjectHris3 projectContent={projectContent} />}
         </div>
 
-        <div className="project-work-demo d-flex flex-row align-items-center project-work-responsive-container project-work-break-container border-radius-responsive ">
+        <div
+          className="project-work-demo d-flex flex-row align-items-center project-work-responsive-container project-work-break-container border-radius-responsive "
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <div className="d-flex flex-column project-work-demo-title text-start">
             <h6 className="h-primary-color text-start ">
               {projectContent.demoTitle}
@@ -771,7 +811,11 @@ const Project2 = () => {
         <div className="project-work-more-work d-flex flex-column project-work-responsive-container">
           <h6 className="text-center h-primary-color">See more of my work</h6>
 
-          <div className="d-flex flex-row project-work-more-work-card-container">
+          <div
+            className="d-flex flex-row project-work-more-work-card-container"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             {projectContent.moreWorkList.map((work, index) => (
               <div
                 key={index}
