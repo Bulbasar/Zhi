@@ -16,19 +16,30 @@ const AboutMe = () => {
   return (
     <section className="container-fluid min-vh-100 py-2 about-me-section ">
       <div className="about-me-container d-flex flex-column align-items-center">
-        <div
-          className="about-me-container d-flex flex-row align-items-center justify-content-center about-me-showcase"
-          data-aos="zoom-in"
-        >
+        <div className="about-me-container d-flex flex-row align-items-center justify-content-center about-me-showcase">
           <div className="about-me-card">
             <div>
-              <h6 className="h-primary-color">About Me</h6>
-              <p className="p-text-muted text-start">
+              <h6
+                className="h-primary-color"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                About Me
+              </h6>
+              <p
+                className="p-text-muted text-start"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
                 Hi! I’m Zhizhi Nieves, a UI/UX Designer with a background in
                 Information Technology, specializing in Figma and passionate
                 about crafting intuitive and meaningful digital experiences.
               </p>
-              <div className="d-flex flex-row about-me-btn">
+              <div
+                className="d-flex flex-row about-me-btn"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
                 <a
                   className="about-me-primaryBtn d-flex flex-row align-items-center justify-content-center"
                   href="/#works"
@@ -47,7 +58,7 @@ const AboutMe = () => {
                 </a>
               </div>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="500">
               <img src={Zhi} alt="" />
             </div>
           </div>

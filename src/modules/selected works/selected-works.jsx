@@ -132,8 +132,8 @@ const SelectedWorks = () => {
                     fontWeight: 600,
                   }}
                 >
-                  Building a CMS to simplify content management and enhance
-                  operations.
+                  Developed a CMS to enable the company’s upcoming market
+                  launch.
                 </h6>
               </div>
             </div>
@@ -197,8 +197,7 @@ const SelectedWorks = () => {
                     fontWeight: 600,
                   }}
                 >
-                  Enhancing the HRIS for a more efficient and intuitive
-                  workflow.
+                  Customized the HRIS to align with business needs and branding.
                 </h6>
               </div>
             </div>

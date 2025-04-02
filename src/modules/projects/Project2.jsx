@@ -12,9 +12,18 @@ import ProjectHris3 from "../projects/Project-hris2.jsx";
 
 import faith from "../../assets/Faith.png";
 
-import seeMoreHris1FullScreen from "../../assets/seeMoreHris1FullScreen.png";
-import seeMoreHris2FullScreen from "../../assets/seeMoreHris2FullScreen.png";
-import seeMoreCmsFullScreen from "../../assets/seeMoreCmsFullScreen.png";
+// import seeMoreHris1FullScreen from "../../assets/seeMoreHris1FullScreen.png";
+// import seeMoreHris2FullScreen from "../../assets/seeMoreHris2FullScreen.png";
+// import seeMoreCmsFullScreen from "../../assets/seeMoreCmsFullScreen.png";
+
+import seeMoreHris1FullScreen from "../../assets/seeMoreHris1.png";
+import seeMoreHris2FullScreen from "../../assets/seeMoreCms.png";
+import seeMoreCmsFullScreen from "../../assets/seeMoreHris2.png";
+
+// see more projects
+import seeMoreHris1_2 from "../../assets/seeMoreHris1.2.png";
+import seeMoreCms2 from "../../assets/seeMoreCms2.png";
+import seeMoreHris2_2 from "../../assets/seeMoreHris2.2.png";
 
 import project1Image1 from "../../assets/Project-1/work-1.jpg";
 import project1Image2 from "../../assets/Project-1/work-2.svg";
@@ -32,6 +41,7 @@ import project1Image13 from "../../assets/Project-1/work-13.jpg";
 import project1Image14 from "../../assets/Project-1/work-14.png";
 import project1Image15 from "../../assets/Project-1/work-15.png";
 import project1Image16 from "../../assets/Project-1/work-16.png";
+import project1Image18 from "../../assets/Project-1/work-18.jpg";
 
 import project2Image1 from "../../assets/Project-2/work-1.jpg";
 import project2Image2 from "../../assets/Project-2/work-2.svg";
@@ -41,6 +51,7 @@ import project2Image5 from "../../assets/Project-2/work-5.jpg";
 import project2Image6 from "../../assets/Project-2/work-6.png";
 import project2Image7 from "../../assets/Project-2/work-7.png";
 import project2Image8 from "../../assets/Project-2/work-8.png";
+import project2Image11 from "../../assets/Project-2/work-11.jpg";
 
 import project3Image1 from "../../assets/Project-3/work-1.jpg";
 import project3Image2 from "../../assets/Project-3/work-2.svg";
@@ -54,6 +65,7 @@ import project3Image9 from "../../assets/Project-3/work-9.jpg";
 import project3Image10 from "../../assets/Project-3/work-10.png";
 import project3Image11 from "../../assets/Project-3/work-11.png";
 import project3Image12 from "../../assets/Project-3/work-12.png";
+import project3Image14 from "../../assets/Project-3/work-14.jpg";
 
 const contentArray = [
   {
@@ -61,7 +73,7 @@ const contentArray = [
     // hero section
     title: "Enhanced the HRIS for a more efficient and intuitive workflow.",
     description:
-      "I enhanced the company's HRIS by refining its interface and simplifying workflows, making it easier for employees and administrators to navigate and manage tasks efficiently.",
+      "I enhanced the company’s HRIS by refining its interface and simplifying workflows, making it easier for employees and administrators to navigate and manage tasks efficiently.",
     image: project1Image1,
     company: "Slashtech Solutions",
     industry: "Information Technology",
@@ -147,7 +159,8 @@ const contentArray = [
     showcaseImageAfter3_2: project1Image13,
     // demo
     demoTitle: "Slash HRIS",
-    demoImg: project1Image14,
+    // demoImg: project1Image14,
+    demoImg: project1Image18,
     demoImgResponsive: project1Image1,
     // takeaways
     takeAwayList: [
@@ -164,6 +177,7 @@ const contentArray = [
           "Enhancing readability by defining a clear text hierarchy, improving contrast, and refining labels helps users process information more quickly and accurately.",
       },
     ],
+
     // more work
     moreWorkList: [
       {
@@ -173,7 +187,7 @@ const contentArray = [
         moreWorkTitle:
           "Building a CMS to simplify content management & enhance.",
         moreWorkLink: "/view-work/2",
-        moreWorkImg: project1Image15,
+        moreWorkImg: seeMoreCms2,
         moreWorkImgFullScreen: seeMoreCmsFullScreen,
       },
       {
@@ -183,7 +197,7 @@ const contentArray = [
         moreWorkTitle:
           "Customizing the HRIS to align with client’s needs and branding.",
         moreWorkLink: "/view-work/3",
-        moreWorkImg: project1Image16,
+        moreWorkImg: seeMoreHris2_2,
         moreWorkImgFullScreen: seeMoreHris2FullScreen,
       },
     ],
@@ -192,9 +206,9 @@ const contentArray = [
   {
     id: "2",
     // hero section
-    title: "Developed a CMS to enable the company's upcoming market launch.",
+    title: "Developed a CMS to enable the company’s upcoming market launch.",
     description:
-      "I developed a content management system to simplify content creation and management, supporting the company's successful market launch.",
+      "I developed a content management system to simplify content creation and management, supporting the company’s successful market launch.",
     image: project2Image1,
     company: "Slashtech Solutions",
     industry: "Information Technology",
@@ -263,7 +277,8 @@ const contentArray = [
     showcaseImageCms2: project2Image5,
     // demo
     demoTitle: "CMS",
-    demoImg: project2Image6,
+    // demoImg: project2Image6,
+    demoImg: project2Image11,
     demoImgResponsive: project2Image1,
     // takeaways
     takeAwayList: [
@@ -289,7 +304,7 @@ const contentArray = [
         moreWorkTitle:
           "Enhancing the HRIS for a more efficient and intuitive workflow.",
         moreWorkLink: "/view-work/1",
-        moreWorkImg: project2Image7,
+        moreWorkImg: seeMoreHris1_2,
         moreWorkImgFullScreen: seeMoreHris1FullScreen,
       },
       {
@@ -299,7 +314,7 @@ const contentArray = [
         moreWorkTitle:
           "Customizing the HRIS to align with client’s needs and branding.",
         moreWorkLink: "/view-work/3",
-        moreWorkImg: project2Image8,
+        moreWorkImg: seeMoreHris2_2,
         moreWorkImgFullScreen: seeMoreHris2FullScreen,
       },
     ],
@@ -310,7 +325,7 @@ const contentArray = [
     // hero section
     title: "Customized the HRIS to align with business needs and branding.",
     description:
-      "I customized the HRIS with additional features and enhancements tailored to the client's specific needs, improving employee management and operational processes.",
+      "I customized the HRIS with additional features and enhancements tailored to the client’s specific needs, improving employee management and operational processes.",
     image: project3Image1,
     company: "Infinity Eight",
     industry: "Trading & Marketing",
@@ -378,7 +393,8 @@ const contentArray = [
 
     // demo
     demoTitle: "Infinity",
-    demoImg: project3Image10,
+    // demoImg: project3Image10,
+    demoImg: project3Image14,
     demoImgResponsive: project3Image1,
     // takeaways
     takeAwayList: [
@@ -404,7 +420,7 @@ const contentArray = [
         moreWorkTitle:
           "Enhancing the HRIS for a more efficient and intuitive workflow.",
         moreWorkLink: "/view-work/1",
-        moreWorkImg: project3Image11,
+        moreWorkImg: seeMoreHris1_2,
         moreWorkImgFullScreen: seeMoreHris1FullScreen,
       },
       {
@@ -414,11 +430,11 @@ const contentArray = [
         moreWorkTitle:
           "Building a CMS to simplify content management & enhance.",
         moreWorkLink: "/view-work/2",
-        moreWorkImg: project3Image12,
+        moreWorkImg: seeMoreCms2,
         moreWorkImgFullScreen: seeMoreCmsFullScreen,
       },
     ],
-    viewPrototype: "https://tinyurl.com/infinity-hris",
+    viewPrototype: "https://tinyurl.com/infinity-hris2",
   },
 ];
 
@@ -491,12 +507,11 @@ const Project2 = () => {
         </div>
       </a>
       <div className="hero-container d-flex flex-column align-items-center project-container ">
-        <div
-          className="d-flex flex-column project-work-card"
-          data-aos="zoom-in"
-        >
+        <div className="d-flex flex-column project-work-card">
           <div className="project-work-title-card">
             <a
+              data-aos-delay="300"
+              data-aos="fade-up"
               href="/#works"
               style={{ textDecoration: "none", fontSize: "16px" }}
               className="a-link"
@@ -512,6 +527,8 @@ const Project2 = () => {
                 lineHeight: "64px",
                 marginTop: "24px",
               }}
+              data-aos-delay="200"
+              data-aos="fade-up"
             >
               {projectContent.title}
             </h6>
@@ -519,6 +536,8 @@ const Project2 = () => {
             <p
               className="text-start p-text-muted "
               style={{ fontSize: "20px", lineHeight: "34px" }}
+              data-aos-delay="300"
+              data-aos="fade-up"
             >
               {projectContent.description}
             </p>
@@ -781,7 +800,11 @@ const Project2 = () => {
             <img
               src={imageSrc || projectContent.demoImg}
               alt="Demo Image"
-              className="w-100 img-fluid"
+              className="w-100 img-fluid h-100"
+              style={{
+                borderTopLeftRadius: "16px",
+                borderBottomLeftRadius: "16px",
+              }}
             />
           </div>
         </div>

@@ -122,3 +122,11 @@
   color: #fff !important;
   transform: scale(1.1);
 }
+
+.project-work-title-card i:hover {
+  color: #5c7185 !important;
+}
+
+.project-work-title-card a:hover {
+  color: #5c7185 !important;
+}

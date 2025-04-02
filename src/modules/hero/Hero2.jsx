@@ -7,7 +7,7 @@ import resume from "../../../ZhizhiNieves_Resume_2025.pdf";
 const Hero2 = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1500,
+      duration: 0,
       once: true, // animations will occur every time element comes into view
       offset: 0,
     });
@@ -21,7 +21,6 @@ const Hero2 = () => {
         <div
           className="hero-card d-flex flex-column align-items-center "
           style={{ width: "976px", minHeight: "386px" }}
-          data-aos="zoom-in"
         >
           <div
             className="d-flex flex-row align-items-center hero-h-container"
@@ -34,6 +33,7 @@ const Hero2 = () => {
                 fontWeight: 600,
                 lineHeight: "130%",
               }}
+              data-aos="fade-up"
             >
               <span>Crafting designs </span>
               <br />
@@ -46,6 +46,8 @@ const Hero2 = () => {
           <div
             className="w-100 hero-p-container"
             style={{ marginBottom: "56px" }}
+            data-aos-delay="300"
+            data-aos="fade-up"
           >
             <p
               className="p-text-muted hero-p"
@@ -57,7 +59,11 @@ const Hero2 = () => {
             </p>
           </div>
 
-          <div className="d-flex flex-row gap-3">
+          <div
+            className="d-flex flex-row gap-3"
+            data-aos-delay="400"
+            data-aos="fade-up"
+          >
             <a
               className="primaryBtn"
               href="/about"
