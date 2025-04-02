@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -185,6 +187,7 @@ const contentArray = [
         moreWorkImgFullScreen: seeMoreHris2FullScreen,
       },
     ],
+    viewPrototype: "https://tinyurl.com/slash-hris",
   },
   {
     id: "2",
@@ -300,6 +303,7 @@ const contentArray = [
         moreWorkImgFullScreen: seeMoreHris2FullScreen,
       },
     ],
+    viewPrototype: "https://tinyurl.com/slash-cms",
   },
   {
     id: "3",
@@ -414,6 +418,7 @@ const contentArray = [
         moreWorkImgFullScreen: seeMoreCmsFullScreen,
       },
     ],
+    viewPrototype: "https://tinyurl.com/infinity-hris",
   },
 ];
 
@@ -764,7 +769,11 @@ const Project2 = () => {
             <p className="p-text-muted text-start">
               Click the button to view the final design in action
             </p>
-            <a href="" className="primaryBtnNav text-center">
+            <a
+              href={projectContent.viewPrototype}
+              target="_blank"
+              className="primaryBtnNav text-center"
+            >
               View Prototype
             </a>
           </div>
@@ -836,7 +845,8 @@ const Project2 = () => {
                     className="seeWorkSecondaryBtn"
                     onClick={() => (window.location.href = work.moreWorkLink)}
                   >
-                    View Work <i className="bx bx-right-arrow-alt "></i>
+                    View Work{" "}
+                    <FontAwesomeIcon icon={faArrowRightLong} className="mx-1" />
                   </button>
                 </div>
 

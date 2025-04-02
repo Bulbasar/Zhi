@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -93,7 +96,8 @@ const SelectedWorks = () => {
               className="viewWorkSecondaryBtn"
               onClick={() => (window.location.href = "/view-work/1")}
             >
-              View Work <i className="bx bx-right-arrow-alt "></i>
+              View Work{" "}
+              <FontAwesomeIcon icon={faArrowRightLong} className="mx-1" />
             </button>
           </div>
         </div>
@@ -139,7 +143,8 @@ const SelectedWorks = () => {
               className="viewWorkSecondaryBtn"
               onClick={() => (window.location.href = "/view-work/2")}
             >
-              View Work <i className="bx bx-right-arrow-alt "></i>
+              View Work{" "}
+              <FontAwesomeIcon icon={faArrowRightLong} className="mx-1" />
             </button>
           </div>
 
@@ -203,7 +208,8 @@ const SelectedWorks = () => {
               className="viewWorkSecondaryBtn"
               onClick={() => (window.location.href = "/view-work/3")}
             >
-              View Work <i className="bx bx-right-arrow-alt "></i>
+              View Work{" "}
+              <FontAwesomeIcon icon={faArrowRightLong} className="mx-1" />
             </button>
           </div>
         </div>
