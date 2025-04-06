@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 import resume from "../../../ZhizhiNieves_Resume_2025.pdf";
+
+import logo from "../../assets/z-logo.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -105,7 +107,7 @@ const Navbar = () => {
             <img src={logo} alt="Logo" style={{ width: "40px" }} />
           </span>
           <span
-            className="h-100 mx-3 text-dark custom-logo-p h-primary-color"
+            className="h-100 mx-2 text-dark custom-logo-p h-primary-color"
             style={{ fontSize: "24px", fontWeight: 600 }}
           >
             Zhimaro
