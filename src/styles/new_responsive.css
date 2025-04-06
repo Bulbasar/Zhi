@@ -548,6 +548,10 @@
     margin-bottom: 30px !important;
   }
 
+  .hero-p-container p {
+    text-align: center !important;
+  }
+
   .hero-h {
     font-size: 46px !important;
     line-height: 110% !important;
