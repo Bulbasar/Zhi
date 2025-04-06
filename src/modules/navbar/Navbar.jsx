@@ -3,41 +3,41 @@ import logo from "../../assets/logo.png";
 import resume from "../../../ZhizhiNieves_Resume_2025.pdf";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to manage sidebar visibility
-  const [animate, setAnimate] = useState(false); // State to trigger animation
-  const [activeSection, setActiveSection] = useState(""); // Add this new state
-  const sidebarRef = useRef(null); // Create a ref for the sidebar
+  const [isOpen, setIsOpen] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
+  const sidebarRef = useRef(null);
 
   const toggleSidebar = () => {
-    setIsOpen(!isOpen); // Toggle sidebar visibility
+    if (!isOpen) {
+      // Opening the sidebar
+      setIsOpen(true);
+      setIsAnimating(true);
+    } else {
+      // Closing the sidebar - start animation first
+      setIsAnimating(false);
+      // Wait for animation to complete before hiding
+      setTimeout(() => setIsOpen(false), 300);
+    }
   };
 
   useEffect(() => {
-    if (isOpen) {
-      setAnimate(true); // Trigger animation when sidebar opens
-    } else {
-      setAnimate(false); // Reset animation when sidebar closes
-    }
-  }, [isOpen]);
-
-  // New effect to handle clicks outside the sidebar
-  useEffect(() => {
     const handleClickOutside = (event) => {
       if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
-        setIsOpen(false); // Close sidebar if clicked outside
+        toggleSidebar();
       }
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [sidebarRef]);
+  }, [isOpen]);
 
-  // Update useEffect to handle both scroll and pathname
   useEffect(() => {
     const handleScroll = () => {
-      // Only check scroll position if we're on the home page
       if (window.location.pathname === "/") {
         const sections = ["works", "contact"];
         const currentSection = sections.find((section) => {
@@ -52,7 +52,6 @@ const Navbar = () => {
       }
     };
 
-    // Check pathname for about and resume pages
     const pathname = window.location.pathname;
     if (pathname === "/about") {
       setActiveSection("about");
@@ -66,21 +65,29 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Inline styles for animation
+  // Animation styles
   const slideInStyle = {
-    animation: "slideIn 0.5s ease forwards",
+    animation: isAnimating
+      ? "slideIn 0.3s ease forwards"
+      : "slideOut 0.3s ease forwards",
   };
 
   const slideInStyle2 = {
-    animation: "slideIn 0.8s ease forwards",
+    animation: isAnimating
+      ? "slideIn 0.4s ease forwards"
+      : "slideOut 0.4s ease forwards",
   };
 
   const slideInStyle3 = {
-    animation: "slideIn 1.1s ease forwards",
+    animation: isAnimating
+      ? "slideIn 0.5s ease forwards"
+      : "slideOut 0.5s ease forwards",
   };
 
   const slideInStyle4 = {
-    animation: "slideIn 1.5s ease forwards",
+    animation: isAnimating
+      ? "slideIn 0.6s ease forwards"
+      : "slideOut 0.6s ease forwards",
   };
 
   return (
@@ -109,7 +116,7 @@ const Navbar = () => {
         <button
           className="navbar-toggler navbar-slide-down-menu1"
           type="button"
-          onClick={toggleSidebar} // Change to toggle sidebar
+          onClick={toggleSidebar}
           aria-expanded={isOpen}
           aria-label="Toggle navigation"
         >
@@ -164,16 +171,28 @@ const Navbar = () => {
         </div>
 
         {/* Sidebar for mobile view */}
-        <div className={`sidebar ${isOpen ? "active" : ""}`} ref={sidebarRef}>
-          {/* Close Button */}
+        <div
+          className={`sidebar ${isOpen ? "active" : ""} ${
+            isAnimating ? "animating" : ""
+          }`}
+          ref={sidebarRef}
+        >
           <span
             className="close-btn btn fs-1"
             onClick={toggleSidebar}
             aria-label="Close sidebar"
-            style={{ position: "absolute", right: "10px", top: "10px" }}
+            style={{
+              position: "absolute",
+              right: "10px",
+              top: "10px",
+              transition: "transform 0.3s ease, opacity 0.3s ease",
+              transform: isAnimating ? "rotate(0deg)" : "rotate(90deg)",
+              opacity: isAnimating ? 1 : 0,
+            }}
           >
-            &times; {/* This represents the "X" */}
+            &times;
           </span>
+
           <div className="d-flex flex-column justify-content-center align-items-center h-100">
             <ul className="navbar-nav text-center">
               <li
@@ -202,6 +221,7 @@ const Navbar = () => {
                       : "text-secondary"
                   }`}
                   href="/about"
+                  onClick={toggleSidebar}
                   style={{ fontSize: "16px", fontWeight: 500 }}
                 >
                   About
@@ -220,6 +240,7 @@ const Navbar = () => {
                   href={resume}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={toggleSidebar}
                   style={{ fontSize: "16px", fontWeight: 500 }}
                 >
                   Resume
@@ -240,7 +261,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Add keyframes for animation */}
       <style>
         {`
           @keyframes slideIn {
@@ -252,6 +272,26 @@ const Navbar = () => {
               transform: translateX(0);
               opacity: 1;
             }
+          }
+          
+          @keyframes slideOut {
+            from {
+              transform: translateX(0);
+              opacity: 1;
+            }
+            to {
+              transform: translateX(100%);
+              opacity: 0;
+            }
+          }
+
+
+          .sidebar.active {
+            transform: translateX(0);
+          }
+          
+          .sidebar.animating {
+            transition: transform 0.3s ease;
           }
 
           .bar-links {
@@ -265,7 +305,7 @@ const Navbar = () => {
             left: 0;
             width: 100%;
             height: 2px;
-            background-color: #0d6efd; /* Use your primary color here */
+            background-color: #0d6efd;
             transform: scaleX(1);
             transition: transform 0.3s ease;
           }
@@ -285,7 +325,24 @@ const Navbar = () => {
           .bar-links:hover::after {
             transform: scaleX(1);
           }
-            
+
+          .close-btn {
+            background: none;
+            border: none;
+            color: #333;
+            cursor: pointer;
+            padding: 0.5rem;
+          }
+
+          .close-btn:hover {
+            color: #0d6efd;
+          }
+
+          @media (max-width: 991px) {
+            .navbar-container {
+              padding: 0 1rem;
+            }
+          }
         `}
       </style>
     </nav>
