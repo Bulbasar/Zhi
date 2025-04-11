@@ -25,8 +25,7 @@ import seeMoreHris1_2 from "../../assets/seeMoreHris1.2.png";
 import seeMoreCms2 from "../../assets/seeMoreCms2.png";
 import seeMoreHris2_2 from "../../assets/seeMoreHris2.2.png";
 
-// import project1Image1 from "../../assets/Project-1/work-1.jpg";
-import project1Image1 from "../../assets/Slash - Attendance webp.webp";
+import project1Image1 from "../../assets/Project-1/work-1.jpg";
 import project1Image2 from "../../assets/Project-1/work-2.svg";
 import project1Image3 from "../../assets/Project-1/work-3.svg";
 import project1Image4 from "../../assets/Project-1/work-4.png";
@@ -57,8 +56,8 @@ import project2Image11 from "../../assets/Project-2/work-11.jpg";
 import project3Image1 from "../../assets/Project-3/work-1.jpg";
 import project3Image2 from "../../assets/Project-3/work-2.svg";
 import project3Image3 from "../../assets/Project-3/work-3.svg";
-import project3Image4 from "../../assets/Project-3/work-4.png";
-import project3Image5 from "../../assets/Project-3/work-5.jpg";
+// import project3Image4 from "../../assets/Project-3/work-4.png";
+// import project3Image5 from "../../assets/Project-3/work-5.jpg";
 import project3Image6 from "../../assets/Project-3/work-6.jpg";
 import project3Image7 from "../../assets/Project-3/work-7.jpg";
 import project3Image8 from "../../assets/Project-3/work-8.jpg";
@@ -67,6 +66,9 @@ import project3Image10 from "../../assets/Project-3/work-10.png";
 import project3Image11 from "../../assets/Project-3/work-11.png";
 import project3Image12 from "../../assets/Project-3/work-12.png";
 import project3Image14 from "../../assets/Project-3/work-14.jpg";
+
+import project3Image4 from "../../assets/Project-3/work-15.webp";
+import project3Image5 from "../../assets/Project-3/work-16.webp";
 
 const contentArray = [
   {
@@ -544,19 +546,11 @@ const Project2 = () => {
             </p>
           </div>
 
-          <div
-            className="project-work-img-container d-flex flex-row align-items-center"
-            style={{
-              height: "850px",
-              padding: "3rem",
-              background: "#E8E8E8",
-              borderRadius: "46px",
-            }}
-          >
+          <div className="project-work-img-container">
             <img
               src={projectContent.image}
               className="img-fluid border-radius-responsive"
-              style={{ borderRadius: "10px" }}
+              style={{ height: "100%", borderRadius: "48px" }}
               alt="Hero Work Image"
             />
           </div>
