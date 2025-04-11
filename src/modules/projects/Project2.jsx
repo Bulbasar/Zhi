@@ -25,7 +25,8 @@ import seeMoreHris1_2 from "../../assets/seeMoreHris1.2.png";
 import seeMoreCms2 from "../../assets/seeMoreCms2.png";
 import seeMoreHris2_2 from "../../assets/seeMoreHris2.2.png";
 
-import project1Image1 from "../../assets/Project-1/work-1.jpg";
+// import project1Image1 from "../../assets/Project-1/work-1.jpg";
+import project1Image1 from "../../assets/Slash - Attendance webp.webp";
 import project1Image2 from "../../assets/Project-1/work-2.svg";
 import project1Image3 from "../../assets/Project-1/work-3.svg";
 import project1Image4 from "../../assets/Project-1/work-4.png";
@@ -543,11 +544,19 @@ const Project2 = () => {
             </p>
           </div>
 
-          <div className="project-work-img-container">
+          <div
+            className="project-work-img-container d-flex flex-row align-items-center"
+            style={{
+              height: "850px",
+              padding: "3rem",
+              background: "#E8E8E8",
+              borderRadius: "46px",
+            }}
+          >
             <img
               src={projectContent.image}
               className="img-fluid border-radius-responsive"
-              style={{ height: "100%", borderRadius: "48px" }}
+              style={{ borderRadius: "10px" }}
               alt="Hero Work Image"
             />
           </div>

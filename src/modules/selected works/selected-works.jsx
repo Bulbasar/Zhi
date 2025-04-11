@@ -5,7 +5,8 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import imgWork1 from "../../assets/selected-works-1.png";
+// import imgWork1 from "../../assets/selected-works-1.png";
+import imgWork1 from "../../assets/Slash - Attendance webp.webp";
 
 import imgWork2 from "../../assets/selected-works-2.png";
 
@@ -52,12 +53,18 @@ const SelectedWorks = () => {
           style={{ minHeight: "460px" }}
         >
           <div
-            className="work-img-container1 work-img-container d-flex flex-row align-items-center justify-content-center"
+            className="work-img-container1 work-img-container d-flex flex-row align-items-center justify-content-center "
             data-aos="fade-right"
             data-aos-delay="500"
             data-aos-sm="fade-up"
+            style={{ padding: "1.8rem" }}
           >
-            <img src={imgWork1} alt="" className="img-fluid" />
+            <img
+              src={imgWork1}
+              alt=""
+              className="img-fluid"
+              style={{ borderRadius: "10px" }}
+            />
           </div>
 
           <div
