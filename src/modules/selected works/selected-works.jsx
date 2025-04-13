@@ -5,7 +5,8 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import imgWork1 from "../../assets/selected-works-1.png";
+// import imgWork1 from "../../assets/selected-works-1.png";
+import imgWork1 from "../../assets/Project-1/WEBP/webp-9.webp";
 
 import imgWork2 from "../../assets/selected-works-2.png";
 

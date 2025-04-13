@@ -51,7 +51,7 @@ const ProjectHris1 = ({ projectContent }) => {
         <img
           src={projectContent.showcaseImageBefore2}
           alt="Before Image"
-          className="w-100 border shadow"
+          className="w-100 shadow"
           style={{ marginBottom: "24px" }}
         />
         <img

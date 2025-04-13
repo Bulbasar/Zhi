@@ -43,6 +43,16 @@ import project1Image15 from "../../assets/Project-1/work-15.png";
 import project1Image16 from "../../assets/Project-1/work-16.png";
 import project1Image18 from "../../assets/Project-1/work-18.jpg";
 
+import project1WebpImage1 from "../../assets/Project-1/WEBP/webp-1.webp";
+import project1WebpImage2 from "../../assets/Project-1/WEBP/webp-2.webp";
+import project1WebpImage3 from "../../assets/Project-1/WEBP/webp-3.webp";
+import project1WebpImage4 from "../../assets/Project-1/WEBP/webp-4.webp";
+import project1WebpImage5 from "../../assets/Project-1/WEBP/webp-5.webp";
+import project1WebpImage6 from "../../assets/Project-1/WEBP/webp-6.webp";
+import project1WebpImage7 from "../../assets/Project-1/WEBP/webp-7.webp";
+import project1WebpImage8 from "../../assets/Project-1/WEBP/webp-8.webp";
+import project1WebpImage9 from "../../assets/Project-1/WEBP/webp-9.webp";
+
 import project2Image1 from "../../assets/Project-2/work-1.jpg";
 import project2Image2 from "../../assets/Project-2/work-2.svg";
 import project2Image3 from "../../assets/Project-2/work-3.svg";
@@ -52,6 +62,10 @@ import project2Image6 from "../../assets/Project-2/work-6.png";
 import project2Image7 from "../../assets/Project-2/work-7.png";
 import project2Image8 from "../../assets/Project-2/work-8.png";
 import project2Image11 from "../../assets/Project-2/work-11.jpg";
+
+import project2Image12 from "../../assets/Project-2/work-12.webp";
+import project2Image13 from "../../assets/Project-2/work-13.webp";
+import project2Image14 from "../../assets/Project-2/work-14.webp";
 
 import project3Image1 from "../../assets/Project-3/work-1.jpg";
 import project3Image2 from "../../assets/Project-3/work-2.svg";
@@ -70,6 +84,13 @@ import project3Image14 from "../../assets/Project-3/work-14.jpg";
 import project3Image4 from "../../assets/Project-3/work-15.webp";
 import project3Image5 from "../../assets/Project-3/work-16.webp";
 
+import project3WebpImage1 from "../../assets/Project-3/WEBP/webp-1.webp";
+import project3WebpImage2 from "../../assets/Project-3/WEBP/webp-2.webp";
+import project3WebpImage3 from "../../assets/Project-3/WEBP/webp-3.webp";
+import project3WebpImage4 from "../../assets/Project-3/WEBP/webp-4.webp";
+import project3WebpImage5 from "../../assets/Project-3/WEBP/webp-5.webp";
+import project3WebpImage6 from "../../assets/Project-3/WEBP/webp-6.webp";
+
 const contentArray = [
   {
     id: "1",
@@ -77,7 +98,7 @@ const contentArray = [
     title: "Enhanced the HRIS for a more efficient and intuitive workflow.",
     description:
       "I enhanced the company’s HRIS by refining its interface and simplifying workflows, making it easier for employees and administrators to navigate and manage tasks efficiently.",
-    image: project1Image1,
+    image: project1WebpImage9,
     company: "Slashtech Solutions",
     industry: "Information Technology",
     timeline: "Jul - Sep 2023",
@@ -142,22 +163,22 @@ const contentArray = [
     showcaseTitle: "Standardizing UI & Simplifying Filters",
     showcaseParagraph:
       "I applied a consistent color scheme, unified button styles, and improved contrast. Filters were decluttered by removing unnecessary labels and refining spacing, creating a more cohesive and user-friendly interface.",
-    showcaseImageBefore1: project1Image4,
-    showcaseImageAfter1: project1Image5,
+    showcaseImageBefore1: project1WebpImage6,
+    showcaseImageAfter1: project1WebpImage5,
     // 2
     showcaseTitle2: "Improving Layout & Navigation",
     showcaseParagraph2:
       'I repositioned key elements, placed the search bar where users expect it, replaced multiple action buttons with a "More" button for cleaner tables, and introduced horizontal scrolling for large tables to improve readability.',
-    showcaseImageBefore2: project1Image6,
-    showcaseImageBefore2_1: project1Image7,
-    showcaseImageAfter2: project1Image8,
-    showcaseImageAfter2_1: project1Image9,
+    showcaseImageBefore2: project1WebpImage4,
+    showcaseImageBefore2_1: project1WebpImage2,
+    showcaseImageAfter2: project1WebpImage3,
+    showcaseImageAfter2_1: project1WebpImage1,
     // 3
     showcaseTitle3: "Enhancing Readability & Content Structure",
     showcaseParagraph3:
       "I refine text styles to establish better hierarchy, enhance contrast, and label clarity. I also replace modals with full pages for more detailed and structured content, resulting in clearer and more organized information.",
-    showcaseImageBefore3_1: project1Image10,
-    showcaseImageAfter3_1: project1Image11,
+    showcaseImageBefore3_1: project1WebpImage7,
+    showcaseImageAfter3_1: project1WebpImage8,
     showcaseImageBefore3_2: project1Image12,
     showcaseImageAfter3_2: project1Image13,
     // demo
@@ -276,8 +297,16 @@ const contentArray = [
     showcaseTitle: "Website-like Navigation Layout",
     showcaseParagraph:
       "The interface was redesigned with a top navigation bar, optimizing screen space and improving accessibility. This structure made it easier for users to navigate between modules efficiently.",
-    showcaseImageCms1: project2Image4,
-    showcaseImageCms2: project2Image5,
+    showcaseImageCms1: project2Image13,
+    showcaseTitle2: "Improved Layouts for Better Usability",
+    showcaseParagraph2:
+      "While core modules were retained, the CMS was redesigned with a new layout and improved interactions, offering better usability through clearer navigation and a more intuitive user experience.",
+    showcaseImageCms2: project2Image12,
+
+    showcaseTitle3: "Playlist Module for Slideshows",
+    showcaseParagraph3:
+      "The Playlist Module was created with customizable timing and smooth transitions for greater flexibility. These powerful features allow users to create engaging and professional slideshows with minimal effort.",
+    showcaseImageCms3: project2Image14,
     // demo
     demoTitle: "CMS",
     // demoImg: project2Image6,
@@ -382,17 +411,17 @@ const contentArray = [
     showcaseTitle: "Tailoring the UI to Match Brand Identity",
     showcaseParagraph:
       "To align the HRIS with the client's branding, I updated the color scheme across buttons, navigation bars, tables, and other elements. I refined shades for better contrast, ensured accessibility, and maintained a cohesive, modern, and professional look.",
-    showcaseImageBefore1: project3Image4,
-    showcaseImageAfter1: project3Image5,
+    showcaseImageBefore1: project3WebpImage6,
+    showcaseImageAfter1: project3WebpImage1,
     // 2
     showcaseTitle2: "Building a  Pakyawan Module",
     showcaseParagraph2:
       "I designed a Pakyawan module with four sub-modules: Piece Rate for pay calculation, Workload for task tracking, Pakyawan Payroll for automation, and Cash Advance for requests. This created a more efficient system for handling Pakyawan-based compensation.",
     // 3
-    pakyawanImg1: project3Image6,
-    pakyawanImg2: project3Image7,
-    pakyawanImg3: project3Image8,
-    pakyawanImg4: project3Image9,
+    pakyawanImg1: project3WebpImage4,
+    pakyawanImg2: project3WebpImage5,
+    pakyawanImg3: project3WebpImage3,
+    pakyawanImg4: project3WebpImage2,
 
     // demo
     demoTitle: "Infinity",
