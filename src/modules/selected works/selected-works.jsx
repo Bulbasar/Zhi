@@ -35,14 +35,14 @@ const SelectedWorks = () => {
         >
           <h6
             className="h-primary-color selected-works-h"
-            style={{ fontSize: "48px", fontWeight: 600 }}
+            style={{ fontSize: "48px", fontWeight: 600, marginBottom: "16px" }}
           >
             Selected Works
           </h6>
 
           <p
             className="text-center p-text-muted selected-works-p"
-            style={{ fontSize: "20px" }}
+            style={{ fontSize: "19px" }}
           >
             These are the projects I worked on during my internship and
             part-time as a UI/UX Designer, highlighting the problems I
