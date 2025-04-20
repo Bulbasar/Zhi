@@ -1,7 +1,3 @@
-* {
-  font-family: "Lato" sans-serif;
-}
-
 /* Apply to all elements */
 * {
   scrollbar-width: thin; /* For Firefox */
@@ -415,7 +411,7 @@ body {
 
 .project-work-requirements-p p {
   font-size: 16px;
-  font-size: 400;
+  font-weight: 400;
   line-height: 24px;
   color: #cbd2db !important;
 }
@@ -467,6 +463,13 @@ body {
 
 .project-solutions-requirements-p {
   width: 592px;
+}
+
+.project-solutions-requirements-p p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #cbd2db !important;
 }
 
 .solutions-card-container {
@@ -888,4 +891,8 @@ body {
   line-height: 28px;
   font-weight: 400;
   font-size: 18px;
+}
+
+.lato-font {
+  /* font-family: "Lato", sans-serif; */
 }

@@ -34,7 +34,7 @@ const ProjectHris1 = ({ projectContent }) => {
         </div>
         <div className="project-work-show-p">
           <p
-            className="p-text-muted text-start"
+            className="p-text-muted text-start lato-font"
             style={{
               fontSize: "16px",
               lineHeight: "24px",
@@ -92,7 +92,7 @@ const ProjectHris1 = ({ projectContent }) => {
         </div>
         <div className="project-work-show-p">
           <p
-            className="p-text-muted text-start"
+            className="p-text-muted text-start lato-font"
             style={{
               fontSize: "16px",
               lineHeight: "24px",

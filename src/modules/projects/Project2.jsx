@@ -572,7 +572,7 @@ const Project2 = () => {
             </h6>
 
             <p
-              className="text-start p-text-muted "
+              className="text-start p-text-muted lato-font"
               style={{ fontSize: "20px", lineHeight: "34px" }}
               data-aos-delay="300"
               data-aos="fade-up"
@@ -594,7 +594,11 @@ const Project2 = () => {
             <div>
               <p
                 className="p-text-muted"
-                style={{ marginBottom: "10px", fontSize: "14pxvh" }}
+                style={{
+                  marginBottom: "10px",
+                  fontSize: "14pxvh",
+                  fontWeight: 500,
+                }}
               >
                 Company
               </p>
@@ -608,7 +612,11 @@ const Project2 = () => {
             <div>
               <p
                 className="p-text-muted"
-                style={{ marginBottom: "10px", fontSize: "14pxvh" }}
+                style={{
+                  marginBottom: "10px",
+                  fontSize: "14pxvh",
+                  fontWeight: 500,
+                }}
               >
                 Industry
               </p>
@@ -622,7 +630,11 @@ const Project2 = () => {
             <div>
               <p
                 className="p-text-muted"
-                style={{ marginBottom: "10px", fontSize: "14pxvh" }}
+                style={{
+                  marginBottom: "10px",
+                  fontSize: "14pxvh",
+                  fontWeight: 500,
+                }}
               >
                 Timeline
               </p>
@@ -636,7 +648,11 @@ const Project2 = () => {
             <div>
               <p
                 className="p-text-muted"
-                style={{ marginBottom: "10px", fontSize: "14pxvh" }}
+                style={{
+                  marginBottom: "10px",
+                  fontSize: "14pxvh",
+                  fontWeight: 500,
+                }}
               >
                 Platform
               </p>
@@ -650,7 +666,11 @@ const Project2 = () => {
             <div>
               <p
                 className="p-text-muted"
-                style={{ marginBottom: "10px", fontSize: "14pxvh" }}
+                style={{
+                  marginBottom: "10px",
+                  fontSize: "14pxvh",
+                  fontWeight: 500,
+                }}
               >
                 Role
               </p>
@@ -677,7 +697,7 @@ const Project2 = () => {
           </div>
           <div className="project-work-goal-p">
             <p
-              className="p-text-muted text-start"
+              className="p-text-muted text-start lato-font"
               style={{ fontSize: "16px", lineHeight: "24px", fontWeight: 400 }}
             >
               {projectContent.goalParagraph}
@@ -705,7 +725,7 @@ const Project2 = () => {
                 </h6>
               </div>
               <div className="project-work-requirements-p">
-                <p className="text-align-start">
+                <p className="text-align-start lato-font">
                   {projectContent.definingParagraph}
                 </p>
               </div>
@@ -716,7 +736,7 @@ const Project2 = () => {
                 <div key={index} className="w-100 defining-card">
                   <h6 className="text-white">{definingCard.cardId}</h6>
                   <h6 className="text-white ">{definingCard.title}</h6>
-                  <p className="text-align-start project-work">
+                  <p className="text-align-start project-work lato-font">
                     {definingCard.description}
                   </p>
                 </div>
@@ -735,7 +755,7 @@ const Project2 = () => {
                 </h6>
               </div>
               <div className="project-solutions-requirements-p">
-                <p className="text-align-start">
+                <p className="text-align-start lato-font">
                   {projectContent.solutionParagraph}
                 </p>
               </div>
@@ -745,7 +765,7 @@ const Project2 = () => {
                 <div key={index} className="w-100 solutions-card">
                   <h6 className="text-white ">{card.cardId}</h6>
                   <h6 className="text-white ">{card.title}</h6>
-                  <p className="text-align-start p-text-muted">
+                  <p className="text-align-start p-text-muted lato-font">
                     {card.description}
                   </p>
                 </div>
@@ -775,7 +795,7 @@ const Project2 = () => {
             </div>
             <div className="project-work-show-p">
               <p
-                className="p-text-muted text-start"
+                className="p-text-muted text-start lato-font"
                 style={{
                   fontSize: "16px",
                   lineHeight: "24px",

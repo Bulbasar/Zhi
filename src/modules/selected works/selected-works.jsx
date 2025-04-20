@@ -41,8 +41,8 @@ const SelectedWorks = () => {
           </h6>
 
           <p
-            className="text-center p-text-muted selected-works-p"
-            style={{ fontSize: "19px" }}
+            className="text-center p-text-muted selected-works-p lato-font"
+            style={{ fontSize: "20px" }}
           >
             These are the projects I worked on during my internship and
             part-time as a UI/UX Designer, highlighting the problems I

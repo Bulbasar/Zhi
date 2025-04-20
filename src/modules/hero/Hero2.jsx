@@ -50,7 +50,7 @@ const Hero2 = () => {
             data-aos="fade-up"
           >
             <p
-              className="p-text-muted hero-p"
+              className="p-text-muted hero-p lato-font"
               style={{ fontSize: "24px", lineHeight: "34px", fontWeight: 400 }}
             >
               Hi, I’m Zhizhi Maro, an IT graduate with a well-rounded foundation
