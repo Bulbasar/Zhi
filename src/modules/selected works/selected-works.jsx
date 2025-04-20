@@ -6,11 +6,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // import imgWork1 from "../../assets/selected-works-1.png";
-import imgWork1 from "../../assets/Project-1/WEBP/webp-9.webp";
+// import imgWork1 from "../../assets/Project-1/WEBP/webp-9.webp";
+import imgWork1 from "../../assets/Project-1/Thumbnail.webp";
 
-import imgWork2 from "../../assets/selected-works-2.png";
+// import imgWork2 from "../../assets/selected-works-2.png";
+import imgWork2 from "../../assets/Project-2/Thumbnail.webp";
 
-import imgWork3 from "../../assets/selected-works-3.png";
+// import imgWork3 from "../../assets/selected-works-3.png";
+import imgWork3 from "../../assets/Project-3/Thumbnail.webp";
 
 const SelectedWorks = () => {
   useEffect(() => {
@@ -149,9 +152,18 @@ const SelectedWorks = () => {
             </button>
           </div>
 
-          <div
+          {/* <div
             className=" work-img-container d-flex flex-row align-items-center justify-content-center"
             data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-sm="fade-up"
+          >
+            <img src={imgWork2} alt="" className="img-fluid" />
+          </div> */}
+
+          <div
+            className="work-img-container d-flex flex-row align-items-center justify-content-center"
+            data-aos="fade-right"
             data-aos-delay="500"
             data-aos-sm="fade-up"
           >

@@ -24,14 +24,14 @@ const Hero2 = () => {
         >
           <div
             className="d-flex flex-row align-items-center hero-h-container"
-            style={{ width: "778px", marginBottom: "32px" }}
+            style={{ width: "778px", marginBottom: "24px" }}
           >
             <h6
               className="h-primary-color hero-h"
               style={{
                 fontSize: "64px",
                 fontWeight: 600,
-                lineHeight: "130%",
+                lineHeight: "72px",
               }}
               data-aos="fade-up"
             >

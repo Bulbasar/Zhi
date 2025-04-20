@@ -311,7 +311,7 @@ body {
 }
 
 .work-img-container:nth-child(2) {
-  background: #eff6fc;
+  background: #e6f2ff;
 }
 
 .work-img-container3 {
@@ -723,6 +723,7 @@ body {
 }
 
 .footer3-container h6 {
+  margin-top: 1rem;
   margin-bottom: 24px;
   font-size: 48px;
   font-weight: 600;
