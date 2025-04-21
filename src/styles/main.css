@@ -573,12 +573,14 @@ body {
   font-size: 48px;
   line-height: 64px;
   font-weight: 600;
+  margin-bottom: 8px;
 }
 
 .project-work-demo-title p {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
+  margin-bottom: 40px;
 }
 
 .project-work-demo-title a {
