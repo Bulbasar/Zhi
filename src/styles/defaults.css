@@ -50,7 +50,7 @@
 
 .secondaryBtn {
   padding: 20px 32px !important;
-  background: transparent !important;
+  background: #f6f6f6 !important;
   color: #002c57 !important;
   border-radius: 16px !important;
   border: 1px solid #dee3e9 !important;
@@ -60,7 +60,7 @@
 }
 
 .secondaryBtn:hover {
-  background: #eceff3 !important;
+  background: #f2f4fe !important;
 }
 
 .viewWorkSecondaryBtn {
@@ -75,7 +75,7 @@
 }
 
 .viewWorkSecondaryBtn:hover {
-  background: #eceff3 !important;
+  background: #f2f4fe !important;
 }
 
 /* Scroll to Top Button */
