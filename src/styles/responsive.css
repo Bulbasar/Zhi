@@ -834,7 +834,18 @@
 
   /* hero section */
   .hero-container {
-    border-radius: 36px;
+    border-top-right-radius: 36px;
+    border-top-left-radius: 36px;
+  }
+
+  .about-me-container {
+    border-top-right-radius: 36px;
+    border-top-left-radius: 36px;
+  }
+
+  .work-container {
+    border-top-right-radius: 36px;
+    border-top-left-radius: 36px;
   }
 
   .hero-icon {
@@ -905,11 +916,6 @@
   /* project */
   .project-card {
     padding: 0 50px !important;
-  }
-
-  /* hero section */
-  .work-container {
-    border-radius: 36px;
   }
 
   .custom-padding-project-p {

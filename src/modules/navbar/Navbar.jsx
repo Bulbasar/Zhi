@@ -100,7 +100,7 @@ const Navbar = () => {
       <div className="container-fluid navbar-container">
         {/* Brand Name */}
         <a
-          className="navbar-brand fw-bold text-primary navbar-slide-down-logo"
+          className="h-100 navbar-brand fw-bold text-primary navbar-slide-down-logo "
           href="/"
         >
           <span className="fs-1 custom-logo">
@@ -108,7 +108,13 @@ const Navbar = () => {
           </span>
           <span
             className="h-100 text-dark custom-logo-p h-primary-color"
-            style={{ fontSize: "20px", fontWeight: 600, marginLeft: "12px" }}
+            style={{
+              fontSize: "20px",
+              fontWeight: 600,
+              marginLeft: "12px",
+              position: "relative",
+              top: "-2px", // Move up by 2px
+            }}
           >
             Zhimaro
           </span>
@@ -166,7 +172,7 @@ const Navbar = () => {
           </ul>
           <a
             className="contactBtn btn btn-primary text-white navbar-slide-down-menu4"
-            href="/about"
+            href="#get-in-touch"
           >
             Get in touch
           </a>
@@ -251,7 +257,7 @@ const Navbar = () => {
               <li className="nav-item mt-3" style={isOpen ? slideInStyle4 : {}}>
                 <a
                   className="primaryBtnNav"
-                  href="/about"
+                  href="#get-in-touch"
                   onClick={toggleSidebar}
                   style={{ textDecoration: "none" }}
                 >

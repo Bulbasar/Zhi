@@ -25,7 +25,7 @@ const SelectedWorks = () => {
   }, []);
   return (
     <section
-      className="selected-works-section  d-flex flex-row justify-content-center"
+      className="selected-works-section  d-flex flex-row justify-content-center mt-5"
       id="works"
     >
       <div className="selected-works-container ">
@@ -45,9 +45,9 @@ const SelectedWorks = () => {
             style={{ fontSize: "20px" }}
           >
             These are the projects I worked on during my internship and
-            part-time as a UI/UX Designer, highlighting the problems I
-            identified, client requirements I addressed, and the user-centered
-            solutions I delivered through before-and-after UI comparisons.
+            part-time as a UI/UX Designer, showing the problems I identified,
+            client needs I addressed, and the user-centered solutions I
+            delivered through before-and-after comparisons.
           </p>
         </div>
 
@@ -163,7 +163,7 @@ const SelectedWorks = () => {
 
           <div
             className="work-img-container d-flex flex-row align-items-center justify-content-center"
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-delay="500"
             data-aos-sm="fade-up"
           >

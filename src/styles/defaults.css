@@ -130,3 +130,7 @@
 .project-work-title-card a:hover {
   color: #5c7185 !important;
 }
+
+.custom-logo-p {
+  bottom: 15px;
+}

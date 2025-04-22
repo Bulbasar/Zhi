@@ -107,8 +107,9 @@ body {
 /* Hero Container */
 .hero-container {
   min-height: 90vh !important;
-  background: linear-gradient(to bottom, #edf1f6 15%, #ffffff 40%);
-  border-radius: 48px;
+  background: linear-gradient(to bottom, #edf1f6 85%, #ffffff 100%);
+  border-top-right-radius: 48px;
+  border-top-left-radius: 48px;
   position: relative;
 }
 
@@ -218,8 +219,9 @@ body {
 
 .work-container {
   min-height: 200vh !important;
-  background: linear-gradient(to bottom, #edf1f6 20%, #ffffff 40%);
-  border-radius: 48px;
+  background: linear-gradient(to bottom, #edf1f6 85%, #ffffff 100%);
+  border-top-right-radius: 48px;
+  border-top-left-radius: 48px;
   position: relative;
 }
 
@@ -274,7 +276,7 @@ body {
 .selected-works-section {
   width: 100% !important;
   min-height: 100vh;
-  padding: 80px 0 !important;
+  padding: 0 !important;
   overflow: hidden !important;
 }
 
@@ -788,8 +790,9 @@ body {
 
 .about-me-container {
   min-height: 90vh !important;
-  background: linear-gradient(to bottom, #edf1f6 15%, #ffffff 40%);
-  border-radius: 48px;
+  background: linear-gradient(to bottom, #edf1f6 85%, #ffffff 100%);
+  border-top-right-radius: 48px;
+  border-top-left-radius: 48px;
   position: relative;
 }
 

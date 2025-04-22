@@ -50,7 +50,10 @@ const Footer3 = () => {
           </div>
         </div>
       </section>
-      <section className="rights-section d-flex flex-row align-items-center justify-content-center">
+      <section
+        className="rights-section d-flex flex-row align-items-center justify-content-center"
+        id="get-in-touch"
+      >
         <div className="border-top h-100 d-flex flex-row justify-content-between align-items-end rights-section-container">
           <div className="h-100 position-relative w-100">
             <p className="p-text-muted position-absolute">

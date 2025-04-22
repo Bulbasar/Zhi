@@ -66,7 +66,7 @@ const Hero2 = () => {
           >
             <a
               className="primaryBtn"
-              href="/about"
+              href="#get-in-touch"
               style={{ textDecoration: "none" }}
             >
               Get in Touch
