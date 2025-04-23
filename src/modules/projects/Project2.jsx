@@ -57,6 +57,8 @@ import project1WebpImage6 from "../../assets/Project-1/WEBP/webp-6.webp";
 import project1WebpImage7 from "../../assets/Project-1/WEBP/webp-7.webp";
 import project1WebpImage8 from "../../assets/Project-1/WEBP/webp-8.webp";
 import project1WebpImage9 from "../../assets/Project-1/WEBP/webp-9.webp";
+import project1WebpImage10 from "../../assets/Project-1/WEBP/webp-10.webp";
+import project1WebpImage11 from "../../assets/Project-1/WEBP/webp-11.webp";
 
 import project2Image1 from "../../assets/Project-2/work-1.jpg";
 import project2Image2 from "../../assets/Project-2/work-2.svg";
@@ -174,8 +176,8 @@ const contentArray = [
     showcaseTitle2: "Improving Layout & Navigation",
     showcaseParagraph2:
       'I repositioned key elements, placed the search bar where users expect it, replaced multiple action buttons with a "More" button for cleaner tables, and introduced horizontal scrolling for large tables to improve readability.',
-    showcaseImageBefore2: project1WebpImage4,
-    showcaseImageBefore2_1: project1WebpImage2,
+    showcaseImageBefore2: project1WebpImage10,
+    showcaseImageBefore2_1: project1WebpImage11,
     showcaseImageAfter2: project1WebpImage3,
     showcaseImageAfter2_1: project1WebpImage1,
     // 3
