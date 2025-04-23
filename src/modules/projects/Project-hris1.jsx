@@ -48,16 +48,18 @@ const ProjectHris1 = ({ projectContent }) => {
 
       <div className="project-work-show-img w-100 works-showcase-before-1">
         <p className="p-text-muted">Before</p>
+
         <img
           src={projectContent.showcaseImageBefore2}
           alt="Before Image"
-          className="w-100 shadow"
+          className="w-100 border-top border-bottom p-0 special-shadow"
           style={{ marginBottom: "24px" }}
         />
+
         <img
           src={projectContent.showcaseImageBefore2_1}
           alt="Before Image"
-          className="w-100 border shadow"
+          className="w-100 border-top special-shadow"
           style={{ marginBottom: "24px" }}
         />
       </div>
