@@ -107,7 +107,7 @@ body {
 /* Hero Container */
 .hero-container {
   min-height: 90vh !important;
-  background: linear-gradient(to bottom, #edf1f6 40%, #ffffff 70%);
+  background: linear-gradient(to bottom, #f2f4f7 40%, #ffffff 70%);
   border-top-right-radius: 48px;
   border-top-left-radius: 48px;
   position: relative;
@@ -219,7 +219,7 @@ body {
 
 .work-container {
   min-height: 200vh !important;
-  background: linear-gradient(to bottom, #edf1f6 40%, #ffffff 60%);
+  background: linear-gradient(to bottom, #f2f4f7 40%, #ffffff 60%);
   border-top-right-radius: 48px;
   border-top-left-radius: 48px;
   position: relative;
@@ -790,7 +790,7 @@ body {
 
 .about-me-container {
   min-height: 90vh !important;
-  background: linear-gradient(to bottom, #edf1f6 40%, #ffffff 60%);
+  background: linear-gradient(to bottom, #f2f4f7 40%, #ffffff 60%);
   border-top-right-radius: 48px;
   border-top-left-radius: 48px;
   position: relative;
