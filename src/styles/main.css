@@ -297,7 +297,12 @@ body {
 }
 
 .work-img-container:nth-child(1) {
-  background: #e8e8e8;
+  /* background: #e8e8e8;   */
+}
+
+.work-img-container:nth-child(1) img {
+  /* background: #e8e8e8;   */
+  border-radius: 48px;
 }
 
 .work-img-container:nth-child(2) {
@@ -309,7 +314,12 @@ body {
 }
 
 .work-img-container:nth-child(2) {
-  background: #e6f2ff;
+  /* background: #e6f2ff; */
+}
+
+.work-img-container:nth-child(2) img {
+  /* background: #e8e8e8;   */
+  border-radius: 48px;
 }
 
 .work-img-container3 {

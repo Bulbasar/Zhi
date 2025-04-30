@@ -13,7 +13,7 @@ import imgWork1 from "../../assets/Project-1/Thumbnail.webp";
 import imgWork2 from "../../assets/Project-2/Thumbnail.webp";
 
 // import imgWork3 from "../../assets/selected-works-3.png";
-import imgWork3 from "../../assets/Project-3/Thumbnail.webp";
+import imgWork3 from "../../assets/Project-3/Thumbnail2.webp";
 
 const SelectedWorks = () => {
   useEffect(() => {
@@ -56,7 +56,7 @@ const SelectedWorks = () => {
           style={{ minHeight: "460px" }}
         >
           <div
-            className="work-img-container1 work-img-container d-flex flex-row align-items-center justify-content-center"
+            className="work-img-container1 work-img-container d-flex flex-row justify-content-center"
             data-aos="fade-right"
             data-aos-delay="500"
             data-aos-sm="fade-up"
@@ -162,7 +162,7 @@ const SelectedWorks = () => {
           </div> */}
 
           <div
-            className="work-img-container d-flex flex-row align-items-center justify-content-center"
+            className="work-img-container d-flex flex-row justify-content-center"
             data-aos="fade-left"
             data-aos-delay="500"
             data-aos-sm="fade-up"
