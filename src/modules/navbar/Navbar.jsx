@@ -109,7 +109,7 @@ const Navbar = () => {
           <span
             className="h-100 text-dark custom-logo-p h-primary-color"
             style={{
-              fontSize: "20px",
+              fontSize: "22px",
               fontWeight: 600,
               marginLeft: "12px",
               position: "relative",
