@@ -317,7 +317,7 @@ body {
   min-height: 460px;
   margin-right: 80px;
   border-radius: 48px;
-  background: #e2f1de !important;
+  /* background: #e2f1de !important; */
 }
 
 .work-img-container3 img {
@@ -727,6 +727,7 @@ body {
   border-radius: 48px;
   padding: 100px 0;
   background: #f2f4f7;
+  margin-top: 7rem;
 }
 
 .footer3-container h6 {

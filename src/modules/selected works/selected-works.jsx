@@ -176,7 +176,7 @@ const SelectedWorks = () => {
           style={{ minHeight: "460px" }}
         >
           <div
-            className="work-img-container3 d-flex flex-row align-items-center justify-content-center"
+            className="work-img-container3 d-flex flex-row  justify-content-center"
             data-aos="fade-right"
             data-aos-delay="500"
             data-aos-sm="fade-up"
